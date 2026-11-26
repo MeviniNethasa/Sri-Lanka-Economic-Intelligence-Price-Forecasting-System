@@ -1,0 +1,4 @@
+date,product,price_lkr_dcs,price_lkr_cpc_revision,flag,diff_pct
+2026-04-01,kerosene,255.0,255.0,possible_missing_revision,0.0
+2026-04-01,petrol_92,398.0,398.0,possible_missing_revision,0.0
+2026-04-01,auto_diesel,382.0,382.0,,0.0

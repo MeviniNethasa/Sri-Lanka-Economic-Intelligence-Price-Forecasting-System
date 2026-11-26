@@ -1,0 +1,1532 @@
+date,commodity,price_lkr,source
+2020-01-01,Bananas,97.14,wfp
+2020-02-01,Bananas,85.83,wfp
+2020-03-01,Bananas,82.22,wfp
+2020-06-01,Bananas,94.5,wfp
+2020-07-01,Bananas,98.7,wfp
+2020-08-01,Bananas,130.36,wfp
+2020-09-01,Bananas,123.33,wfp
+2020-10-01,Bananas,123.33,wfp
+2022-07-01,Bananas,151.39,wfp
+2022-08-01,Bananas,176.94,wfp
+2022-09-01,Bananas,187.22,wfp
+2022-10-01,Bananas,193.06,wfp
+2022-11-01,Bananas,182.5,wfp
+2022-12-01,Bananas,164.17,wfp
+2023-01-01,Bananas,268.71,wfp
+2023-02-01,Bananas,168.33,wfp
+2023-03-01,Bananas,247.5,wfp
+2023-04-01,Bananas,278.75,wfp
+2023-05-01,Bananas,83.57,wfp
+2023-06-01,Bananas,146.5,wfp
+2023-07-01,Bananas,155.6,wfp
+2023-08-01,Bananas,201.5,wfp
+2023-09-01,Bananas,213.0,wfp
+2023-10-01,Bananas,207.6,wfp
+2023-11-01,Bananas,203.42,wfp
+2023-12-01,Bananas,192.5,wfp
+2024-01-01,Bananas,208.0,wfp
+2024-02-01,Bananas,190.62,wfp
+2024-03-01,Bananas,189.12,wfp
+2024-04-01,Bananas,205.9,wfp
+2024-05-01,Bananas,170.5,wfp
+2024-06-01,Bananas,165.83,wfp
+2024-07-01,Bananas,197.33,wfp
+2024-08-01,Bananas,214.06,wfp
+2024-09-01,Bananas,225.86,wfp
+2024-10-01,Bananas,193.77,wfp
+2024-11-01,Bananas,162.75,wfp
+2024-12-01,Bananas,160.0,wfp
+2025-01-01,Bananas,184.17,wfp
+2025-02-01,Bananas,171.04,wfp
+2025-03-01,Bananas,160.17,wfp
+2025-04-01,Bananas,163.21,wfp
+2025-05-01,Bananas,148.0,wfp
+2025-06-01,Bananas,131.75,wfp
+2025-07-01,Bananas,139.17,wfp
+2025-08-01,Bananas,144.69,wfp
+2025-09-01,Bananas,157.0,wfp
+2020-01-01,Beans,296.07,wfp
+2020-02-01,Beans,229.67,wfp
+2020-03-01,Beans,138.28,wfp
+2020-04-01,Beans,115.0,wfp
+2020-05-01,Beans,122.17,wfp
+2020-06-01,Beans,145.0,wfp
+2020-07-01,Beans,154.44,wfp
+2020-08-01,Beans,215.27,wfp
+2020-09-01,Beans,232.46,wfp
+2020-10-01,Beans,232.46,wfp
+2022-07-01,Beans,527.86,wfp
+2022-08-01,Beans,376.92,wfp
+2022-09-01,Beans,428.46,wfp
+2022-10-01,Beans,525.2,wfp
+2022-11-01,Beans,460.37,wfp
+2022-12-01,Beans,711.15,wfp
+2023-01-01,Beans,358.4,wfp
+2023-02-01,Beans,544.29,wfp
+2023-03-01,Beans,242.22,wfp
+2023-04-01,Beans,376.55,wfp
+2023-05-01,Beans,340.0,wfp
+2023-06-01,Beans,510.0,wfp
+2023-07-01,Beans,506.4,wfp
+2023-08-01,Beans,450.0,wfp
+2023-09-01,Beans,425.54,wfp
+2023-10-01,Beans,513.6,wfp
+2023-11-01,Beans,559.25,wfp
+2023-12-01,Beans,634.5,wfp
+2024-01-01,Beans,890.4,wfp
+2024-02-01,Beans,720.0,wfp
+2024-03-01,Beans,375.42,wfp
+2024-04-01,Beans,259.33,wfp
+2024-05-01,Beans,503.75,wfp
+2024-06-01,Beans,624.0,wfp
+2024-07-01,Beans,713.12,wfp
+2024-08-01,Beans,520.79,wfp
+2024-09-01,Beans,362.25,wfp
+2024-10-01,Beans,456.07,wfp
+2024-11-01,Beans,493.7,wfp
+2024-12-01,Beans,595.6,wfp
+2025-01-01,Beans,516.5,wfp
+2025-02-01,Beans,512.91,wfp
+2025-03-01,Beans,587.5,wfp
+2025-04-01,Beans,626.14,wfp
+2025-05-01,Beans,607.0,wfp
+2025-06-01,Beans,632.4,wfp
+2025-07-01,Beans,593.5,wfp
+2025-08-01,Beans,669.25,wfp
+2025-09-01,Beans,468.34,wfp
+2025-10-01,Beans,435.96,cbsl_scaled
+2025-11-01,Beans,524.33,cbsl_scaled
+2025-12-01,Beans,1101.12,cbsl_scaled
+2026-01-01,Beans,643.13,cbsl_scaled
+2026-02-01,Beans,487.19,cbsl_scaled
+2026-03-01,Beans,423.56,cbsl_scaled
+2026-04-01,Beans,498.72,cbsl_scaled
+2026-05-01,Beans,685.57,cbsl_scaled
+2026-06-01,Beans,598.19,cbsl_scaled
+2026-07-01,Beans,437.3,cbsl_scaled
+2026-08-01,Beans,570.06,cbsl_scaled
+2026-09-01,Beans,592.7,cbsl_scaled
+2026-10-01,Beans,661.83,cbsl_scaled
+2026-11-01,Beans,704.35,cbsl_scaled
+2020-01-01,Cabbage,146.74,wfp
+2020-02-01,Cabbage,132.31,wfp
+2020-03-01,Cabbage,110.33,wfp
+2020-04-01,Cabbage,58.0,wfp
+2020-05-01,Cabbage,55.92,wfp
+2020-06-01,Cabbage,103.78,wfp
+2020-07-01,Cabbage,100.9,wfp
+2020-08-01,Cabbage,122.77,wfp
+2020-09-01,Cabbage,117.08,wfp
+2020-10-01,Cabbage,117.08,wfp
+2022-07-01,Cabbage,360.0,wfp
+2022-08-01,Cabbage,508.57,wfp
+2022-09-01,Cabbage,481.15,wfp
+2022-10-01,Cabbage,340.77,wfp
+2022-11-01,Cabbage,320.67,wfp
+2022-12-01,Cabbage,107.0,wfp
+2023-01-01,Cabbage,167.5,wfp
+2023-02-01,Cabbage,48.0,wfp
+2023-03-01,Cabbage,160.74,wfp
+2023-04-01,Cabbage,267.14,wfp
+2023-05-01,Cabbage,313.0,wfp
+2023-06-01,Cabbage,367.34,wfp
+2023-07-01,Cabbage,300.1,wfp
+2023-08-01,Cabbage,273.0,wfp
+2023-09-01,Cabbage,200.5,wfp
+2023-10-01,Cabbage,220.8,wfp
+2023-11-01,Cabbage,332.25,wfp
+2023-12-01,Cabbage,504.58,wfp
+2024-01-01,Cabbage,683.33,wfp
+2024-02-01,Cabbage,580.0,wfp
+2024-03-01,Cabbage,487.0,wfp
+2024-04-01,Cabbage,280.0,wfp
+2024-05-01,Cabbage,221.0,wfp
+2024-06-01,Cabbage,295.0,wfp
+2024-07-01,Cabbage,377.5,wfp
+2024-08-01,Cabbage,360.0,wfp
+2024-09-01,Cabbage,320.55,wfp
+2024-10-01,Cabbage,249.9,wfp
+2024-11-01,Cabbage,210.3,wfp
+2024-12-01,Cabbage,303.47,wfp
+2025-01-01,Cabbage,266.25,wfp
+2025-02-01,Cabbage,401.84,wfp
+2025-03-01,Cabbage,388.4,wfp
+2025-04-01,Cabbage,420.0,wfp
+2025-05-01,Cabbage,524.5,wfp
+2025-06-01,Cabbage,483.74,wfp
+2025-07-01,Cabbage,361.0,wfp
+2025-08-01,Cabbage,306.66,wfp
+2025-09-01,Cabbage,286.0,wfp
+2025-10-01,Cabbage,204.37,cbsl_scaled
+2025-11-01,Cabbage,222.65,cbsl_scaled
+2025-12-01,Cabbage,385.67,cbsl_scaled
+2026-01-01,Cabbage,395.83,cbsl_scaled
+2026-02-01,Cabbage,283.67,cbsl_scaled
+2026-03-01,Cabbage,263.04,cbsl_scaled
+2026-04-01,Cabbage,221.05,cbsl_scaled
+2026-05-01,Cabbage,247.87,cbsl_scaled
+2026-06-01,Cabbage,279.58,cbsl_scaled
+2026-07-01,Cabbage,255.93,cbsl_scaled
+2026-08-01,Cabbage,277.22,cbsl_scaled
+2026-09-01,Cabbage,360.68,cbsl_scaled
+2026-10-01,Cabbage,529.13,cbsl_scaled
+2026-11-01,Cabbage,843.95,cbsl_scaled
+2020-01-01,Carrots,397.52,wfp
+2020-02-01,Carrots,275.11,wfp
+2020-03-01,Carrots,173.38,wfp
+2020-04-01,Carrots,90.5,wfp
+2020-05-01,Carrots,85.17,wfp
+2020-06-01,Carrots,150.18,wfp
+2020-07-01,Carrots,126.96,wfp
+2020-08-01,Carrots,127.91,wfp
+2020-09-01,Carrots,146.0,wfp
+2020-10-01,Carrots,146.0,wfp
+2022-07-01,Carrots,350.91,wfp
+2022-08-01,Carrots,388.97,wfp
+2022-09-01,Carrots,332.8,wfp
+2022-10-01,Carrots,408.15,wfp
+2022-11-01,Carrots,479.63,wfp
+2022-12-01,Carrots,240.0,wfp
+2023-01-01,Carrots,322.5,wfp
+2023-02-01,Carrots,97.0,wfp
+2023-03-01,Carrots,203.33,wfp
+2023-04-01,Carrots,254.81,wfp
+2023-05-01,Carrots,302.0,wfp
+2023-06-01,Carrots,465.0,wfp
+2023-07-01,Carrots,536.65,wfp
+2023-08-01,Carrots,496.84,wfp
+2023-09-01,Carrots,314.59,wfp
+2023-10-01,Carrots,313.2,wfp
+2023-11-01,Carrots,409.78,wfp
+2023-12-01,Carrots,550.0,wfp
+2024-01-01,Carrots,1299.2,wfp
+2024-02-01,Carrots,782.0,wfp
+2024-03-01,Carrots,460.0,wfp
+2024-04-01,Carrots,358.67,wfp
+2024-05-01,Carrots,280.0,wfp
+2024-06-01,Carrots,430.0,wfp
+2024-07-01,Carrots,538.0,wfp
+2024-08-01,Carrots,372.5,wfp
+2024-09-01,Carrots,295.8,wfp
+2024-10-01,Carrots,205.5,wfp
+2024-11-01,Carrots,215.25,wfp
+2024-12-01,Carrots,308.45,wfp
+2025-01-01,Carrots,375.0,wfp
+2025-02-01,Carrots,793.44,wfp
+2025-03-01,Carrots,811.5,wfp
+2025-04-01,Carrots,573.76,wfp
+2025-05-01,Carrots,942.5,wfp
+2025-06-01,Carrots,648.0,wfp
+2025-07-01,Carrots,454.58,wfp
+2025-08-01,Carrots,500.62,wfp
+2025-09-01,Carrots,362.0,wfp
+2025-10-01,Carrots,237.93,cbsl_scaled
+2025-11-01,Carrots,288.11,cbsl_scaled
+2025-12-01,Carrots,409.37,cbsl_scaled
+2026-01-01,Carrots,499.98,cbsl_scaled
+2026-02-01,Carrots,388.5,cbsl_scaled
+2026-03-01,Carrots,416.34,cbsl_scaled
+2026-04-01,Carrots,401.07,cbsl_scaled
+2026-05-01,Carrots,372.88,cbsl_scaled
+2026-06-01,Carrots,483.34,cbsl_scaled
+2026-07-01,Carrots,395.31,cbsl_scaled
+2026-08-01,Carrots,360.14,cbsl_scaled
+2026-09-01,Carrots,329.8,cbsl_scaled
+2026-10-01,Carrots,386.67,cbsl_scaled
+2026-11-01,Carrots,748.89,cbsl_scaled
+2020-01-01,"Chili (red, dry raw)",514.26,wfp
+2020-02-01,"Chili (red, dry raw)",570.78,wfp
+2020-03-01,"Chili (red, dry raw)",425.69,wfp
+2020-04-01,"Chili (red, dry raw)",488.0,wfp
+2020-05-01,"Chili (red, dry raw)",380.17,wfp
+2020-06-01,"Chili (red, dry raw)",425.68,wfp
+2020-07-01,"Chili (red, dry raw)",414.3,wfp
+2020-08-01,"Chili (red, dry raw)",420.08,wfp
+2020-09-01,"Chili (red, dry raw)",425.45,wfp
+2020-10-01,"Chili (red, dry raw)",425.45,wfp
+2022-07-01,"Chili (red, dry raw)",2015.71,wfp
+2022-08-01,"Chili (red, dry raw)",1779.17,wfp
+2022-09-01,"Chili (red, dry raw)",1779.17,wfp
+2022-10-01,"Chili (red, dry raw)",1804.86,wfp
+2022-11-01,"Chili (red, dry raw)",1815.0,wfp
+2022-12-01,"Chili (red, dry raw)",1411.5,wfp
+2023-01-01,"Chili (red, dry raw)",1710.94,wfp
+2023-02-01,"Chili (red, dry raw)",1069.5,wfp
+2023-03-01,"Chili (red, dry raw)",1404.84,wfp
+2023-04-01,"Chili (red, dry raw)",1368.28,wfp
+2023-05-01,"Chili (red, dry raw)",971.0,wfp
+2023-06-01,"Chili (red, dry raw)",1179.06,wfp
+2023-07-01,"Chili (red, dry raw)",1232.8,wfp
+2023-08-01,"Chili (red, dry raw)",1238.75,wfp
+2023-09-01,"Chili (red, dry raw)",1227.5,wfp
+2023-10-01,"Chili (red, dry raw)",1216.0,wfp
+2023-11-01,"Chili (red, dry raw)",1224.19,wfp
+2023-12-01,"Chili (red, dry raw)",1212.5,wfp
+2024-01-01,"Chili (red, dry raw)",1186.0,wfp
+2024-02-01,"Chili (red, dry raw)",1088.5,wfp
+2024-03-01,"Chili (red, dry raw)",978.0,wfp
+2024-04-01,"Chili (red, dry raw)",844.0,wfp
+2024-05-01,"Chili (red, dry raw)",843.33,wfp
+2024-06-01,"Chili (red, dry raw)",853.5,wfp
+2024-07-01,"Chili (red, dry raw)",866.56,wfp
+2024-08-01,"Chili (red, dry raw)",856.14,wfp
+2024-09-01,"Chili (red, dry raw)",832.4,wfp
+2024-10-01,"Chili (red, dry raw)",830.88,wfp
+2024-11-01,"Chili (red, dry raw)",826.34,wfp
+2024-12-01,"Chili (red, dry raw)",815.35,wfp
+2025-01-01,"Chili (red, dry raw)",821.5,wfp
+2025-02-01,"Chili (red, dry raw)",772.12,wfp
+2025-03-01,"Chili (red, dry raw)",753.6,wfp
+2025-04-01,"Chili (red, dry raw)",718.75,wfp
+2025-05-01,"Chili (red, dry raw)",702.5,wfp
+2025-06-01,"Chili (red, dry raw)",700.68,wfp
+2025-07-01,"Chili (red, dry raw)",748.75,wfp
+2025-08-01,"Chili (red, dry raw)",711.28,wfp
+2025-09-01,"Chili (red, dry raw)",730.3,wfp
+2025-10-01,"Chili (red, dry raw)",746.03,cbsl_scaled
+2025-11-01,"Chili (red, dry raw)",866.61,cbsl_scaled
+2025-12-01,"Chili (red, dry raw)",884.83,cbsl_scaled
+2026-01-01,"Chili (red, dry raw)",870.75,cbsl_scaled
+2026-02-01,"Chili (red, dry raw)",992.82,cbsl_scaled
+2026-03-01,"Chili (red, dry raw)",1050.61,cbsl_scaled
+2026-04-01,"Chili (red, dry raw)",1116.69,cbsl_scaled
+2026-05-01,"Chili (red, dry raw)",1075.32,cbsl_scaled
+2026-06-01,"Chili (red, dry raw)",1141.08,cbsl_scaled
+2026-07-01,"Chili (red, dry raw)",1204.88,cbsl_scaled
+2026-08-01,"Chili (red, dry raw)",1217.95,cbsl_scaled
+2026-09-01,"Chili (red, dry raw)",1226.89,cbsl_scaled
+2026-10-01,"Chili (red, dry raw)",1260.44,cbsl_scaled
+2026-11-01,"Chili (red, dry raw)",1666.88,cbsl_scaled
+2020-01-01,Coconut,59.12,wfp
+2020-02-01,Coconut,68.84,wfp
+2020-03-01,Coconut,68.16,wfp
+2020-04-01,Coconut,64.0,wfp
+2020-05-01,Coconut,60.67,wfp
+2020-06-01,Coconut,63.86,wfp
+2020-07-01,Coconut,60.66,wfp
+2020-08-01,Coconut,65.09,wfp
+2020-09-01,Coconut,66.95,wfp
+2020-10-01,Coconut,66.95,wfp
+2022-07-01,Coconut,94.05,wfp
+2022-08-01,Coconut,95.16,wfp
+2022-09-01,Coconut,96.43,wfp
+2022-10-01,Coconut,105.2,wfp
+2022-11-01,Coconut,104.58,wfp
+2022-12-01,Coconut,109.42,wfp
+2023-01-01,Coconut,119.77,wfp
+2023-02-01,Coconut,118.95,wfp
+2023-03-01,Coconut,119.0,wfp
+2023-04-01,Coconut,116.11,wfp
+2023-05-01,Coconut,96.43,wfp
+2023-06-01,Coconut,75.68,wfp
+2023-07-01,Coconut,71.34,wfp
+2023-08-01,Coconut,68.75,wfp
+2023-09-01,Coconut,67.35,wfp
+2023-10-01,Coconut,71.7,wfp
+2023-11-01,Coconut,74.78,wfp
+2023-12-01,Coconut,80.0,wfp
+2024-01-01,Coconut,81.67,wfp
+2024-02-01,Coconut,80.75,wfp
+2024-03-01,Coconut,83.12,wfp
+2024-04-01,Coconut,82.84,wfp
+2024-05-01,Coconut,82.75,wfp
+2024-06-01,Coconut,86.0,wfp
+2024-07-01,Coconut,89.84,wfp
+2024-08-01,Coconut,88.74,wfp
+2024-09-01,Coconut,93.05,wfp
+2024-10-01,Coconut,104.88,wfp
+2024-11-01,Coconut,115.25,wfp
+2024-12-01,Coconut,128.25,wfp
+2025-01-01,Coconut,144.58,wfp
+2025-02-01,Coconut,161.67,wfp
+2025-03-01,Coconut,159.66,wfp
+2025-04-01,Coconut,162.75,wfp
+2025-05-01,Coconut,163.75,wfp
+2025-06-01,Coconut,148.84,wfp
+2025-07-01,Coconut,126.84,wfp
+2025-08-01,Coconut,134.0,wfp
+2025-09-01,Coconut,143.88,wfp
+2025-10-01,Coconut,146.28,cbsl_scaled
+2025-11-01,Coconut,151.59,cbsl_scaled
+2025-12-01,Coconut,149.83,cbsl_scaled
+2026-01-01,Coconut,134.39,cbsl_scaled
+2026-02-01,Coconut,119.57,cbsl_scaled
+2026-03-01,Coconut,127.22,cbsl_scaled
+2026-04-01,Coconut,120.56,cbsl_scaled
+2026-05-01,Coconut,119.2,cbsl_scaled
+2026-06-01,Coconut,119.54,cbsl_scaled
+2026-07-01,Coconut,118.38,cbsl_scaled
+2026-08-01,Coconut,125.36,cbsl_scaled
+2026-09-01,Coconut,126.96,cbsl_scaled
+2026-10-01,Coconut,135.12,cbsl_scaled
+2026-11-01,Coconut,142.12,cbsl_scaled
+2020-01-01,Eggplants,154.34,wfp
+2020-02-01,Eggplants,114.38,wfp
+2020-03-01,Eggplants,112.22,wfp
+2020-04-01,Eggplants,60.5,wfp
+2020-05-01,Eggplants,78.33,wfp
+2020-06-01,Eggplants,117.2,wfp
+2020-07-01,Eggplants,89.94,wfp
+2020-08-01,Eggplants,133.56,wfp
+2020-09-01,Eggplants,96.42,wfp
+2020-10-01,Eggplants,96.42,wfp
+2022-07-01,Eggplants,391.79,wfp
+2022-08-01,Eggplants,486.15,wfp
+2022-09-01,Eggplants,424.55,wfp
+2022-10-01,Eggplants,407.6,wfp
+2022-11-01,Eggplants,444.4,wfp
+2022-12-01,Eggplants,192.0,wfp
+2023-01-01,Eggplants,273.33,wfp
+2023-02-01,Eggplants,215.0,wfp
+2023-03-01,Eggplants,244.44,wfp
+2023-04-01,Eggplants,264.83,wfp
+2023-05-01,Eggplants,397.0,wfp
+2023-06-01,Eggplants,332.62,wfp
+2023-07-01,Eggplants,351.8,wfp
+2023-08-01,Eggplants,307.75,wfp
+2023-09-01,Eggplants,296.5,wfp
+2023-10-01,Eggplants,338.67,wfp
+2023-11-01,Eggplants,403.9,wfp
+2023-12-01,Eggplants,485.5,wfp
+2024-01-01,Eggplants,652.75,wfp
+2024-02-01,Eggplants,350.0,wfp
+2024-03-01,Eggplants,261.67,wfp
+2024-04-01,Eggplants,243.75,wfp
+2024-05-01,Eggplants,256.75,wfp
+2024-06-01,Eggplants,399.0,wfp
+2024-07-01,Eggplants,305.2,wfp
+2024-08-01,Eggplants,300.0,wfp
+2024-09-01,Eggplants,297.5,wfp
+2024-10-01,Eggplants,252.5,wfp
+2024-11-01,Eggplants,306.75,wfp
+2024-12-01,Eggplants,430.8,wfp
+2025-01-01,Eggplants,377.0,wfp
+2025-02-01,Eggplants,526.61,wfp
+2025-03-01,Eggplants,333.0,wfp
+2025-04-01,Eggplants,538.73,wfp
+2025-05-01,Eggplants,484.0,wfp
+2025-06-01,Eggplants,430.4,wfp
+2025-07-01,Eggplants,384.0,wfp
+2025-08-01,Eggplants,372.5,wfp
+2025-09-01,Eggplants,344.92,wfp
+2025-10-01,Eggplants,299.14,cbsl_scaled
+2025-11-01,Eggplants,349.36,cbsl_scaled
+2025-12-01,Eggplants,526.35,cbsl_scaled
+2026-01-01,Eggplants,373.19,cbsl_scaled
+2026-02-01,Eggplants,227.98,cbsl_scaled
+2026-03-01,Eggplants,297.49,cbsl_scaled
+2026-04-01,Eggplants,233.24,cbsl_scaled
+2026-05-01,Eggplants,436.57,cbsl_scaled
+2026-06-01,Eggplants,392.28,cbsl_scaled
+2026-07-01,Eggplants,435.07,cbsl_scaled
+2026-08-01,Eggplants,412.35,cbsl_scaled
+2026-09-01,Eggplants,430.31,cbsl_scaled
+2026-10-01,Eggplants,436.14,cbsl_scaled
+2026-11-01,Eggplants,538.92,cbsl_scaled
+2020-01-01,Eggs,19.95,wfp
+2020-02-01,Eggs,19.94,wfp
+2020-03-01,Eggs,19.89,wfp
+2020-06-01,Eggs,19.6,wfp
+2020-07-01,Eggs,20.35,wfp
+2020-08-01,Eggs,22.36,wfp
+2020-09-01,Eggs,20.5,wfp
+2020-10-01,Eggs,20.5,wfp
+2021-11-01,Eggs,48.37,wfp
+2021-12-01,Eggs,57.41,wfp
+2022-01-01,Eggs,54.88,wfp
+2022-02-01,Eggs,26.54,wfp
+2022-03-01,Eggs,29.51,wfp
+2022-04-01,Eggs,27.58,wfp
+2022-05-01,Eggs,34.32,wfp
+2022-06-01,Eggs,42.97,wfp
+2022-07-01,Eggs,46.19,wfp
+2022-08-01,Eggs,50.7,wfp
+2022-09-01,Eggs,48.8,wfp
+2022-10-01,Eggs,51.92,wfp
+2022-11-01,Eggs,50.0,wfp
+2022-12-01,Eggs,60.88,wfp
+2023-01-01,Eggs,43.9,wfp
+2023-02-01,Eggs,48.29,wfp
+2023-03-01,Eggs,57.33,wfp
+2023-04-01,Eggs,51.5,wfp
+2023-05-01,Eggs,48.0,wfp
+2023-06-01,Eggs,53.12,wfp
+2023-07-01,Eggs,56.89,wfp
+2023-08-01,Eggs,47.5,wfp
+2023-09-01,Eggs,45.72,wfp
+2023-10-01,Eggs,48.14,wfp
+2023-11-01,Eggs,44.98,wfp
+2023-12-01,Eggs,55.61,wfp
+2024-01-01,Eggs,53.32,wfp
+2024-02-01,Eggs,58.4,wfp
+2024-03-01,Eggs,51.17,wfp
+2024-04-01,Eggs,47.43,wfp
+2024-05-01,Eggs,47.0,wfp
+2024-06-01,Eggs,48.88,wfp
+2024-07-01,Eggs,50.28,wfp
+2024-08-01,Eggs,42.1,wfp
+2024-09-01,Eggs,38.83,wfp
+2024-10-01,Eggs,42.58,wfp
+2024-11-01,Eggs,37.34,wfp
+2024-12-01,Eggs,36.3,wfp
+2025-01-01,Eggs,34.44,wfp
+2025-02-01,Eggs,33.12,wfp
+2025-03-01,Eggs,30.55,wfp
+2025-04-01,Eggs,32.67,wfp
+2025-05-01,Eggs,28.3,wfp
+2025-06-01,Eggs,34.21,wfp
+2025-07-01,Eggs,31.25,wfp
+2025-08-01,Eggs,32.16,wfp
+2025-09-01,Eggs,30.98,wfp
+2025-10-01,Eggs,29.3,cbsl_scaled
+2025-11-01,Eggs,32.99,cbsl_scaled
+2025-12-01,Eggs,42.2,cbsl_scaled
+2026-01-01,Eggs,32.62,cbsl_scaled
+2026-02-01,Eggs,35.49,cbsl_scaled
+2026-03-01,Eggs,38.53,cbsl_scaled
+2026-04-01,Eggs,38.04,cbsl_scaled
+2026-05-01,Eggs,34.64,cbsl_scaled
+2026-06-01,Eggs,39.97,cbsl_scaled
+2026-07-01,Eggs,42.67,cbsl_scaled
+2026-08-01,Eggs,45.1,cbsl_scaled
+2026-09-01,Eggs,38.71,cbsl_scaled
+2026-10-01,Eggs,37.51,cbsl_scaled
+2026-11-01,Eggs,40.93,cbsl_scaled
+2020-01-01,"Fish (dry, katta)",954.76,wfp
+2020-02-01,"Fish (dry, katta)",950.0,wfp
+2020-03-01,"Fish (dry, katta)",950.0,wfp
+2020-06-01,"Fish (dry, katta)",1203.75,wfp
+2020-07-01,"Fish (dry, katta)",1200.0,wfp
+2020-08-01,"Fish (dry, katta)",1200.0,wfp
+2020-09-01,"Fish (dry, katta)",1200.0,wfp
+2020-10-01,"Fish (dry, katta)",1200.0,wfp
+2022-07-01,"Fish (dry, katta)",3128.0,wfp
+2022-08-01,"Fish (dry, katta)",3121.43,wfp
+2022-09-01,"Fish (dry, katta)",2733.33,wfp
+2022-10-01,"Fish (dry, katta)",2580.0,wfp
+2022-11-01,"Fish (dry, katta)",2616.67,wfp
+2022-12-01,"Fish (dry, katta)",1669.0,wfp
+2023-01-01,"Fish (dry, katta)",2500.0,wfp
+2023-02-01,"Fish (dry, katta)",1715.0,wfp
+2023-03-01,"Fish (dry, katta)",2366.67,wfp
+2023-04-01,"Fish (dry, katta)",2403.45,wfp
+2023-05-01,"Fish (dry, katta)",1641.0,wfp
+2023-06-01,"Fish (dry, katta)",2425.0,wfp
+2023-07-01,"Fish (dry, katta)",2400.0,wfp
+2023-08-01,"Fish (dry, katta)",2391.66,wfp
+2023-09-01,"Fish (dry, katta)",2237.5,wfp
+2023-10-01,"Fish (dry, katta)",2135.0,wfp
+2023-11-01,"Fish (dry, katta)",2120.84,wfp
+2023-12-01,"Fish (dry, katta)",2142.5,wfp
+2024-01-01,"Fish (dry, katta)",2166.67,wfp
+2024-02-01,"Fish (dry, katta)",2150.0,wfp
+2024-03-01,"Fish (dry, katta)",2125.0,wfp
+2024-04-01,"Fish (dry, katta)",2160.0,wfp
+2024-05-01,"Fish (dry, katta)",2076.04,wfp
+2024-06-01,"Fish (dry, katta)",2110.0,wfp
+2024-07-01,"Fish (dry, katta)",2142.42,wfp
+2024-08-01,"Fish (dry, katta)",2069.24,wfp
+2024-09-01,"Fish (dry, katta)",2032.5,wfp
+2024-10-01,"Fish (dry, katta)",1980.53,wfp
+2024-11-01,"Fish (dry, katta)",2045.0,wfp
+2024-12-01,"Fish (dry, katta)",2057.0,wfp
+2025-01-01,"Fish (dry, katta)",2019.01,wfp
+2025-02-01,"Fish (dry, katta)",2000.0,wfp
+2025-03-01,"Fish (dry, katta)",2028.34,wfp
+2025-04-01,"Fish (dry, katta)",2137.5,wfp
+2025-05-01,"Fish (dry, katta)",2265.0,wfp
+2025-06-01,"Fish (dry, katta)",2472.92,wfp
+2025-07-01,"Fish (dry, katta)",2495.12,wfp
+2025-08-01,"Fish (dry, katta)",2415.62,wfp
+2025-09-01,"Fish (dry, katta)",2318.48,wfp
+2020-01-01,"Fish (dry, sprats)",601.9,wfp
+2020-02-01,"Fish (dry, sprats)",600.0,wfp
+2020-03-01,"Fish (dry, sprats)",600.0,wfp
+2020-06-01,"Fish (dry, sprats)",650.0,wfp
+2020-07-01,"Fish (dry, sprats)",650.0,wfp
+2020-08-01,"Fish (dry, sprats)",603.57,wfp
+2020-09-01,"Fish (dry, sprats)",600.0,wfp
+2020-10-01,"Fish (dry, sprats)",600.0,wfp
+2022-07-01,"Fish (dry, sprats)",1864.52,wfp
+2022-08-01,"Fish (dry, sprats)",2026.67,wfp
+2022-09-01,"Fish (dry, sprats)",2495.65,wfp
+2022-10-01,"Fish (dry, sprats)",1688.89,wfp
+2022-11-01,"Fish (dry, sprats)",1504.35,wfp
+2022-12-01,"Fish (dry, sprats)",885.0,wfp
+2023-01-01,"Fish (dry, sprats)",1361.29,wfp
+2023-02-01,"Fish (dry, sprats)",906.67,wfp
+2023-03-01,"Fish (dry, sprats)",1194.64,wfp
+2023-04-01,"Fish (dry, sprats)",1204.62,wfp
+2023-05-01,"Fish (dry, sprats)",875.83,wfp
+2023-06-01,"Fish (dry, sprats)",1150.0,wfp
+2023-07-01,"Fish (dry, sprats)",1181.16,wfp
+2023-08-01,"Fish (dry, sprats)",1191.66,wfp
+2023-09-01,"Fish (dry, sprats)",1186.25,wfp
+2023-10-01,"Fish (dry, sprats)",1241.24,wfp
+2023-11-01,"Fish (dry, sprats)",1237.5,wfp
+2023-12-01,"Fish (dry, sprats)",1265.0,wfp
+2024-01-01,"Fish (dry, sprats)",1270.16,wfp
+2024-02-01,"Fish (dry, sprats)",1210.0,wfp
+2024-03-01,"Fish (dry, sprats)",1162.12,wfp
+2024-04-01,"Fish (dry, sprats)",1119.0,wfp
+2024-05-01,"Fish (dry, sprats)",1116.66,wfp
+2024-06-01,"Fish (dry, sprats)",1126.5,wfp
+2024-07-01,"Fish (dry, sprats)",1105.0,wfp
+2024-08-01,"Fish (dry, sprats)",1100.0,wfp
+2024-09-01,"Fish (dry, sprats)",1120.0,wfp
+2024-10-01,"Fish (dry, sprats)",1200.0,wfp
+2024-11-01,"Fish (dry, sprats)",1168.75,wfp
+2024-12-01,"Fish (dry, sprats)",1120.0,wfp
+2025-01-01,"Fish (dry, sprats)",1080.0,wfp
+2025-02-01,"Fish (dry, sprats)",1011.25,wfp
+2025-03-01,"Fish (dry, sprats)",914.0,wfp
+2025-04-01,"Fish (dry, sprats)",900.0,wfp
+2025-05-01,"Fish (dry, sprats)",893.12,wfp
+2025-06-01,"Fish (dry, sprats)",1132.8,wfp
+2025-07-01,"Fish (dry, sprats)",1328.75,wfp
+2025-08-01,"Fish (dry, sprats)",1278.75,wfp
+2025-09-01,"Fish (dry, sprats)",1307.5,wfp
+2020-01-01,Lentils,135.24,wfp
+2020-02-01,Lentils,132.17,wfp
+2020-03-01,Lentils,135.0,wfp
+2020-06-01,Lentils,149.9,wfp
+2020-07-01,Lentils,149.7,wfp
+2020-08-01,Lentils,145.0,wfp
+2020-09-01,Lentils,148.75,wfp
+2020-10-01,Lentils,148.75,wfp
+2022-07-01,Lentils,565.83,wfp
+2022-08-01,Lentils,462.06,wfp
+2022-09-01,Lentils,441.62,wfp
+2022-10-01,Lentils,394.69,wfp
+2022-11-01,Lentils,380.61,wfp
+2022-12-01,Lentils,377.42,wfp
+2023-01-01,Lentils,377.58,wfp
+2023-02-01,Lentils,370.44,wfp
+2023-03-01,Lentils,357.27,wfp
+2023-04-01,Lentils,358.15,wfp
+2023-05-01,Lentils,284.3,wfp
+2023-06-01,Lentils,302.88,wfp
+2023-07-01,Lentils,295.04,wfp
+2023-08-01,Lentils,307.88,wfp
+2023-09-01,Lentils,328.42,wfp
+2023-10-01,Lentils,325.6,wfp
+2023-11-01,Lentils,325.56,wfp
+2023-12-01,Lentils,326.5,wfp
+2024-01-01,Lentils,325.6,wfp
+2024-02-01,Lentils,323.5,wfp
+2024-03-01,Lentils,322.19,wfp
+2024-04-01,Lentils,317.2,wfp
+2024-05-01,Lentils,316.25,wfp
+2024-06-01,Lentils,310.55,wfp
+2024-07-01,Lentils,313.2,wfp
+2024-08-01,Lentils,304.79,wfp
+2024-09-01,Lentils,298.76,wfp
+2024-10-01,Lentils,301.42,wfp
+2024-11-01,Lentils,302.47,wfp
+2024-12-01,Lentils,301.2,wfp
+2025-01-01,Lentils,302.0,wfp
+2025-02-01,Lentils,295.79,wfp
+2025-03-01,Lentils,289.2,wfp
+2025-04-01,Lentils,285.0,wfp
+2025-05-01,Lentils,284.0,wfp
+2025-06-01,Lentils,281.62,wfp
+2025-07-01,Lentils,282.0,wfp
+2025-08-01,Lentils,274.46,wfp
+2025-09-01,Lentils,270.4,wfp
+2025-10-01,Lentils,269.15,cbsl_scaled
+2025-11-01,Lentils,267.71,cbsl_scaled
+2025-12-01,Lentils,267.71,cbsl_scaled
+2026-01-01,Lentils,267.71,cbsl_scaled
+2026-02-01,Lentils,265.05,cbsl_scaled
+2026-03-01,Lentils,286.98,cbsl_scaled
+2026-04-01,Lentils,319.74,cbsl_scaled
+2026-05-01,Lentils,279.94,cbsl_scaled
+2026-06-01,Lentils,268.0,cbsl_scaled
+2026-07-01,Lentils,256.71,cbsl_scaled
+2026-08-01,Lentils,257.13,cbsl_scaled
+2026-09-01,Lentils,263.32,cbsl_scaled
+2026-10-01,Lentils,269.68,cbsl_scaled
+2026-11-01,Lentils,270.17,cbsl_scaled
+2020-01-01,Onions (imported),118.9,wfp
+2020-02-01,Onions (imported),145.39,wfp
+2020-03-01,Onions (imported),156.44,wfp
+2020-06-01,Onions (imported),80.25,wfp
+2020-07-01,Onions (imported),77.43,wfp
+2020-08-01,Onions (imported),117.0,wfp
+2020-09-01,Onions (imported),162.42,wfp
+2020-10-01,Onions (imported),162.42,wfp
+2021-09-01,Onions (imported),148.28,wfp
+2021-10-01,Onions (imported),182.3,wfp
+2021-11-01,Onions (imported),202.11,wfp
+2021-12-01,Onions (imported),216.59,wfp
+2022-01-01,Onions (imported),196.4,wfp
+2022-02-01,Onions (imported),189.77,wfp
+2022-03-01,Onions (imported),178.53,wfp
+2022-04-01,Onions (imported),224.74,wfp
+2022-05-01,Onions (imported),207.73,wfp
+2022-06-01,Onions (imported),234.82,wfp
+2022-07-01,Onions (imported),214.24,wfp
+2022-08-01,Onions (imported),177.18,wfp
+2022-09-01,Onions (imported),182.67,wfp
+2022-10-01,Onions (imported),257.81,wfp
+2022-11-01,Onions (imported),230.32,wfp
+2022-12-01,Onions (imported),159.5,wfp
+2023-01-01,Onions (imported),170.91,wfp
+2023-02-01,Onions (imported),106.0,wfp
+2023-03-01,Onions (imported),117.71,wfp
+2023-04-01,Onions (imported),124.83,wfp
+2023-05-01,Onions (imported),89.7,wfp
+2023-06-01,Onions (imported),129.5,wfp
+2023-07-01,Onions (imported),144.12,wfp
+2023-08-01,Onions (imported),183.39,wfp
+2023-09-01,Onions (imported),213.84,wfp
+2023-10-01,Onions (imported),255.6,wfp
+2023-11-01,Onions (imported),292.62,wfp
+2023-12-01,Onions (imported),425.16,wfp
+2024-01-01,Onions (imported),461.2,wfp
+2024-02-01,Onions (imported),408.0,wfp
+2024-03-01,Onions (imported),535.62,wfp
+2024-04-01,Onions (imported),606.0,wfp
+2024-05-01,Onions (imported),253.0,wfp
+2024-06-01,Onions (imported),251.0,wfp
+2024-07-01,Onions (imported),250.0,wfp
+2024-08-01,Onions (imported),253.16,wfp
+2024-09-01,Onions (imported),274.4,wfp
+2024-10-01,Onions (imported),287.16,wfp
+2024-11-01,Onions (imported),343.08,wfp
+2024-12-01,Onions (imported),294.4,wfp
+2025-01-01,Onions (imported),250.0,wfp
+2025-02-01,Onions (imported),206.0,wfp
+2025-03-01,Onions (imported),176.0,wfp
+2025-04-01,Onions (imported),164.58,wfp
+2025-05-01,Onions (imported),143.75,wfp
+2025-06-01,Onions (imported),144.88,wfp
+2025-07-01,Onions (imported),135.62,wfp
+2025-08-01,Onions (imported),147.5,wfp
+2025-09-01,Onions (imported),163.1,wfp
+2025-10-01,Onions (imported),174.34,cbsl_scaled
+2025-11-01,Onions (imported),189.41,cbsl_scaled
+2025-12-01,Onions (imported),232.05,cbsl_scaled
+2026-01-01,Onions (imported),205.78,cbsl_scaled
+2026-02-01,Onions (imported),205.16,cbsl_scaled
+2026-03-01,Onions (imported),206.41,cbsl_scaled
+2026-04-01,Onions (imported),192.78,cbsl_scaled
+2026-05-01,Onions (imported),238.07,cbsl_scaled
+2026-06-01,Onions (imported),236.49,cbsl_scaled
+2026-07-01,Onions (imported),236.09,cbsl_scaled
+2026-08-01,Onions (imported),286.88,cbsl_scaled
+2026-09-01,Onions (imported),320.7,cbsl_scaled
+2026-10-01,Onions (imported),312.67,cbsl_scaled
+2026-11-01,Onions (imported),348.75,cbsl_scaled
+2020-01-01,"Onions (red, imported)",476.58,wfp
+2020-02-01,"Onions (red, imported)",351.86,wfp
+2020-03-01,"Onions (red, imported)",240.65,wfp
+2020-05-01,"Onions (red, imported)",229.4,wfp
+2020-06-01,"Onions (red, imported)",261.0,wfp
+2020-07-01,"Onions (red, imported)",175.58,wfp
+2020-08-01,"Onions (red, imported)",138.67,wfp
+2020-09-01,"Onions (red, imported)",170.0,wfp
+2020-10-01,"Onions (red, imported)",170.0,wfp
+2022-07-01,"Onions (red, imported)",380.0,wfp
+2022-08-01,"Onions (red, imported)",402.35,wfp
+2022-09-01,"Onions (red, imported)",402.07,wfp
+2022-10-01,"Onions (red, imported)",433.46,wfp
+2022-11-01,"Onions (red, imported)",659.39,wfp
+2022-12-01,"Onions (red, imported)",577.0,wfp
+2023-01-01,"Onions (red, imported)",585.76,wfp
+2023-02-01,"Onions (red, imported)",292.0,wfp
+2023-03-01,"Onions (red, imported)",385.17,wfp
+2023-04-01,"Onions (red, imported)",428.21,wfp
+2023-05-01,"Onions (red, imported)",244.0,wfp
+2023-06-01,"Onions (red, imported)",447.04,wfp
+2023-07-01,"Onions (red, imported)",488.81,wfp
+2023-08-01,"Onions (red, imported)",512.0,wfp
+2023-11-01,"Onions (red, imported)",537.5,wfp
+2023-12-01,"Onions (red, imported)",546.96,wfp
+2024-01-01,"Onions (red, imported)",488.26,wfp
+2024-02-01,"Onions (red, imported)",336.34,wfp
+2024-03-01,"Onions (red, imported)",343.0,wfp
+2024-04-01,"Onions (red, imported)",358.68,wfp
+2024-05-01,"Onions (red, imported)",383.84,wfp
+2024-06-01,"Onions (red, imported)",466.5,wfp
+2024-07-01,"Onions (red, imported)",424.17,wfp
+2024-08-01,"Onions (red, imported)",400.0,wfp
+2024-10-01,"Onions (red, imported)",433.33,wfp
+2024-11-01,"Onions (red, imported)",453.33,wfp
+2024-12-01,"Onions (red, imported)",478.25,wfp
+2025-01-01,"Onions (red, imported)",571.58,wfp
+2025-02-01,"Onions (red, imported)",484.0,wfp
+2025-03-01,"Onions (red, imported)",401.46,wfp
+2025-04-01,"Onions (red, imported)",389.78,wfp
+2025-05-01,"Onions (red, imported)",419.72,wfp
+2025-06-01,"Onions (red, imported)",433.6,wfp
+2025-07-01,"Onions (red, imported)",426.67,wfp
+2025-08-01,"Onions (red, imported)",305.34,wfp
+2025-09-01,"Onions (red, imported)",310.0,wfp
+2025-10-01,"Onions (red, imported)",344.88,cbsl_scaled
+2025-11-01,"Onions (red, imported)",362.95,cbsl_scaled
+2025-12-01,"Onions (red, imported)",414.26,cbsl_scaled
+2026-01-01,"Onions (red, imported)",391.47,cbsl_scaled
+2026-02-01,"Onions (red, imported)",368.3,cbsl_scaled
+2026-03-01,"Onions (red, imported)",409.33,cbsl_scaled
+2026-04-01,"Onions (red, imported)",408.76,cbsl_scaled
+2026-05-01,"Onions (red, imported)",393.12,cbsl_scaled
+2026-06-01,"Onions (red, imported)",440.43,cbsl_scaled
+2026-07-01,"Onions (red, imported)",444.93,cbsl_scaled
+2026-08-01,"Onions (red, imported)",424.93,cbsl_scaled
+2026-09-01,"Onions (red, imported)",370.82,cbsl_scaled
+2026-10-01,"Onions (red, imported)",429.03,cbsl_scaled
+2026-11-01,"Onions (red, imported)",528.79,cbsl_scaled
+2020-01-01,"Onions (red, local)",471.72,wfp
+2020-02-01,"Onions (red, local)",329.19,wfp
+2020-03-01,"Onions (red, local)",235.94,wfp
+2020-04-01,"Onions (red, local)",259.0,wfp
+2020-05-01,"Onions (red, local)",248.17,wfp
+2020-06-01,"Onions (red, local)",260.96,wfp
+2020-07-01,"Onions (red, local)",177.72,wfp
+2020-08-01,"Onions (red, local)",157.88,wfp
+2020-09-01,"Onions (red, local)",161.12,wfp
+2020-10-01,"Onions (red, local)",161.12,wfp
+2022-07-01,"Onions (red, local)",226.06,wfp
+2022-08-01,"Onions (red, local)",177.18,wfp
+2022-09-01,"Onions (red, local)",182.67,wfp
+2022-10-01,"Onions (red, local)",275.31,wfp
+2022-11-01,"Onions (red, local)",230.32,wfp
+2022-12-01,"Onions (red, local)",205.59,wfp
+2023-01-01,"Onions (red, local)",170.91,wfp
+2023-02-01,"Onions (red, local)",145.31,wfp
+2023-03-01,"Onions (red, local)",346.67,wfp
+2023-06-01,"Onions (red, local)",486.67,wfp
+2023-07-01,"Onions (red, local)",513.34,wfp
+2023-08-01,"Onions (red, local)",367.62,wfp
+2023-09-01,"Onions (red, local)",374.0,wfp
+2023-10-01,"Onions (red, local)",433.0,wfp
+2023-11-01,"Onions (red, local)",493.84,wfp
+2023-12-01,"Onions (red, local)",584.16,wfp
+2024-01-01,"Onions (red, local)",511.6,wfp
+2024-02-01,"Onions (red, local)",292.5,wfp
+2024-03-01,"Onions (red, local)",376.67,wfp
+2024-04-01,"Onions (red, local)",395.0,wfp
+2024-05-01,"Onions (red, local)",420.83,wfp
+2024-06-01,"Onions (red, local)",463.0,wfp
+2024-07-01,"Onions (red, local)",480.25,wfp
+2024-08-01,"Onions (red, local)",393.16,wfp
+2024-09-01,"Onions (red, local)",396.25,wfp
+2024-10-01,"Onions (red, local)",427.6,wfp
+2024-11-01,"Onions (red, local)",443.5,wfp
+2024-12-01,"Onions (red, local)",455.0,wfp
+2025-01-01,"Onions (red, local)",488.0,wfp
+2025-02-01,"Onions (red, local)",552.92,wfp
+2025-03-01,"Onions (red, local)",360.44,wfp
+2025-04-01,"Onions (red, local)",424.0,wfp
+2025-05-01,"Onions (red, local)",370.84,wfp
+2025-06-01,"Onions (red, local)",480.83,wfp
+2025-07-01,"Onions (red, local)",453.33,wfp
+2025-08-01,"Onions (red, local)",336.0,wfp
+2025-09-01,"Onions (red, local)",342.8,wfp
+2020-01-01,Papaya,91.9,wfp
+2020-02-01,Papaya,144.44,wfp
+2020-03-01,Papaya,183.33,wfp
+2020-06-01,Papaya,94.47,wfp
+2020-07-01,Papaya,95.87,wfp
+2020-08-01,Papaya,86.79,wfp
+2020-09-01,Papaya,121.67,wfp
+2020-10-01,Papaya,121.67,wfp
+2022-07-01,Papaya,207.35,wfp
+2022-08-01,Papaya,313.94,wfp
+2022-09-01,Papaya,261.25,wfp
+2022-10-01,Papaya,247.67,wfp
+2022-11-01,Papaya,385.48,wfp
+2022-12-01,Papaya,164.0,wfp
+2023-01-01,Papaya,336.21,wfp
+2023-02-01,Papaya,246.15,wfp
+2023-03-01,Papaya,342.07,wfp
+2023-04-01,Papaya,255.19,wfp
+2023-05-01,Papaya,99.29,wfp
+2023-06-01,Papaya,155.0,wfp
+2023-07-01,Papaya,150.4,wfp
+2023-08-01,Papaya,205.5,wfp
+2023-09-01,Papaya,196.58,wfp
+2023-10-01,Papaya,136.0,wfp
+2023-11-01,Papaya,159.75,wfp
+2023-12-01,Papaya,159.0,wfp
+2024-01-01,Papaya,204.4,wfp
+2024-02-01,Papaya,225.42,wfp
+2024-03-01,Papaya,234.0,wfp
+2024-04-01,Papaya,215.33,wfp
+2024-05-01,Papaya,150.5,wfp
+2024-06-01,Papaya,172.5,wfp
+2024-07-01,Papaya,210.0,wfp
+2024-08-01,Papaya,206.0,wfp
+2024-09-01,Papaya,234.74,wfp
+2024-10-01,Papaya,157.0,wfp
+2024-11-01,Papaya,130.42,wfp
+2024-12-01,Papaya,202.8,wfp
+2025-01-01,Papaya,188.0,wfp
+2025-02-01,Papaya,238.88,wfp
+2025-03-01,Papaya,255.0,wfp
+2025-04-01,Papaya,156.3,wfp
+2025-05-01,Papaya,144.17,wfp
+2025-06-01,Papaya,150.75,wfp
+2025-07-01,Papaya,206.25,wfp
+2025-08-01,Papaya,160.62,wfp
+2025-09-01,Papaya,163.79,wfp
+2025-10-01,Papaya,150.54,cbsl_scaled
+2025-11-01,Papaya,162.93,cbsl_scaled
+2025-12-01,Papaya,224.51,cbsl_scaled
+2026-01-01,Papaya,319.59,cbsl_scaled
+2026-02-01,Papaya,402.89,cbsl_scaled
+2026-03-01,Papaya,331.42,cbsl_scaled
+2026-04-01,Papaya,237.01,cbsl_scaled
+2026-05-01,Papaya,172.77,cbsl_scaled
+2026-06-01,Papaya,201.26,cbsl_scaled
+2026-07-01,Papaya,194.07,cbsl_scaled
+2026-08-01,Papaya,213.9,cbsl_scaled
+2026-09-01,Papaya,234.96,cbsl_scaled
+2026-10-01,Papaya,166.19,cbsl_scaled
+2026-11-01,Papaya,157.77,cbsl_scaled
+2020-01-01,Pineapples,193.1,wfp
+2020-02-01,Pineapples,193.0,wfp
+2020-03-01,Pineapples,186.0,wfp
+2020-06-01,Pineapples,155.75,wfp
+2020-07-01,Pineapples,172.17,wfp
+2020-08-01,Pineapples,180.0,wfp
+2020-09-01,Pineapples,163.33,wfp
+2020-10-01,Pineapples,163.33,wfp
+2022-07-01,Pineapples,427.1,wfp
+2022-08-01,Pineapples,526.15,wfp
+2022-09-01,Pineapples,688.46,wfp
+2022-10-01,Pineapples,530.77,wfp
+2022-11-01,Pineapples,450.69,wfp
+2022-12-01,Pineapples,530.0,wfp
+2023-01-01,Pineapples,455.42,wfp
+2023-02-01,Pineapples,487.0,wfp
+2023-03-01,Pineapples,619.57,wfp
+2023-04-01,Pineapples,446.0,wfp
+2023-05-01,Pineapples,578.75,wfp
+2023-06-01,Pineapples,389.66,wfp
+2023-07-01,Pineapples,498.34,wfp
+2023-08-01,Pineapples,615.0,wfp
+2023-09-01,Pineapples,666.39,wfp
+2023-10-01,Pineapples,472.99,wfp
+2023-11-01,Pineapples,385.62,wfp
+2023-12-01,Pineapples,398.12,wfp
+2024-01-01,Pineapples,425.0,wfp
+2024-02-01,Pineapples,504.0,wfp
+2024-03-01,Pineapples,498.75,wfp
+2024-04-01,Pineapples,603.54,wfp
+2024-05-01,Pineapples,651.92,wfp
+2024-06-01,Pineapples,430.5,wfp
+2024-07-01,Pineapples,377.0,wfp
+2024-08-01,Pineapples,413.49,wfp
+2024-09-01,Pineapples,397.0,wfp
+2024-10-01,Pineapples,401.66,wfp
+2024-11-01,Pineapples,383.33,wfp
+2024-12-01,Pineapples,367.25,wfp
+2025-01-01,Pineapples,376.67,wfp
+2025-02-01,Pineapples,340.45,wfp
+2025-03-01,Pineapples,349.34,wfp
+2025-04-01,Pineapples,328.06,wfp
+2025-05-01,Pineapples,284.09,wfp
+2025-06-01,Pineapples,315.6,wfp
+2025-07-01,Pineapples,306.52,wfp
+2025-08-01,Pineapples,283.25,wfp
+2025-09-01,Pineapples,308.5,wfp
+2025-10-01,Pineapples,341.24,cbsl_scaled
+2025-11-01,Pineapples,279.71,cbsl_scaled
+2025-12-01,Pineapples,280.71,cbsl_scaled
+2026-01-01,Pineapples,284.98,cbsl_scaled
+2026-02-01,Pineapples,350.67,cbsl_scaled
+2026-03-01,Pineapples,377.55,cbsl_scaled
+2026-04-01,Pineapples,303.12,cbsl_scaled
+2026-05-01,Pineapples,267.27,cbsl_scaled
+2026-06-01,Pineapples,257.95,cbsl_scaled
+2026-07-01,Pineapples,334.92,cbsl_scaled
+2026-08-01,Pineapples,362.83,cbsl_scaled
+2026-09-01,Pineapples,367.33,cbsl_scaled
+2026-10-01,Pineapples,338.93,cbsl_scaled
+2026-11-01,Pineapples,246.7,cbsl_scaled
+2020-01-01,Potatoes (imported),154.43,wfp
+2020-02-01,Potatoes (imported),125.62,wfp
+2020-03-01,Potatoes (imported),111.44,wfp
+2020-05-01,Potatoes (imported),139.27,wfp
+2020-06-01,Potatoes (imported),145.25,wfp
+2020-07-01,Potatoes (imported),147.0,wfp
+2020-08-01,Potatoes (imported),137.71,wfp
+2020-09-01,Potatoes (imported),137.17,wfp
+2020-10-01,Potatoes (imported),137.17,wfp
+2022-07-01,Potatoes (imported),232.35,wfp
+2022-09-01,Potatoes (imported),294.69,wfp
+2022-10-01,Potatoes (imported),246.88,wfp
+2022-11-01,Potatoes (imported),227.27,wfp
+2022-12-01,Potatoes (imported),173.5,wfp
+2023-01-01,Potatoes (imported),156.76,wfp
+2023-02-01,Potatoes (imported),122.0,wfp
+2023-03-01,Potatoes (imported),159.35,wfp
+2023-04-01,Potatoes (imported),195.77,wfp
+2023-05-01,Potatoes (imported),161.5,wfp
+2023-06-01,Potatoes (imported),206.5,wfp
+2023-07-01,Potatoes (imported),237.2,wfp
+2023-08-01,Potatoes (imported),223.7,wfp
+2023-09-01,Potatoes (imported),206.16,wfp
+2023-10-01,Potatoes (imported),214.4,wfp
+2023-11-01,Potatoes (imported),213.27,wfp
+2023-12-01,Potatoes (imported),226.62,wfp
+2024-01-01,Potatoes (imported),200.0,wfp
+2024-02-01,Potatoes (imported),178.5,wfp
+2024-03-01,Potatoes (imported),209.33,wfp
+2024-04-01,Potatoes (imported),195.2,wfp
+2024-05-01,Potatoes (imported),200.62,wfp
+2024-06-01,Potatoes (imported),217.0,wfp
+2024-07-01,Potatoes (imported),284.09,wfp
+2024-08-01,Potatoes (imported),235.66,wfp
+2024-09-01,Potatoes (imported),222.68,wfp
+2024-10-01,Potatoes (imported),223.84,wfp
+2024-11-01,Potatoes (imported),228.0,wfp
+2024-12-01,Potatoes (imported),268.95,wfp
+2025-01-01,Potatoes (imported),222.5,wfp
+2025-02-01,Potatoes (imported),202.82,wfp
+2025-03-01,Potatoes (imported),198.8,wfp
+2025-04-01,Potatoes (imported),207.0,wfp
+2025-05-01,Potatoes (imported),235.33,wfp
+2025-06-01,Potatoes (imported),206.88,wfp
+2025-07-01,Potatoes (imported),206.0,wfp
+2025-08-01,Potatoes (imported),212.75,wfp
+2025-09-01,Potatoes (imported),223.66,wfp
+2025-10-01,Potatoes (imported),225.35,cbsl_scaled
+2025-11-01,Potatoes (imported),217.06,cbsl_scaled
+2025-12-01,Potatoes (imported),225.13,cbsl_scaled
+2026-01-01,Potatoes (imported),199.01,cbsl_scaled
+2026-02-01,Potatoes (imported),190.84,cbsl_scaled
+2026-03-01,Potatoes (imported),220.58,cbsl_scaled
+2026-04-01,Potatoes (imported),201.49,cbsl_scaled
+2026-05-01,Potatoes (imported),204.43,cbsl_scaled
+2026-06-01,Potatoes (imported),228.89,cbsl_scaled
+2026-07-01,Potatoes (imported),229.4,cbsl_scaled
+2026-08-01,Potatoes (imported),225.91,cbsl_scaled
+2026-09-01,Potatoes (imported),234.39,cbsl_scaled
+2026-10-01,Potatoes (imported),210.47,cbsl_scaled
+2026-11-01,Potatoes (imported),242.55,cbsl_scaled
+2020-01-01,Potatoes (local),181.94,wfp
+2020-02-01,Potatoes (local),179.64,wfp
+2020-03-01,Potatoes (local),146.83,wfp
+2020-04-01,Potatoes (local),115.5,wfp
+2020-05-01,Potatoes (local),63.75,wfp
+2020-06-01,Potatoes (local),182.54,wfp
+2020-07-01,Potatoes (local),200.96,wfp
+2020-08-01,Potatoes (local),192.52,wfp
+2020-09-01,Potatoes (local),147.44,wfp
+2020-10-01,Potatoes (local),147.44,wfp
+2022-07-01,Potatoes (local),536.07,wfp
+2022-08-01,Potatoes (local),498.21,wfp
+2022-09-01,Potatoes (local),470.71,wfp
+2022-10-01,Potatoes (local),416.88,wfp
+2022-11-01,Potatoes (local),428.48,wfp
+2022-12-01,Potatoes (local),480.0,wfp
+2023-01-01,Potatoes (local),429.44,wfp
+2023-02-01,Potatoes (local),359.35,wfp
+2023-03-01,Potatoes (local),339.2,wfp
+2023-04-01,Potatoes (local),360.0,wfp
+2023-05-01,Potatoes (local),260.0,wfp
+2023-06-01,Potatoes (local),372.88,wfp
+2023-07-01,Potatoes (local),401.15,wfp
+2023-08-01,Potatoes (local),417.33,wfp
+2023-09-01,Potatoes (local),377.5,wfp
+2023-10-01,Potatoes (local),341.58,wfp
+2023-11-01,Potatoes (local),378.31,wfp
+2023-12-01,Potatoes (local),407.18,wfp
+2024-01-01,Potatoes (local),413.92,wfp
+2024-02-01,Potatoes (local),400.0,wfp
+2024-03-01,Potatoes (local),417.75,wfp
+2024-04-01,Potatoes (local),384.38,wfp
+2024-05-01,Potatoes (local),364.58,wfp
+2024-06-01,Potatoes (local),391.5,wfp
+2024-07-01,Potatoes (local),444.88,wfp
+2024-08-01,Potatoes (local),472.21,wfp
+2024-09-01,Potatoes (local),399.94,wfp
+2024-10-01,Potatoes (local),349.0,wfp
+2024-11-01,Potatoes (local),381.75,wfp
+2024-12-01,Potatoes (local),417.89,wfp
+2025-01-01,Potatoes (local),431.66,wfp
+2025-02-01,Potatoes (local),392.5,wfp
+2025-03-01,Potatoes (local),396.76,wfp
+2025-04-01,Potatoes (local),385.84,wfp
+2025-05-01,Potatoes (local),379.34,wfp
+2025-06-01,Potatoes (local),380.0,wfp
+2025-07-01,Potatoes (local),395.0,wfp
+2025-08-01,Potatoes (local),389.16,wfp
+2025-09-01,Potatoes (local),370.55,wfp
+2025-10-01,Potatoes (local),318.8,cbsl_scaled
+2025-11-01,Potatoes (local),322.15,cbsl_scaled
+2025-12-01,Potatoes (local),396.27,cbsl_scaled
+2026-01-01,Potatoes (local),446.73,cbsl_scaled
+2026-02-01,Potatoes (local),461.55,cbsl_scaled
+2026-03-01,Potatoes (local),404.77,cbsl_scaled
+2026-04-01,Potatoes (local),381.4,cbsl_scaled
+2026-05-01,Potatoes (local),339.1,cbsl_scaled
+2026-06-01,Potatoes (local),374.68,cbsl_scaled
+2026-07-01,Potatoes (local),388.73,cbsl_scaled
+2026-08-01,Potatoes (local),451.64,cbsl_scaled
+2026-09-01,Potatoes (local),465.63,cbsl_scaled
+2026-10-01,Potatoes (local),392.72,cbsl_scaled
+2026-11-01,Potatoes (local),420.19,cbsl_scaled
+2020-01-01,Pumpkin,104.14,wfp
+2020-02-01,Pumpkin,184.58,wfp
+2020-03-01,Pumpkin,99.34,wfp
+2020-04-01,Pumpkin,58.0,wfp
+2020-05-01,Pumpkin,52.0,wfp
+2020-06-01,Pumpkin,53.6,wfp
+2020-07-01,Pumpkin,63.87,wfp
+2020-08-01,Pumpkin,126.68,wfp
+2020-09-01,Pumpkin,144.96,wfp
+2020-10-01,Pumpkin,144.96,wfp
+2022-07-01,Pumpkin,273.57,wfp
+2022-08-01,Pumpkin,218.52,wfp
+2022-09-01,Pumpkin,239.23,wfp
+2022-10-01,Pumpkin,258.4,wfp
+2022-11-01,Pumpkin,221.48,wfp
+2022-12-01,Pumpkin,113.0,wfp
+2023-01-01,Pumpkin,200.71,wfp
+2023-02-01,Pumpkin,57.0,wfp
+2023-03-01,Pumpkin,137.04,wfp
+2023-04-01,Pumpkin,133.57,wfp
+2023-05-01,Pumpkin,67.0,wfp
+2023-06-01,Pumpkin,167.0,wfp
+2023-07-01,Pumpkin,189.6,wfp
+2023-08-01,Pumpkin,180.0,wfp
+2023-09-01,Pumpkin,140.62,wfp
+2023-10-01,Pumpkin,127.2,wfp
+2023-11-01,Pumpkin,149.17,wfp
+2023-12-01,Pumpkin,224.84,wfp
+2024-01-01,Pumpkin,238.4,wfp
+2024-02-01,Pumpkin,333.5,wfp
+2024-03-01,Pumpkin,302.0,wfp
+2024-04-01,Pumpkin,200.67,wfp
+2024-05-01,Pumpkin,158.0,wfp
+2024-06-01,Pumpkin,211.0,wfp
+2024-07-01,Pumpkin,263.0,wfp
+2024-08-01,Pumpkin,213.21,wfp
+2024-09-01,Pumpkin,152.88,wfp
+2024-10-01,Pumpkin,173.25,wfp
+2024-11-01,Pumpkin,192.0,wfp
+2024-12-01,Pumpkin,237.46,wfp
+2025-01-01,Pumpkin,229.5,wfp
+2025-02-01,Pumpkin,224.0,wfp
+2025-03-01,Pumpkin,230.0,wfp
+2025-04-01,Pumpkin,282.14,wfp
+2025-05-01,Pumpkin,265.62,wfp
+2025-06-01,Pumpkin,222.0,wfp
+2025-07-01,Pumpkin,185.0,wfp
+2025-08-01,Pumpkin,137.58,wfp
+2025-09-01,Pumpkin,119.6,wfp
+2020-01-01,Rice (medium grain),98.0,wfp
+2020-02-01,Rice (medium grain),98.0,wfp
+2020-03-01,Rice (medium grain),98.0,wfp
+2020-06-01,Rice (medium grain),97.9,wfp
+2020-07-01,Rice (medium grain),98.0,wfp
+2020-08-01,Rice (medium grain),98.0,wfp
+2020-09-01,Rice (medium grain),98.0,wfp
+2020-10-01,Rice (medium grain),98.0,wfp
+2023-06-01,Rice (medium grain),215.5,wfp
+2023-07-01,Rice (medium grain),215.1,wfp
+2023-08-01,Rice (medium grain),214.6,wfp
+2023-09-01,Rice (medium grain),218.62,wfp
+2023-10-01,Rice (medium grain),219.26,wfp
+2023-11-01,Rice (medium grain),219.25,wfp
+2023-12-01,Rice (medium grain),220.0,wfp
+2024-01-01,Rice (medium grain),220.0,wfp
+2024-02-01,Rice (medium grain),219.47,wfp
+2024-03-01,Rice (medium grain),219.6,wfp
+2024-04-01,Rice (medium grain),219.4,wfp
+2024-05-01,Rice (medium grain),220.0,wfp
+2024-06-01,Rice (medium grain),220.0,wfp
+2024-07-01,Rice (medium grain),220.0,wfp
+2024-08-01,Rice (medium grain),219.75,wfp
+2024-09-01,Rice (medium grain),226.76,wfp
+2024-10-01,Rice (medium grain),227.66,wfp
+2024-11-01,Rice (medium grain),237.5,wfp
+2024-12-01,Rice (medium grain),242.04,wfp
+2025-01-01,Rice (medium grain),238.5,wfp
+2025-02-01,Rice (medium grain),232.35,wfp
+2025-03-01,Rice (medium grain),230.75,wfp
+2025-04-01,Rice (medium grain),230.0,wfp
+2025-05-01,Rice (medium grain),230.06,wfp
+2025-06-01,Rice (medium grain),232.9,wfp
+2025-07-01,Rice (medium grain),230.0,wfp
+2025-08-01,Rice (medium grain),230.0,wfp
+2025-09-01,Rice (medium grain),229.27,wfp
+2025-10-01,Rice (medium grain),235.64,cbsl_scaled
+2025-11-01,Rice (medium grain),235.68,cbsl_scaled
+2025-12-01,Rice (medium grain),237.9,cbsl_scaled
+2026-01-01,Rice (medium grain),240.85,cbsl_scaled
+2026-02-01,Rice (medium grain),241.31,cbsl_scaled
+2026-03-01,Rice (medium grain),241.33,cbsl_scaled
+2026-04-01,Rice (medium grain),241.33,cbsl_scaled
+2026-05-01,Rice (medium grain),240.0,cbsl_scaled
+2026-06-01,Rice (medium grain),236.55,cbsl_scaled
+2026-07-01,Rice (medium grain),232.5,cbsl_scaled
+2026-08-01,Rice (medium grain),231.63,cbsl_scaled
+2026-09-01,Rice (medium grain),229.69,cbsl_scaled
+2026-10-01,Rice (medium grain),229.39,cbsl_scaled
+2026-11-01,Rice (medium grain),229.39,cbsl_scaled
+2006-07-01,Rice (white),30.25,wfp
+2006-08-01,Rice (white),29.54,wfp
+2006-09-01,Rice (white),29.92,wfp
+2006-10-01,Rice (white),29.66,wfp
+2006-11-01,Rice (white),31.78,wfp
+2006-12-01,Rice (white),34.32,wfp
+2007-01-01,Rice (white),34.5,wfp
+2007-02-01,Rice (white),36.38,wfp
+2007-03-01,Rice (white),34.29,wfp
+2007-04-01,Rice (white),32.83,wfp
+2007-05-01,Rice (white),34.19,wfp
+2007-06-01,Rice (white),35.76,wfp
+2007-07-01,Rice (white),36.36,wfp
+2007-08-01,Rice (white),37.1,wfp
+2007-09-01,Rice (white),37.63,wfp
+2007-10-01,Rice (white),37.88,wfp
+2007-11-01,Rice (white),47.5,wfp
+2007-12-01,Rice (white),54.04,wfp
+2008-01-01,Rice (white),57.41,wfp
+2008-02-01,Rice (white),62.73,wfp
+2008-03-01,Rice (white),62.73,wfp
+2008-04-01,Rice (white),65.81,wfp
+2008-05-01,Rice (white),65.0,wfp
+2008-06-01,Rice (white),66.05,wfp
+2008-07-01,Rice (white),62.6,wfp
+2008-08-01,Rice (white),62.22,wfp
+2008-09-01,Rice (white),60.93,wfp
+2008-10-01,Rice (white),61.55,wfp
+2008-11-01,Rice (white),61.69,wfp
+2008-12-01,Rice (white),63.94,wfp
+2009-01-01,Rice (white),64.62,wfp
+2009-02-01,Rice (white),65.0,wfp
+2009-03-01,Rice (white),61.01,wfp
+2009-04-01,Rice (white),57.72,wfp
+2009-05-01,Rice (white),60.06,wfp
+2009-06-01,Rice (white),62.11,wfp
+2009-07-01,Rice (white),60.92,wfp
+2009-08-01,Rice (white),61.11,wfp
+2009-09-01,Rice (white),60.55,wfp
+2009-10-01,Rice (white),61.52,wfp
+2009-11-01,Rice (white),62.56,wfp
+2009-12-01,Rice (white),63.19,wfp
+2010-01-01,Rice (white),65.93,wfp
+2010-02-01,Rice (white),62.2,wfp
+2010-03-01,Rice (white),52.77,wfp
+2010-04-01,Rice (white),52.09,wfp
+2010-05-01,Rice (white),52.15,wfp
+2010-06-01,Rice (white),51.81,wfp
+2010-07-01,Rice (white),49.45,wfp
+2010-08-01,Rice (white),47.38,wfp
+2010-09-01,Rice (white),48.45,wfp
+2010-10-01,Rice (white),53.3,wfp
+2010-11-01,Rice (white),56.62,wfp
+2010-12-01,Rice (white),57.89,wfp
+2011-01-01,Rice (white),56.52,wfp
+2011-02-01,Rice (white),59.18,wfp
+2011-03-01,Rice (white),59.23,wfp
+2011-04-01,Rice (white),58.09,wfp
+2011-05-01,Rice (white),58.24,wfp
+2011-06-01,Rice (white),57.44,wfp
+2011-07-01,Rice (white),56.42,wfp
+2011-08-01,Rice (white),54.91,wfp
+2011-09-01,Rice (white),52.16,wfp
+2011-10-01,Rice (white),54.27,wfp
+2011-11-01,Rice (white),56.0,wfp
+2011-12-01,Rice (white),58.06,wfp
+2012-01-01,Rice (white),57.95,wfp
+2012-02-01,Rice (white),55.49,wfp
+2012-03-01,Rice (white),54.24,wfp
+2012-04-01,Rice (white),52.39,wfp
+2012-05-01,Rice (white),51.87,wfp
+2012-06-01,Rice (white),52.42,wfp
+2012-07-01,Rice (white),56.89,wfp
+2012-08-01,Rice (white),56.33,wfp
+2012-09-01,Rice (white),58.37,wfp
+2012-10-01,Rice (white),59.22,wfp
+2012-11-01,Rice (white),59.82,wfp
+2012-12-01,Rice (white),60.58,wfp
+2013-01-01,Rice (white),60.98,wfp
+2013-02-01,Rice (white),60.46,wfp
+2013-03-01,Rice (white),58.91,wfp
+2013-04-01,Rice (white),58.19,wfp
+2013-05-01,Rice (white),59.48,wfp
+2013-06-01,Rice (white),59.52,wfp
+2013-07-01,Rice (white),58.88,wfp
+2013-08-01,Rice (white),57.79,wfp
+2013-09-01,Rice (white),57.85,wfp
+2013-10-01,Rice (white),59.38,wfp
+2013-11-01,Rice (white),59.49,wfp
+2013-12-01,Rice (white),60.44,wfp
+2014-01-01,Rice (white),64.89,wfp
+2014-02-01,Rice (white),67.18,wfp
+2014-03-01,Rice (white),67.58,wfp
+2014-04-01,Rice (white),69.91,wfp
+2014-05-01,Rice (white),67.61,wfp
+2014-06-01,Rice (white),68.44,wfp
+2014-07-01,Rice (white),68.68,wfp
+2014-08-01,Rice (white),72.9,wfp
+2014-09-01,Rice (white),78.56,wfp
+2014-10-01,Rice (white),78.78,wfp
+2014-11-01,Rice (white),78.67,wfp
+2014-12-01,Rice (white),78.19,wfp
+2015-01-01,Rice (white),76.17,wfp
+2015-02-01,Rice (white),75.53,wfp
+2015-03-01,Rice (white),73.41,wfp
+2015-04-01,Rice (white),70.12,wfp
+2015-05-01,Rice (white),70.24,wfp
+2015-06-01,Rice (white),70.11,wfp
+2015-07-01,Rice (white),68.64,wfp
+2015-08-01,Rice (white),64.88,wfp
+2015-09-01,Rice (white),63.76,wfp
+2015-10-01,Rice (white),64.8,wfp
+2015-11-01,Rice (white),66.47,wfp
+2015-12-01,Rice (white),70.58,wfp
+2016-01-01,Rice (white),72.65,wfp
+2016-02-01,Rice (white),69.49,wfp
+2016-03-01,Rice (white),64.86,wfp
+2016-04-01,Rice (white),67.04,wfp
+2016-05-01,Rice (white),69.48,wfp
+2016-06-01,Rice (white),70.73,wfp
+2016-07-01,Rice (white),70.56,wfp
+2016-08-01,Rice (white),69.67,wfp
+2016-09-01,Rice (white),70.15,wfp
+2016-10-01,Rice (white),74.05,wfp
+2016-11-01,Rice (white),78.19,wfp
+2016-12-01,Rice (white),88.56,wfp
+2017-01-01,Rice (white),93.32,wfp
+2017-02-01,Rice (white),88.06,wfp
+2017-03-01,Rice (white),76.61,wfp
+2017-04-01,Rice (white),77.38,wfp
+2017-05-01,Rice (white),79.72,wfp
+2017-06-01,Rice (white),82.89,wfp
+2017-07-01,Rice (white),83.83,wfp
+2017-08-01,Rice (white),82.65,wfp
+2017-09-01,Rice (white),83.42,wfp
+2017-10-01,Rice (white),84.87,wfp
+2017-11-01,Rice (white),85.02,wfp
+2017-12-01,Rice (white),85.89,wfp
+2018-01-01,Rice (white),86.71,wfp
+2018-02-01,Rice (white),81.06,wfp
+2018-03-01,Rice (white),81.59,wfp
+2018-04-01,Rice (white),82.42,wfp
+2018-05-01,Rice (white),82.12,wfp
+2018-06-01,Rice (white),83.78,wfp
+2018-07-01,Rice (white),81.85,wfp
+2018-08-01,Rice (white),79.65,wfp
+2018-09-01,Rice (white),82.07,wfp
+2018-10-01,Rice (white),84.17,wfp
+2018-11-01,Rice (white),86.63,wfp
+2018-12-01,Rice (white),88.16,wfp
+2019-01-01,Rice (white),89.71,wfp
+2019-02-01,Rice (white),87.29,wfp
+2019-03-01,Rice (white),84.13,wfp
+2019-04-01,Rice (white),81.89,wfp
+2019-05-01,Rice (white),85.42,wfp
+2019-06-01,Rice (white),86.4,wfp
+2019-07-01,Rice (white),86.22,wfp
+2019-08-01,Rice (white),86.54,wfp
+2019-09-01,Rice (white),88.09,wfp
+2019-10-01,Rice (white),92.44,wfp
+2019-11-01,Rice (white),98.22,wfp
+2019-12-01,Rice (white),105.55,wfp
+2020-01-01,Rice (white),107.15,wfp
+2020-02-01,Rice (white),99.91,wfp
+2020-03-01,Rice (white),99.06,wfp
+2020-04-01,Rice (white),98.13,wfp
+2020-05-01,Rice (white),100.67,wfp
+2020-06-01,Rice (white),95.4,wfp
+2020-07-01,Rice (white),95.44,wfp
+2020-08-01,Rice (white),94.64,wfp
+2020-09-01,Rice (white),94.88,wfp
+2020-10-01,Rice (white),95.71,wfp
+2020-11-01,Rice (white),98.34,wfp
+2020-12-01,Rice (white),101.5,wfp
+2021-01-01,Rice (white),104.08,wfp
+2021-02-01,Rice (white),102.61,wfp
+2021-03-01,Rice (white),102.71,wfp
+2021-04-01,Rice (white),102.96,wfp
+2021-05-01,Rice (white),111.12,wfp
+2021-06-01,Rice (white),113.69,wfp
+2021-07-01,Rice (white),112.0,wfp
+2021-08-01,Rice (white),107.0,wfp
+2021-09-01,Rice (white),103.0,wfp
+2021-10-01,Rice (white),114.0,wfp
+2021-11-01,Rice (white),132.0,wfp
+2021-12-01,Rice (white),131.66,wfp
+2022-01-01,Rice (white),158.48,wfp
+2022-02-01,Rice (white),161.51,wfp
+2022-03-01,Rice (white),169.24,wfp
+2022-04-01,Rice (white),206.17,wfp
+2022-05-01,Rice (white),216.26,wfp
+2022-06-01,Rice (white),227.52,wfp
+2023-06-01,Rice (white),230.0,wfp
+2023-07-01,Rice (white),229.34,wfp
+2023-08-01,Rice (white),230.0,wfp
+2023-09-01,Rice (white),230.85,wfp
+2023-10-01,Rice (white),232.0,wfp
+2023-11-01,Rice (white),234.0,wfp
+2023-12-01,Rice (white),240.32,wfp
+2024-01-01,Rice (white),249.98,wfp
+2024-02-01,Rice (white),254.12,wfp
+2024-03-01,Rice (white),253.52,wfp
+2024-04-01,Rice (white),255.5,wfp
+2024-05-01,Rice (white),257.19,wfp
+2024-06-01,Rice (white),260.42,wfp
+2024-07-01,Rice (white),253.0,wfp
+2024-08-01,Rice (white),249.82,wfp
+2024-09-01,Rice (white),246.84,wfp
+2024-10-01,Rice (white),241.25,wfp
+2024-11-01,Rice (white),242.8,wfp
+2024-12-01,Rice (white),246.02,wfp
+2025-01-01,Rice (white),245.0,wfp
+2025-02-01,Rice (white),243.12,wfp
+2025-03-01,Rice (white),244.52,wfp
+2025-04-01,Rice (white),244.35,wfp
+2025-05-01,Rice (white),247.7,wfp
+2025-06-01,Rice (white),254.0,wfp
+2025-07-01,Rice (white),257.81,wfp
+2025-08-01,Rice (white),254.17,wfp
+2025-09-01,Rice (white),253.71,wfp
+2025-10-01,Rice (white),246.55,cbsl_scaled
+2025-11-01,Rice (white),246.55,cbsl_scaled
+2025-12-01,Rice (white),246.55,cbsl_scaled
+2026-01-01,Rice (white),246.55,cbsl_scaled
+2026-02-01,Rice (white),246.55,cbsl_scaled
+2026-03-01,Rice (white),238.03,cbsl_scaled
+2026-04-01,Rice (white),239.1,cbsl_scaled
+2026-05-01,Rice (white),246.03,cbsl_scaled
+2026-06-01,Rice (white),244.77,cbsl_scaled
+2026-07-01,Rice (white),243.82,cbsl_scaled
+2026-08-01,Rice (white),243.9,cbsl_scaled
+2026-09-01,Rice (white),242.55,cbsl_scaled
+2026-10-01,Rice (white),242.48,cbsl_scaled
+2026-11-01,Rice (white),242.76,cbsl_scaled
+2020-01-01,Snake gourd,158.29,wfp
+2020-02-01,Snake gourd,131.7,wfp
+2020-03-01,Snake gourd,97.61,wfp
+2020-04-01,Snake gourd,58.0,wfp
+2020-05-01,Snake gourd,73.5,wfp
+2020-06-01,Snake gourd,112.48,wfp
+2020-07-01,Snake gourd,91.3,wfp
+2020-08-01,Snake gourd,113.5,wfp
+2020-09-01,Snake gourd,128.5,wfp
+2020-10-01,Snake gourd,128.5,wfp
+2022-07-01,Snake gourd,334.64,wfp
+2022-08-01,Snake gourd,304.81,wfp
+2022-09-01,Snake gourd,357.39,wfp
+2022-10-01,Snake gourd,325.6,wfp
+2022-11-01,Snake gourd,392.69,wfp
+2022-12-01,Snake gourd,223.0,wfp
+2023-01-01,Snake gourd,402.5,wfp
+2023-02-01,Snake gourd,222.0,wfp
+2023-03-01,Snake gourd,275.38,wfp
+2023-04-01,Snake gourd,313.1,wfp
+2023-05-01,Snake gourd,280.0,wfp
+2023-06-01,Snake gourd,362.0,wfp
+2023-07-01,Snake gourd,299.2,wfp
+2023-08-01,Snake gourd,238.38,wfp
+2023-09-01,Snake gourd,237.0,wfp
+2023-10-01,Snake gourd,280.4,wfp
+2023-11-01,Snake gourd,387.75,wfp
+2023-12-01,Snake gourd,374.88,wfp
+2024-01-01,Snake gourd,401.6,wfp
+2024-02-01,Snake gourd,381.0,wfp
+2024-03-01,Snake gourd,261.0,wfp
+2024-04-01,Snake gourd,218.75,wfp
+2024-05-01,Snake gourd,270.0,wfp
+2024-06-01,Snake gourd,365.75,wfp
+2024-07-01,Snake gourd,302.4,wfp
+2024-08-01,Snake gourd,269.0,wfp
+2024-09-01,Snake gourd,271.34,wfp
+2024-10-01,Snake gourd,288.38,wfp
+2024-11-01,Snake gourd,300.0,wfp
+2024-12-01,Snake gourd,368.34,wfp
+2025-01-01,Snake gourd,310.5,wfp
+2025-02-01,Snake gourd,344.75,wfp
+2025-03-01,Snake gourd,320.0,wfp
+2025-04-01,Snake gourd,375.0,wfp
+2025-05-01,Snake gourd,384.0,wfp
+2025-06-01,Snake gourd,297.85,wfp
+2025-07-01,Snake gourd,244.0,wfp
+2025-08-01,Snake gourd,262.09,wfp
+2025-09-01,Snake gourd,286.2,wfp
+2025-10-01,Snake gourd,296.05,cbsl_scaled
+2025-11-01,Snake gourd,409.42,cbsl_scaled
+2025-12-01,Snake gourd,565.23,cbsl_scaled
+2026-01-01,Snake gourd,403.29,cbsl_scaled
+2026-02-01,Snake gourd,260.93,cbsl_scaled
+2026-03-01,Snake gourd,236.98,cbsl_scaled
+2026-04-01,Snake gourd,319.81,cbsl_scaled
+2026-05-01,Snake gourd,448.12,cbsl_scaled
+2026-06-01,Snake gourd,409.79,cbsl_scaled
+2026-07-01,Snake gourd,337.14,cbsl_scaled
+2026-08-01,Snake gourd,311.73,cbsl_scaled
+2026-09-01,Snake gourd,326.98,cbsl_scaled
+2026-10-01,Snake gourd,449.1,cbsl_scaled
+2026-11-01,Snake gourd,528.17,cbsl_scaled
+2020-01-01,Tomatoes,297.6,wfp
+2020-02-01,Tomatoes,258.47,wfp
+2020-03-01,Tomatoes,124.61,wfp
+2020-04-01,Tomatoes,45.5,wfp
+2020-05-01,Tomatoes,68.92,wfp
+2020-06-01,Tomatoes,161.4,wfp
+2020-07-01,Tomatoes,98.0,wfp
+2020-08-01,Tomatoes,67.79,wfp
+2020-09-01,Tomatoes,132.0,wfp
+2020-10-01,Tomatoes,132.0,wfp
+2022-07-01,Tomatoes,473.21,wfp
+2022-08-01,Tomatoes,258.52,wfp
+2022-09-01,Tomatoes,278.0,wfp
+2022-10-01,Tomatoes,427.5,wfp
+2022-11-01,Tomatoes,294.4,wfp
+2022-12-01,Tomatoes,192.0,wfp
+2023-01-01,Tomatoes,250.8,wfp
+2023-02-01,Tomatoes,155.0,wfp
+2023-03-01,Tomatoes,306.54,wfp
+2023-04-01,Tomatoes,298.52,wfp
+2023-05-01,Tomatoes,263.0,wfp
+2023-06-01,Tomatoes,327.75,wfp
+2023-07-01,Tomatoes,449.8,wfp
+2023-08-01,Tomatoes,247.0,wfp
+2023-09-01,Tomatoes,204.25,wfp
+2023-10-01,Tomatoes,218.67,wfp
+2023-11-01,Tomatoes,317.38,wfp
+2023-12-01,Tomatoes,669.51,wfp
+2024-01-01,Tomatoes,675.6,wfp
+2024-02-01,Tomatoes,849.0,wfp
+2024-03-01,Tomatoes,391.0,wfp
+2024-04-01,Tomatoes,181.0,wfp
+2024-05-01,Tomatoes,191.0,wfp
+2024-06-01,Tomatoes,487.5,wfp
+2024-07-01,Tomatoes,449.6,wfp
+2024-08-01,Tomatoes,301.0,wfp
+2024-09-01,Tomatoes,269.2,wfp
+2024-10-01,Tomatoes,344.48,wfp
+2024-11-01,Tomatoes,333.75,wfp
+2024-12-01,Tomatoes,456.6,wfp
+2025-01-01,Tomatoes,410.83,wfp
+2025-02-01,Tomatoes,276.12,wfp
+2025-03-01,Tomatoes,317.6,wfp
+2025-04-01,Tomatoes,594.5,wfp
+2025-05-01,Tomatoes,887.29,wfp
+2025-06-01,Tomatoes,505.21,wfp
+2025-07-01,Tomatoes,190.0,wfp
+2025-08-01,Tomatoes,208.75,wfp
+2025-09-01,Tomatoes,240.8,wfp
+2025-10-01,Tomatoes,223.81,cbsl_scaled
+2025-11-01,Tomatoes,216.86,cbsl_scaled
+2025-12-01,Tomatoes,575.11,cbsl_scaled
+2026-01-01,Tomatoes,623.85,cbsl_scaled
+2026-02-01,Tomatoes,250.05,cbsl_scaled
+2026-03-01,Tomatoes,185.82,cbsl_scaled
+2026-04-01,Tomatoes,219.63,cbsl_scaled
+2026-05-01,Tomatoes,468.29,cbsl_scaled
+2026-06-01,Tomatoes,770.8,cbsl_scaled
+2026-07-01,Tomatoes,496.71,cbsl_scaled
+2026-08-01,Tomatoes,463.85,cbsl_scaled
+2026-09-01,Tomatoes,516.0,cbsl_scaled
+2026-10-01,Tomatoes,785.96,cbsl_scaled
+2026-11-01,Tomatoes,791.39,cbsl_scaled

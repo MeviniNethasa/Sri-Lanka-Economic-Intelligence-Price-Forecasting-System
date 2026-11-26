@@ -1,0 +1,20 @@
+effective_date,product,price_lkr_per_litre,previous_price_lkr,status,source,source_url,notes
+2026-03-09,petrol_92,317,293,gazette_text,Extraordinary Gazette 2479/27,https://www.documents.gov.lk/view/extra-gazettes/2026/3/2479-27_E.pdf,
+2026-03-09,petrol_95,365,340,gazette_text,Extraordinary Gazette 2479/27,https://www.documents.gov.lk/view/extra-gazettes/2026/3/2479-27_E.pdf,
+2026-03-09,kerosene,195,182,gazette_text,Extraordinary Gazette 2479/27,https://www.documents.gov.lk/view/extra-gazettes/2026/3/2479-27_E.pdf,
+2026-03-09,auto_diesel,,,todo_manual,Extraordinary Gazette 2479/27,https://www.documents.gov.lk/view/extra-gazettes/2026/3/2479-27_E.pdf,Diesel was Rs 303 before 2026-03-21; confirm whether 303 was set on 2026-03-09
+2026-03-21,auto_diesel,382,303,gazette_text,Extraordinary Gazette 2480/49,https://www.documents.gov.lk/view/extra-gazettes/2026/3/2480-49_E.pdf,March 2026 surge (+Rs 79)
+2026-03-21,super_diesel,443,353,news_report,Ada Derana,https://adaderana.lk/news/120058/fuel-prices-increased,+Rs 90; Lanka IOC super diesel reported separately at Rs 572
+2026-03-21,kerosene,255,195,news_report,Ada Derana,https://adaderana.lk/news/120058/fuel-prices-increased,+Rs 60
+2026-03-21,petrol_92,,,todo_manual,Extraordinary Gazette 2480/49,https://www.documents.gov.lk/view/extra-gazettes/2026/3/2480-49_E.pdf,New price not found in sources checked; hikes of Rs 60-90 reported across products
+2026-03-21,petrol_95,,,todo_manual,Extraordinary Gazette 2480/49,https://www.documents.gov.lk/view/extra-gazettes/2026/3/2480-49_E.pdf,New price not found in sources checked
+2026-04-01,petrol_92,398,,cpc_website,CPC pricing page,https://ceypetco.gov.lk/?p=1032,Snapshot from CPC site; confirm against gazette
+2026-05-02,auto_diesel,392,382,gazette_text,Extraordinary Gazette 2487/06,https://documents.gov.lk/view/egz/2026/5/2487-06_E.pdf,
+,petrol_92,414,,todo_manual,,,Implied previous price before 2026-11-01 revision; find the revision date and gazette
+,petrol_95,475,,todo_manual,,,Implied previous price before 2026-11-01 revision
+,super_diesel,528,,todo_manual,,,Implied previous price before 2026-11-01 revision
+2026-11-01,petrol_92,424,414,news_report,onlanka.com / The Morning,https://www.onlanka.com/news/sri-lanka-revises-fuel-prices-from-november-2-2026.html,Effective midnight 2026-11-01 (some outlets say 2026-11-02)
+2026-11-01,petrol_95,490,475,news_report,onlanka.com / The Morning,https://www.onlanka.com/news/sri-lanka-revises-fuel-prices-from-november-2-2026.html,
+2026-11-01,auto_diesel,397,392,news_report,onlanka.com / The Morning,https://www.onlanka.com/news/sri-lanka-revises-fuel-prices-from-november-2-2026.html,
+2026-11-01,super_diesel,543,528,news_report,onlanka.com / The Morning,https://www.onlanka.com/news/sri-lanka-revises-fuel-prices-from-november-2-2026.html,
+2026-11-01,kerosene,285,285,news_report,onlanka.com / The Morning,https://www.onlanka.com/news/sri-lanka-revises-fuel-prices-from-november-2-2026.html,Unchanged
