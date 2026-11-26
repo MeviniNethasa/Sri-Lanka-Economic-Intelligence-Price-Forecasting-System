@@ -13,7 +13,7 @@ seaborn>=0.13
 plotly>=5.24
 
 # Time series, econometrics and machine learning
-statsmodels>=0.14    # SARIMA/SARIMAX, STL, VAR, Granger causality
+statsmodels>=0.14.5  # SARIMA/SARIMAX, STL, VAR, Granger causality (0.14.5+ needed with SciPy >= 1.16)
 scipy>=1.13
 scikit-learn>=1.5    # Isolation Forest, preprocessing, metrics
 lightgbm>=4.3        # gradient-boosted forecasting models
