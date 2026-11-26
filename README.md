@@ -1,8 +1,14 @@
 # LankaEcon – Sri Lanka Economic Intelligence & Price Forecasting System
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Data pipeline
 
-Run the scripts in order from the project folder (Python 3 with `pandas`, `requests`, `PyPDF2`):
+Run the scripts in order from the project folder:
 
 ```bash
 python3 scripts/01_download_worldbank.py        # annual macro indicators
@@ -20,6 +26,18 @@ python3 scripts/08_build_fuel_prices.py         # monthly fuel price history
 The WFP files were downloaded directly from HDX:
 `wfp_food_prices_lka.csv`, `wfp_markets_lka.csv`
 (https://data.humdata.org/dataset/wfp-food-prices-for-sri-lanka).
+
+## Analysis
+
+| Notebook | Contents | Notes |
+|---|---|---|
+| [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) | Inflation & FX, commodity trends, Maha/Yala seasonality, 2022 crisis, regional comparison across 38 markets, wholesale→retail margins | [PHASE2_NOTES.md](PHASE2_NOTES.md) |
+
+Figures are saved to `reports/figures/`. Early findings:
+- **Inflation** peaked at 72.5% (Sep-2022), bottomed at −4.2% (Feb-2025) and was 8.0% by Aug-2026. **LKR/USD** is 331, 9% off its Jan-2023 peak of 364.
+- **Rice** is stable and nationally integrated. **Vegetables** are highly seasonal (Dec–Jan peak, Sep–Oct trough) and volatile. **Coconut** is still +40% in real terms vs 2023.
+- **Western Province** is the most expensive region (Colombo City +7.7%); **Jaffna** (−9.7%) and up-country producing areas are the cheapest.
+- **Dambulla wholesale → Colombo retail** markups are ~70% for vegetables, and retail prices are sticky when wholesale prices fall.
 
 ## Processed datasets (`data/processed/`)
 
