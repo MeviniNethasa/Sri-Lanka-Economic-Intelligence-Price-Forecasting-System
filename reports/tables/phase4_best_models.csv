@@ -1,0 +1,14 @@
+series,best_model,mean_MAE_h1_6,vs_naive
+Beans,naive,136.738,1.0
+CPI (cleaned),naive,1.9715,1.0
+Cabbage,lightgbm,105.5591,0.8927
+Carrots,lightgbm,174.7112,0.9109
+Coconut,naive,18.8153,1.0
+LKR/USD,naive,4.2305,1.0
+Lentils,naive,12.8021,1.0
+Onions (imported),naive,49.9477,1.0
+Potatoes (local),seasonal_naive,33.2724,0.7615
+Rice (white),naive,5.0156,1.0
+Sugar (CBSL),sarimax,8.1814,0.9268
+Tomatoes,lightgbm,193.7077,0.9399
+Wheat flour,naive,2.6392,1.0
