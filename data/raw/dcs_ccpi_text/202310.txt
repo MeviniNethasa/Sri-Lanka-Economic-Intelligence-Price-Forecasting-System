@@ -1,0 +1,48 @@
+#SOURCE https://www.statistics.gov.lk/qlink/PressRelease/CCPI_20231031E
+ 
+ 
+ 
+ 
+ 
+
+0.07 0.00 0.01
+ 
+
+
+
+
+     
+Non Food 5635.27 4.42 1.16 3.25
+Alcoholic beverages Tobacco and Narcotic 567.12 0.33
+Arrack 230.81 0.13
+Whiskey 84.37 0.05
+Beer 24.88 0.01
+Cigarettes 296.20 0.17
+Clothing and Foot wear 762.74 0.44
+Clothing 690.04 0.40
+Footw ear 72.70 0.04
+Housing, Water, Electricity, Gas and Other 
+Fuels 4445.60 2.57
+Maintenance/ Reconstruction -766.93 0.44
+Water bills 1458.31 0.84
+Electricity bill 4668.12 2.69
+L. P. Gas -782.10 0.45
+Kerosene oil -131.79 0.08
+Furnishing Household Equipment and Routine 
+Household Maintenance -130.07 0.08
+Health 356.19 0.21
+Purchase of medical/ pharmacy products 36.74 0.02
+Consultation fees to specialists 94.03 0.05
+Transport -1741.51 1.01
+Petrol -1095.55 0.63
+Diesel -223.23 0.13
+Communication 60.82 0.04
+Recreation and Culture 474.40 0.27
+Education 867.25 0.50
+Restaurant and hotels -141.99 0.08
+Miscellaneous Goods and Services 114.73 0.07
+All Items 2586.98 4.73 3.24 1.49
+
+CCPI
+
+

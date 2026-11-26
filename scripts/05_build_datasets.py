@@ -5,14 +5,16 @@ Outputs
   commodity_prices_national_monthly.csv  median across markets, wide-ish long format
   cbsl_daily_prices.csv                CBSL daily wholesale/retail prices (cleaned)
   cbsl_prices_monthly.csv              CBSL daily prices averaged to month
-  macro_monthly.csv                    CPI, exchange rate, interest rates, world prices
+  macro_monthly.csv                    CPI (reconciled with DCS CCPI), exchange rate, interest rates, world prices
+  cpi_reconciliation.csv               raw IMF CPI vs official DCS CCPI, month by month
   macro_annual.csv                     World Bank WDI indicators
   analysis_panel_monthly.csv           key national commodity prices joined to macro_monthly
 """
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
+
+from cpi_fix import load_dcs_ccpi, reconcile, reconciliation_table
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW, OUT = ROOT / "data" / "raw", ROOT / "data" / "processed"
@@ -80,13 +82,25 @@ def imf_series(fname: str, filt: dict, name: str) -> pd.Series:
 
 
 def build_macro_monthly() -> pd.DataFrame:
-    s = []
+    # Raw IMF CPI. It switches from NCPI to CCPI in 2024-09; cpi_fix.reconcile()
+    # rebuilds the headline columns from official DCS CCPI (see PHASE1_NOTES.md).
     cpi = "imf_cpi_lka.csv"
-    s.append(imf_series(cpi, {"COICOP_1999": "_T", "TYPE_OF_TRANSFORMATION": "SRP_IX"}, "cpi_headline_index"))
-    s.append(imf_series(cpi, {"COICOP_1999": "_T", "TYPE_OF_TRANSFORMATION": "SRP_YOY_PCH_PA_PT"}, "inflation_yoy_pct"))
-    s.append(imf_series(cpi, {"COICOP_1999": "_T", "TYPE_OF_TRANSFORMATION": "SRP_POP_PCH_PA_PT"}, "inflation_mom_pct"))
-    s.append(imf_series(cpi, {"COICOP_1999": "CP01", "TYPE_OF_TRANSFORMATION": "IX"}, "cpi_food_index"))
-    s.append(imf_series(cpi, {"COICOP_1999": "CP01", "TYPE_OF_TRANSFORMATION": "YOY_PCH_PA_PT"}, "food_inflation_yoy_pct"))
+    imf = pd.concat([
+        imf_series(cpi, {"COICOP_1999": "_T", "TYPE_OF_TRANSFORMATION": "SRP_IX"}, "imf_cpi_index_raw"),
+        imf_series(cpi, {"COICOP_1999": "_T", "TYPE_OF_TRANSFORMATION": "IX"}, "imf_cpi_index_2021_raw"),
+        imf_series(cpi, {"COICOP_1999": "_T", "TYPE_OF_TRANSFORMATION": "SRP_YOY_PCH_PA_PT"}, "imf_inflation_yoy_raw"),
+        imf_series(cpi, {"COICOP_1999": "_T", "TYPE_OF_TRANSFORMATION": "SRP_POP_PCH_PA_PT"}, "imf_inflation_mom_raw"),
+        imf_series(cpi, {"COICOP_1999": "CP01", "TYPE_OF_TRANSFORMATION": "IX"}, "imf_cpi_food_index_raw"),
+        imf_series(cpi, {"COICOP_1999": "CP01", "TYPE_OF_TRANSFORMATION": "YOY_PCH_PA_PT"}, "imf_food_inflation_yoy_raw"),
+    ], axis=1)
+    dcs = load_dcs_ccpi()
+    rec = reconciliation_table(imf, dcs)
+    if len(rec):
+        rec.to_csv(OUT / "cpi_reconciliation.csv")
+    cpi_df = reconcile(imf, dcs)
+    lead = ["cpi_headline_index", "inflation_yoy_pct", "inflation_mom_pct", "inflation_source",
+            "cpi_break_flag", "cpi_food_index", "food_inflation_yoy_pct"]
+    s = [cpi_df[lead + [c for c in cpi_df.columns if c not in lead]]]
 
     fx = pd.read_csv(RAW / "fred_lkr_usd_monthly.csv")
     s.append(pd.Series(fx["lkr_per_usd"].values, index=month(fx["date"]), name="lkr_per_usd"))
@@ -155,9 +169,10 @@ def coverage_report() -> None:
     for f in sorted(OUT.glob("*.csv")):
         if f.name == "coverage_report.csv":
             continue
-        d = pd.read_csv(f)
-        key = "date" if "date" in d else "year"
-        lines.append(f"{f.name},{len(d)},{d.shape[1]},{d[key].min()},{d[key].max()}")
+        d = pd.read_csv(f, low_memory=False)
+        key = next((k for k in ("date", "year", "effective_date") if k in d), None)
+        lo, hi = (d[key].min(), d[key].max()) if key else ("", "")
+        lines.append(f"{f.name},{len(d)},{d.shape[1]},{lo},{hi}")
     (OUT / "coverage_report.csv").write_text("\n".join(lines) + "\n")
 
 

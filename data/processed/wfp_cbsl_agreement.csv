@@ -1,0 +1,24 @@
+commodity,cbsl_item,match_confidence,wfp_last_month,overlap_months,median_ratio_wfp_to_cbsl,mape_level_adjusted_pct,corr_levels,corr_mom_changes,colombo_overlap_months,colombo_median_ratio,colombo_corr_levels,extend_with_cbsl,extend_reason
+Beans,Beans,high,2025-09,33,1.154,9.0,0.915,0.708,28,0.936,0.955,True,changes_track
+Cabbage,Cabbage,high,2025-09,33,1.238,10.5,0.981,0.589,28,0.939,0.984,True,changes_track
+Carrots,Carrot,high,2025-09,33,1.252,9.2,0.991,0.864,28,0.96,0.988,True,changes_track
+Tomatoes,Tomato,high,2025-09,33,1.215,9.5,0.976,0.83,28,1.009,0.995,True,changes_track
+Eggplants,Brinjal,high,2025-09,33,0.997,6.1,0.962,0.946,28,0.888,0.966,True,changes_track
+Pumpkin,Pumpkin,high,2025-09,33,1.253,12.6,0.926,0.453,28,1.212,0.961,False,not_extended
+Snake gourd,Snake gourd,high,2025-09,33,1.1,7.4,0.819,0.646,28,0.932,0.874,True,changes_track
+Coconut,Coconut (Avg.),high,2025-09,33,0.779,8.3,0.904,0.681,28,0.845,0.956,True,changes_track
+Eggs,Egg (White),medium,2025-09,33,1.062,4.2,0.934,0.772,28,1.054,0.978,True,changes_track
+Lentils,Red Dhal,high,2025-09,33,1.019,2.3,0.873,-0.101,28,1.047,0.793,True,levels_within_5pct
+Onions (imported),Big Onion (Imp),high,2025-09,33,1.066,5.7,0.993,0.807,28,1.037,0.991,True,changes_track
+"Onions (red, local)",Red Onion (Local),high,2025-09,31,1.23,24.9,0.258,0.352,7,0.957,0.881,False,not_extended
+"Onions (red, imported)",Red Onion (Imp),high,2025-09,29,1.044,10.6,0.754,0.55,22,0.897,0.322,True,changes_track
+Potatoes (local),Potato (Local),high,2025-09,33,1.098,6.4,0.813,0.68,28,1.009,0.586,True,changes_track
+Potatoes (imported),Potato (Imp),high,2025-09,33,1.086,4.5,0.889,0.479,28,1.062,0.752,True,levels_within_5pct
+"Chili (red, dry raw)",Dried Chilli (Imp),medium,2025-09,33,1.057,4.9,0.93,0.098,28,1.118,0.97,True,levels_within_5pct
+"Fish (dry, katta)",Katta (Imp),medium,2025-09,22,0.936,5.5,0.071,0.272,19,0.849,0.63,False,not_extended
+"Fish (dry, sprats)",Sprat (Imp),medium,2025-09,33,0.939,9.1,0.473,0.054,27,0.865,0.609,False,not_extended
+Papaya,Papaw,high,2025-09,33,1.009,7.7,0.902,0.822,28,0.949,0.968,True,changes_track
+Pineapples,Pineapple,medium,2025-09,33,0.931,8.8,0.795,0.665,28,0.803,0.929,True,changes_track
+Bananas,Banana (Sour),medium,2025-09,33,0.997,10.3,0.755,0.405,28,0.863,0.934,False,not_extended
+Rice (white),Nadu,medium,2025-09,28,1.098,3.9,0.491,0.058,27,1.103,0.582,True,levels_within_5pct
+Rice (medium grain),Samba,medium,2025-09,28,0.943,3.5,0.084,0.116,20,0.974,0.671,True,levels_within_5pct

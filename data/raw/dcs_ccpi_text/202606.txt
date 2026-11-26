@@ -1,0 +1,184 @@
+#SOURCE https://www.statistics.gov.lk/qlink/PressRelease/CCPI_20260630E
+ 
+ 
+ 
+
+ 
+
+ 
+1 Rice -76.49    0.04   
+  Rice - (Kekulu white)  -17.30    0.01   
+  Rice - (Kekulu - red) -26.75    0.01   
+  Rice - (Samba)  -25.10    0.01   
+2 Cake  -14.03    0.01   
+3 Chicken  -41.94    0.02   
+4 Sea Fish  1417.95  0.76     
+5 Dried Fish  86.40  0.05     
+  Sprats (dry)  48.48  0.03     
+  Katta (dry)  36.27  0.02     
+6 Milk packets (liquid)  57.32  0.03     
+7 Eggs  140.15  0.07     
+8 Coconuts  -61.47    0.03   
+9 Butter  9.42 0.01     
+10 Coconut oil  -53.03    0.03   
+11 Fresh Fruits  -48.03    0.03   
+  Banana - Ambul   -16.07    0.01   
+  Banana - Kolikuttu  -23.57    0.01   
+  Papaw  11.76  0.01     
+12 Vegetables  656.65  0.35     
+13 Potatoes  36.42  0.02     
+14 Dhal - Mysore  -29.08    0.02   
+15 Red onions  37.59  0.02     
+16 Big Onion  103.08  0.06     
+17 Garlic  10.73  0.01     
+18 Green chilies  111.50  0.06     
+19 Sugar  36.89  0.02     
+20 Chili powder  27.78  0.01     
+21 Limes  87.13  0.05     
+22 Curry leaves  52.09  0.03     
+23 Fruit drinks  46.90  0.03     
+24 Others  78.41  0.04     
+1272.91  0.73 0.05 0.68 
+25 Alcoholic beverages Tobacco and 
+Narcotic  -45.83    0.02   
+  Beetle leaves  -57.60    0.03   
+26 Housing,Water,Electricity,Gas,And 
+Other Fuels  75.86  0.04     
+  Materials for Maintenance  21.34  0.01     
+  L. P. Gas  32.10  0.02     
+  Kerosene oil  22.42  0.01     
+27 Furnishing Household Equipment and 
+Routine Household Maintenance  45.86  0.02     
+28 Transport  1206.52  0.65     
+  Motor Cars  358.92  0.19     
+  Petrol  467.94  0.25     
+  Diesel  40.71  0.02     
+  Lubricating oil  43.86  0.02     
+  Cost of servicing of vehicles  21.03  0.01     
+  Van fare (other than schooling)  18.91  0.01     
+  three wheelers fare (other than schooling)  25.49  0.01     
+  Transport for schooling/ pre -schooling  207.87  0.11     
+29 Recreation and Culture  -41.46    0.02   
+30 Restaurant and Hotels  24.16  0.01     
+31 Others  7.80 0.00     
+3945.26  2.33 0.22 2.11 
+
+‘
+ ’
+Sub Group/Commodity  Value 
+Change  Increase  Decrease  Net 
+effect  
+Rs.Cts.  % % % 
+FOOD AND NON -ALCOHOLIC  BEVERAGES  2126.56  2.31 1.12 1.19 
+          
+Rice -226.41    0.13   
+Rice flour  37.90  0.02     
+Ulundu flour  -14.29    0.01   
+Green gram  22.77  0.01     
+Gram  -17.28    0.01   
+Cowpea  14.69  0.01     
+Bread (Normal)  46.21  0.03     
+Buns  20.52  0.01     
+Bread (Special)  12.53  0.01     
+Noodles  -23.20    0.01   
+Chicken  353.79  0.20     
+Beef 32.03  0.02     
+Pork 27.44  0.02     
+Mutton  18.14  0.01     
+Sea fish  948.71  0.53     
+Prawns  33.56  0.02     
+Dried Fish  409.46  0.23     
+Maldives fish  22.30  0.01     
+Milk packets (liquid)  52.46  0.03     
+Cow milk  35.67  0.02     
+Milk powder  406.83  0.23     
+Infant milk powder  40.41  0.02     
+Yoghurt  79.55  0.04     
+Cheese  11.87  0.01     
+Curd  34.18  0.02     
+Eggs  103.68  0.06     
+Coconuts  -927.43    0.52   
+Margarine  17.20  0.01     
+Coconut oil  17.21  0.01     
+Fresh Fruits  295.66  0.17     
+Vegetable  89.34  0.05     
+Potatoes  -46.82    0.03   
+Big Onions  387.48  0.22     
+Garlic  -30.15    0.02   
+Green chilies  -41.75    0.02   
+Ice-cream  25.30  0.01     
+Juggery  -11.72    0.01   
+Chili powder  116.86  0.07     
+Pepper  12.09  0.01     
+Dried chilies  166.52  0.09     
+Curry powder (Sarakku)  31.49  0.02     
+Salt -275.88    0.15   
+Turmeric powder  -53.03    0.03   
+Limes  72.66  0.04     
+Curry leaves  9.70 0.01     
+Cinnamon  15.86  0.01     
+Tamarind  -73.62    0.04   
+Ginger  -158.41    0.09   
+Coffee powder  40.23  0.02     
+Tea dust  -78.12    0.04   
+Soft drinks  22.09  0.01     
+Fruit drinks  -28.68    0.02   
+Others           48.92   0.03     
+     
+NON -FOOD  9980.48  5.61 0.02 5.58 
+          
+Alcoholic beverages Tobacco and Narcotic  62.36  0.03     
+Clothing and Foot Wear  68.47  0.04     
+Clothing  56.60  0.03     
+Footwear  11.87  0.01     
+Housing, Water, Electricity, Gas and Other Fuels  2441.25  1.37     
+Housing rent  564.47  0.32     
+Materials for Maintenance  103.33  0.06     
+Electricity bill  754.37  0.42     
+L. P. Gas  885.65  0.50     
+Kerosene oil  133.43  0.07     
+Furnishing Household Equipment and Routine Household 
+Maintenance  265.03  0.15     
+Washing powder  -25.86    0.01   
+Wages to servants  174.33  0.10     
+Health  284.65  0.16     
+Fees to private medical practices  159.19  0.09     
+Consultation fees to specialists  76.65  0.04     
+Fees to Aurvadic practitioners  10.38  0.01     
+Payments. to medical laboratories  17.54  0.01     
+Payments to private hospitals  16.18  0.01     
+Transport  4817.07  2.70     
+Motor Cars  358.92  0.20     
+Three Wheelers  8.98 0.01     
+Petrol  3070.87  1.72     
+Diesel  392.89  0.22     
+Lubricating oil  111.54  0.06     
+Cost of servicing of vehicles  239.48  0.13     
+Bus fare  211.62  0.12     
+Van fare (other than schooling)  36.71  0.02     
+Taxi fare (other than  schooling)  32.14  0.02     
+three wheelers fare (other than schooling ) 59.66  0.03     
+Transport for schooling/ pre-schooling  239.76  0.13     
+Air lines fees  46.68  0.03     
+Communication  11.60  0.01     
+Recreation and Culture  -44.14    0.02   
+Television  -64.63    0.04   
+Cinemas  16.12  0.01     
+Education  555.12  0.31     
+Pre-school fees (K.G)  29.14  0.02     
+Primary School fees (International)  57.38  0.03     
+Tuition fees  125.57  0.07     
+Secondary school fees (International)  160.82  0.09     
+Course fees (Higher education)  161.37  0.09     
+Course fees vocational training  20.84  0.01     
+Restaurant and hotels  1185.86  0.66     
+Miscellaneous Goods and Services  333.21  0.19     
+Hair cutting and shaving charges  54.40  0.03     
+Hair dressing and Beauty culture services  16.93  0.01     
+Hand bags  55.17  0.03     
+Insurance/ Agrahara  203.49  0.11     
+          
+All Items  12107.03  7.90 1.12 6.77 
+Table 05: Monthly average open market retail prices of selected items of Colombo Consumer Price Index 
+June 2025, May 2026 & June 2026  
+

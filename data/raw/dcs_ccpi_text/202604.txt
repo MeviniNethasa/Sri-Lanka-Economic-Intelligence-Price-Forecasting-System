@@ -1,0 +1,214 @@
+#SOURCE https://www.statistics.gov.lk/qlink/PressRelease/CCPI_20260430E
+ 
+ 
+ 
+
+ 
+ 
+1 Rice 71.56  0.04     
+  Rice - (Kekulu - red) -22.94   0.01   
+  Rice - (Samba) 90.69 0.05     
+2 Green gram 135.23  0.08     
+3 Bread (Normal) 27.17  0.02     
+4 Buns 22.78  0.01     
+5 Chicken 23.90  0.01     
+6 Sea Fish 64.95  0.04     
+7 Dried Fish 166.04  0.09     
+  Sprats (dry) 81.86 0.05     
+  Katta (dry) 68.03 0.04     
+8 Canned fish  9.83 0.01     
+9 Milk powder  58.25 0.03     
+10 Infant milk powder 40.41  0.02     
+11 Eggs 71.85  0.04     
+12 Coconut oil 184.29  0.10     
+13 Fresh fruits -169.11    0.09    
+  Banana  60.23 0.03     
+  Papaw -190.01   0.11   
+  Apple 19.77 0.01     
+  Mangoes -52.56   0.03   
+  Oranges 9.10 0.01     
+  Pineapple -14.77   0.01   
+14 Vegetables 182.03  0.10     
+15 Dhal - Mysore 124.01 0.07     
+16 Big Onion  14.87 0.01     
+17 Sugar 28.54  0.02     
+18 Jaggery -17.14    0.01    
+19 Dried chilies 29.14  0.02     
+20 Curry powder  9.56  0.01     
+21 Limes 26.88  0.01     
+22 Tea dust/ leaves -64.05    0.04    
+23 Others -34.17    0.02    
+4374.12 2.43 0.00 2.43 
+24 Alcoholic beverages Tobacco and 
+Narcotic 49.82 0.03     
+25 Housing,Water,Electricity,Gas,And Other 
+Fuels 883.61 0.49     
+  Electricity bill 231.18 0.13     
+  LP Gas  393.05 0.22     
+  Kerosene oil  57.04 0.03     
+26 Furnishing Household Equipment and 
+Routine Household Maintenance 10.46 0.01     
+27 Health 20.55 0.01     
+  Payments to private hospitals/ nursing homes 11.75 0.01     
+28 Transport 2640.48  1.47     
+  Petrol  2074.05 1.15     
+  Diesel 270.00 0.15     
+  Lubricating oil 30.63 0.02     
+  bus fare 213.62 0.12     
+  three wheelers fare (other than schooling) 59.66 0.03     
+  Airline fare -15.94   0.01   
+29 Education 129.67  0.07     
+  Course fees (Higher education) 129.67 0.07     
+30 Restaurant and Hotels 633.44  0.35     
+31 Others 6.08  0.00     
+    
+5380.92 3.15 0.16 2.99 
+ ‘ ’
+Sub Group/Commodity Value Change Increase Decrease  Net 
+effect 
+Rs.Cts. % % % 
+FOOD AND NON ALCOHOLIC BEVERAGES 1617.84      0.92  
+          
+Rice 68.47 0.04     
+Rice flour  37.90 0.02     
+Wheat flour  9.87 0.01     
+Ulundu flour -17.17    0.01    
+Gram -18.94    0.01    
+Cowpea 20.52  0.01     
+Bread (Normal) 22.78  0.01     
+Buns 15.59 0.01     
+Bread (Special)  9.65 0.01     
+Noodles -31.89   0.02   
+Chicken 415.84 0.24     
+Beef 30.12 0.02     
+Pork 59.08 0.03     
+Mutton 20.77 0.01     
+Sea fish 1051.92 0.60     
+Prawns 48.02 0.03     
+Dried Fish 422.41  0.24     
+Canned fish  27.03  0.02     
+Maldives fish 26.95  0.02     
+Milk powder 362.25  0.21     
+Infant milk powder  15.99 0.01     
+Yoghurt -34.64   0.02   
+Eggs 166.36 0.09     
+Coconuts  -566.23   0.32   
+Coconut oil  270.95 0.15     
+Fresh fruits  311.55 0.18     
+Vegetable  -1080.68   0.62   
+Potatoes -27.78    0.02    
+Dhal Mysore 51.24  0.03     
+Red onions -46.36    0.03    
+Big Onions 80.97  0.05     
+Garlic -62.91   0.04   
+Green chilies -179.78    0.10    
+Soya meat  -10.81   0.01   
+Ice-cream 33.51 0.02     
+Chili powder 59.61 0.03     
+Dried chilies  146.53 0.08     
+Curry powder  35.26 0.02     
+Salt -45.24   0.03   
+Turmeric powder  -44.93   0.03   
+Tamarind  -105.97   0.06   
+Ginger -121.00   0.07   
+Tea dust/ leaves -64.95   0.04   
+Soft drinks 38.86 0.02     
+Fruit drinks/ Cordials -68.38   0.04    
+          
+NON FOOD 7952.19  4.53 0.00 4.53 
+          
+Alcoholic beverages Tobacco and Narcotic 77.58 0.04     
+Clothing and Foot Wear 180.16 0.10     
+Clothing  171.14 0.10     
+Footwear 9.02 0.01     
+Housing, Water, Electricity, Gas and Other Fuels  2099.28 1.19     
+Housing rent  564.47 0.32     
+Electricity bill  912.54 0.52     
+L. P. Gas  535.60 0.30     
+Kerosene oil  94.18 0.05     
+Furnishing Household Equipment and Routine 
+Household Maintenance  176.42 0.10     
+Washing powder  -41.38   0.02   
+Wages to servants  174.33 0.10     
+Health 264.66 0.15     
+Fees to private medical practices 159.19 0.09     
+Consultation fees to specialists 46.76 0.03     
+Fees to Aurvadic practitioners 10.38 0.01     
+Payments. to medical laboratories 16.30 0.01     
+Payments to private hospitals 26.90 0.02     
+Transport  3019.43 1.72     
+Petrol  2186.98 1.24     
+Diesel 291.82 0.17     
+Lubricating oil 30.63 0.02     
+Cost of servicing of vehicles 124.62 0.07     
+Vehicle maintenance expenses (Repair  charges)  15.64 0.01     
+Bus fare 203.71 0.12     
+Van fare (other than schooling)  31.67 0.02     
+three wheelers fare (other than schooling ) 59.66 0.03     
+Transport for schooling/ preschooling  31.89 0.02     
+Airline fare 27.64 0.02     
+Communication  33.23 0.02     
+Telephones 24.99 0.01     
+Recreation and Culture 21.86 0.01     
+Education 555.12 0.32     
+Pre-school fees  29.14 0.02     
+Primary School fees (International) 57.38 0.03     
+Tuition fees 125.57 0.07     
+Secondary school fees (International) 160.82 0.09     
+Course fees (Higher education) 161.37 0.09     
+Course fees vocational training  20.84 0.01     
+Restaurant and hotels 1183.48 0.67     
+Miscellaneous Goods and Services  340.96 0.19     
+Hair cutting and shaving charges  54.40 0.03     
+Hair dressing and Beauty culture services  16.93 0.01     
+Hand bags  63.70 0.04     
+Agrahara Insurance  203.49 0.12     
+          
+All Items 9570.03      5.4  
+Table 05: Monthly average open market retail prices of selected items of Colombo Consumer Price Index 
+April 2025, March 2026 & April 2026 
+1. Rice– Kekulu – Red Kg 222.96 208.42 204.99 -0.08 -0.02 
+2. Rice– Kekulu – White Kg 219.57 216.19 217.32 -0.01 0.01 
+3. Rice –Nadu  - White       Kg 228.39 229.66 229.01 0.00 0.00 
+4. Rice –Nadu  - Red   Kg 244.73 236.11 235.09 -0.04 0.00 
+5. Rice– Samba Kg 249.07 263.88 275.10 0.10 0.04 
+6. Cowpea Kg 813.85 932.67 935.51 0.15 0.00 
+7.Green Grams Kg 859.63 795.79 889.44 0.03 0.12 
+8. Coconut Each 196.73 170.56 170.40 -0.13 0.00 
+9. Coconut Oil 750ml 629.19 667.59 749.26 0.19 0.12 
+10.Chicken Kg 1144.58 1270.49 1325.66 0.16 0.04 
+11. Eggs Each 32.14 36.99 40.68 0.27 0.10 
+12. Red Onion Kg 439.58 371.06 379.57 -0.14 0.02 
+13.  Big Onion Kg 166.36 185.07 189.28 0.14 0.02 
+14.  Potatoes Kg 289.88 277.27 276.89 -0.04 0.00 
+15.  Garlic Kg 659.47 549.12 548.44 -0.17 0.00 
+16.  Dried Chilies Kg 815.21 1063.96 1125.70 0.38 0.06 
+17.  Green  Chilies Kg 897.12 561.38 574.72 -0.36 0.02 
+18.  Sugar Kg 238.87 225.23 232.95 -0.02 0.03 
+19. Pepper Kg 2739.60 2838.28 2843.75 0.04 0.00 
+Vegetables-             
+20.  Ash Plantain Kg 277.36 292.69 293.42 0.06 0.00 
+21.  Carrot Kg 660.95 425.81 452.64 -0.32 0.06 
+22.  Snake Gourd Kg 488.84 358.67 356.39 -0.27 -0.01 
+23.  Tomatoes Kg 525.15 255.82 245.27 -0.53 -0.04 
+24.  Capsicum Kg 915.29 601.16 484.00 -0.47 -0.19 
+25.  Beetroot Kg 469.16 344.55 323.40 -0.31 -0.06 
+26.  Beans Kg 661.92 506.55 518.25 -0.22 0.02 
+Fruits             
+27.  Banana Kg 262.91 249.33 268.19 0.02 0.08 
+28.  Papaw Kg 231.53 425.21 340.71 0.47 -0.20 
+29.  Mangoes Each 287.48 236.27 195.06 -0.32 -0.17 
+Fresh Fish –             
+30.  Seer Kg 2902.89 3917.80 3728.02 0.28 -0.05 
+31.Talapath Kg 2522.59 2853.54 2676.96 0.06 -0.06 
+32.Paraw Kg 2119.73 2658.05 2621.63 0.24 -0.01 
+Dried Fish -             
+33.Katta Kg 2410.15 2578.23 2840.20 0.18 0.10 
+34. Sprats Kg 1028.59 1363.83 1514.94 0.47 0.11 
+Fuel -             
+35. Kerosene Oil Lt 183.00 211.39 255.00 0.39 0.21 
+36 .Petrol (CPC & IOC) Lt 301.86 306.82 398.00 0.32 0.30 
+37.  Diesel (CPC & IOC) Lt 286.00 293.18 382.00 0.34 0.30 
+38.  Gas-  Avg. 12.5kg 3762.50 3978.57 4574.38 0.22 0.15 
+              Litro 12.5kg 3690.00 3818.57 4377.50 0.19 0.15 
+             Laughs 12.5kg 3980.00 4458.57 5165.00 0.30 0.16 
