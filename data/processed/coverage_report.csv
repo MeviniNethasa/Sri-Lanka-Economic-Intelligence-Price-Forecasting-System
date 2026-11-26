@@ -1,0 +1,8 @@
+file,rows,cols,start,end
+analysis_panel_monthly.csv,274,47,2004-01-01,2026-10-01
+cbsl_daily_prices.csv,125853,7,2023-01-02,2026-11-25
+cbsl_prices_monthly.csv,7687,7,2023-01-01,2026-11-01
+commodity_prices_market_monthly.csv,34067,12,2004-01-01,2025-09-01
+commodity_prices_national_monthly.csv,2627,10,2004-01-01,2025-09-01
+macro_annual.csv,36,23,1990,2025
+macro_monthly.csv,322,25,2000-01-01,2026-10-01

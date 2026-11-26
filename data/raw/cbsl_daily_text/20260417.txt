@@ -1,0 +1,55 @@
+Wholesale and Retail Prices: Selected Food Commodities  -
+Yesterday Today Yesterday Today Yesterday Today Yesterday Today Yesterday Today
+Beans Rs./kg n.a. n.a. 275.00            135.00        n.a. n.a. 305.00            165.00       n.a. n.a.
+Carrot Rs./kg n.a. n.a. 275.00            275.00        n.a. n.a. 305.00            305.00       n.a. n.a.
+Cabbage Rs./kg n.a. n.a. 105.00            85.00           n.a. n.a. 135.00            115.00       n.a. n.a.
+Tomato Rs./kg n.a. n.a. 125.00            70.00           n.a. n.a. 155.00            100.00       n.a. n.a.
+Brinjal Rs./kg n.a. n.a. 145.00            145.00        n.a. n.a. 175.00            175.00       n.a. n.a.
+Pumpkin Rs./kg n.a. n.a. 45.00              58.00           n.a. n.a. 75.00              88.00          n.a. n.a.
+Snake gourd Rs./kg n.a. n.a. n.a. 110.00        n.a. n.a. n.a. 140.00       n.a. n.a.
+Green Chilli Rs./kg n.a. n.a. 190.00            175.00        n.a. n.a. 220.00            205.00       n.a. n.a.
+Lime Rs./kg n.a. n.a. 325.00            225.00        n.a. n.a. 355.00            255.00       n.a. n.a.
+Red Onion (Local) Rs./kg n.a. n.a. 275.00            200.00        n.a. n.a. 295.00            220.00       n.a. n.a.
+Red Onion (lmp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Big Onion (Local) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Big Onion (Imp) Rs./kg n.a. n.a. 125.00            143.00        n.a. n.a. 145.00            163.00       n.a. n.a.
+Potato (Local) Rs./kg n.a. n.a. 225.00            210.00        n.a. n.a. 165.00            230.00       n.a. n.a.
+Potato (Imp) Rs./kg n.a. n.a. 145.00            138.00        n.a. n.a. 165.00            158.00       n.a. n.a.
+Dried Chilli (Imp) Rs./kg n.a. n.a. 955.00            945.00        n.a. n.a. 985.00            975.00       n.a. n.a.
+Coconut (Avg.) Rs./Nut n.a. n.a. 115.00            105.00        n.a. n.a. 120.00            110.00       n.a. n.a.
+Coconut oil Rs./Ltr n.a. n.a. n.a. n.a. n.a. n.a.
+Red Dhal Rs./kg n.a. n.a. n.a. n.a. n.a. n.a.
+Sugar (White) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a.
+Egg (White) Rs./Each n.a. n.a. n.a. n.a. n.a. n.a.
+Katta (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a.
+Sprat (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a.
+Banana (Sour) Rs./kg n.a. n.a. 125.00            110.00        n.a. n.a. 155.00            140.00       n.a. n.a.
+Papaw Rs./kg n.a. n.a. 145.00            155.00        n.a. n.a. 175.00            185.00       n.a. n.a.
+Pineapple Rs./kg n.a. n.a. 315.00            255.00        n.a. n.a. 345.00            285.00       n.a. n.a.
+Apple (Imp) Rs./Each n.a. n.a. n.a. n.a.
+Orange (Imp) Rs./Each n.a. n.a. n.a. n.a.
+Samba Rs./kg n.a. n.a. 253.00            253.00        n.a. n.a. 245.00            245.00       n.a. n.a.
+Nadu Rs./kg n.a. n.a. 211.00            211.00        n.a. n.a. 235.00            235.00       n.a. n.a.
+Kekulu (White) Rs./kg n.a. n.a. 199.00            199.00        n.a. n.a. 209.00            209.00       n.a. n.a.
+Kekulu (Red) Rs./kg n.a. n.a. 198.00            198.00        n.a. n.a. 208.00            208.00       n.a. n.a.
+Ponni Samba (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Nadu (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Kekulu (White) (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Kelawalla Rs./kg n.a. 1,700.00     n.a. 1,150.00     n.a. 1,790.00    n.a. n.a.
+Thalapath Rs./kg n.a. 1,600.00     n.a. 1,700.00     n.a. 2,370.00    n.a. n.a.
+Balaya Rs./kg n.a. 1,000.00     n.a. n.a. n.a. n.a. n.a. n.a.
+Paraw Rs./kg n.a. 1,200.00     n.a. n.a. n.a. n.a. n.a. n.a.
+Salaya Rs./kg n.a. 250.00        n.a. 350.00        n.a. 460.00       n.a. n.a.
+Hurulla Rs./kg n.a. 1,100.00     n.a. n.a. n.a. n.a. n.a. n.a.
+Linna Rs./kg n.a. 1,000.00     n.a. n.a. n.a. n.a. n.a. n.a.
+n.a. - Price is not reported in the respective market
+* Pettah and Narahenpita Markets are closed today.
+ Price increased by more than 5% compared to yesterday
+ Price decreased by more than 5% compared to yesterday17 April, 2026
+Pettah* Dambulla Narahenpita*Item UnitWholesale Prices Retail Prices
+Pettah* Dambulla 
+Peliyagoda Negombo NegomboV  E  G  E  T  A  B  L  E  S
+O  T  H  E  R
+R  I  C  E
+F  I  S  HF  R  U  I  T  S
+Marandagahamula

@@ -1,0 +1,53 @@
+Wholesale and Retail Prices: Selected Food Commodities   -
+Yesterday Today Yesterday Today Yesterday Today Yesterday Today Yesterday Today
+Beans Rs./kg 650.00             600.00        450.00            475.00        700.00            650.00          480.00            505.00        700.00            700.00           
+Carrot Rs./kg 250.00             300.00        205.00            290.00        300.00            350.00          235.00            320.00        400.00            400.00           
+Cabbage Rs./kg 130.00             150.00        115.00            125.00        180.00            200.00          145.00            155.00        320.00            320.00           
+Tomato Rs./kg 120.00             120.00        90.00              90.00           170.00            170.00          120.00            120.00        200.00            200.00           
+Brinjal Rs./kg 300.00             300.00        225.00            240.00        350.00            350.00          255.00            270.00        480.00            480.00           
+Pumpkin Rs./kg 80.00               80.00           55.00              55.00           120.00            120.00          85.00              85.00           120.00            120.00           
+Snake gourd Rs./kg 130.00             130.00        90.00              90.00           180.00            180.00          120.00            120.00        360.00            360.00           
+Green Chilli Rs./kg 200.00             200.00        240.00            225.00        250.00            250.00          270.00            255.00        600.00            600.00           
+Lime Rs./kg 150.00             200.00        165.00            165.00        200.00            250.00          195.00            195.00        500.00            500.00           
+Red Onion (Local) Rs./kg 300.00             270.00        245.00            n.a. 300.00            300.00          265.00            n.a. n.a. n.a.
+Red Onion (lmp) Rs./kg n.a. 210.00        240.00            245.00        n.a. n.a. 260.00            265.00        520.00            520.00           
+Big Onion (Local) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Big Onion (Imp) Rs./kg 100.00             91.00           98.00              105.00        130.00            130.00          118.00            125.00        140.00            140.00           
+Potato (Local) Rs./kg 325.00             340.00        290.00            290.00        400.00            400.00          310.00            310.00        440.00            440.00           
+Potato (Imp) Rs./kg 160.00             157.00        145.00            n.a. 200.00            200.00          165.00            n.a. 200.00            200.00           
+Dried Chilli (Imp) Rs./kg 525.00             525.00        545.00            375.00        600.00            600.00          575.00            405.00        800.00            800.00           
+Coconut (Avg.) Rs./Nut 160.00             165.00        105.00            113.00        175.00            175.00          110.00            118.00        165.00            165.00           
+Coconut oil Rs./Ltr 810.00             810.00        867.00            867.00          866.00            866.00           
+Red Dhal Rs./kg 245.00             245.00        270.00            270.00          280.00            280.00           
+Sugar (White) Rs./kg 209.00             209.00        220.00            220.00          240.00            240.00           
+Egg (White) Rs./Each 28.00               28.00           28.50              28.50             30.00              30.00             
+Katta (Imp) Rs./kg 1,600.00          1,600.00     1,950.00        1,950.00      n.a. n.a.
+Sprat (Imp) Rs./kg 850.00             850.00        1,000.00        1,000.00      n.a. n.a.
+Banana (Sour) Rs./kg 80.00               80.00           55.00              55.00           130.00            130.00          85.00              85.00           200.00            200.00           
+Papaw Rs./kg 120.00             120.00        85.00              88.00           170.00            170.00          115.00            118.00        200.00            200.00           
+Pineapple Rs./kg n.a. n.a. 275.00            275.00        225.00            225.00          305.00            305.00        350.00            350.00           
+Apple (Imp) Rs./Each 200.00            200.00          250.00            250.00           
+Orange (Imp) Rs./Each 190.00            190.00          250.00            250.00           
+Samba Rs./kg 235.00             235.00        234.00            234.00        240.00            240.00          244.00            244.00        240.00            240.00           
+Nadu Rs./kg 213.00             213.00        208.00            208.00        230.00            230.00          235.00            235.00        230.00            230.00           
+Kekulu (White) Rs./kg 203.00             203.00        200.00            198.00        220.00            220.00          220.00            220.00        220.00            220.00           
+Kekulu (Red) Rs./kg 203.00             203.00        195.00            195.00        220.00            220.00          220.00            220.00        210.00            210.00           
+Ponni Samba (Imp) Rs./kg 230.00             230.00        n.a. n.a. 233.00            233.00          n.a. n.a.
+Nadu (Imp) Rs./kg 210.00             210.00        n.a. n.a. 220.00            220.00          n.a. n.a.
+Kekulu (White) (Imp) Rs./kg 208.00             208.00        n.a. n.a. 220.00            220.00          210.00            210.00           
+Kelawalla Rs./kg 1,300.00          1,350.00     1,150.00        1,150.00     1,740.00        1,740.00    2,460.00        2,460.00       
+Thalapath Rs./kg 2,000.00          1,900.00     1,650.00        1,650.00     2,160.00        2,160.00    2,500.00        2,500.00       
+Balaya Rs./kg 1,000.00          1,100.00     n.a. n.a. n.a. n.a. 1,380.00        1,380.00       
+Paraw Rs./kg 1,400.00          1,300.00     1,420.00        n.a. 2,310.00        n.a. 1,860.00        n.a.
+Salaya Rs./kg 400.00             250.00        460.00            360.00        610.00            490.00        540.00            460.00           
+Hurulla Rs./kg 900.00             900.00        670.00            620.00        880.00            820.00        1,480.00        1,180.00       
+Linna Rs./kg 600.00             600.00        600.00            620.00        790.00            790.00        800.00            800.00           
+n.a. - Price is not  reported in the respective market
+ Price increased by more than 5% compared to yesterday
+ Price decreased by more than 5% compared to yesterdayPettah Dambulla Narahenpita30 July 2025
+Peliyagoda Negombo NegomboV  E  G  E  T  A  B  L  E  S
+O  T  H  E  R
+R  I  C  E
+F  I  S  HF  R  U  I  T  S
+MarandagahamulaItem UnitWholesale Prices Retail Prices
+Pettah Dambulla 

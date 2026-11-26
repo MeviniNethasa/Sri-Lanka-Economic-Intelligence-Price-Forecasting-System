@@ -1,0 +1,53 @@
+Wholesale and Retail Prices: Selected Food Commodities   -
+Yesterday Today Yesterday Today Yesterday Today Yesterday Today Yesterday Today
+Beans Rs./kg 400.00          n.a. 325.00          340.00           450.00          n.a. 355.00          370.00           480.00          480.00           
+Carrot Rs./kg 480.00          n.a. 425.00          425.00           530.00          n.a. 455.00          455.00           520.00          480.00           
+Cabbage Rs./kg 140.00          n.a. 135.00          140.00           200.00          n.a. 165.00          170.00           360.00          320.00           
+Tomato Rs./kg 250.00          n.a. 215.00          185.00           300.00          n.a. 245.00          215.00           360.00          400.00           
+Brinjal Rs./kg 400.00          n.a. 275.00          300.00           450.00          n.a. 305.00          330.00           560.00          480.00           
+Pumpkin Rs./kg 120.00          n.a. 88.00             90.00             160.00          n.a. 118.00          120.00           160.00          200.00           
+Snake gourd Rs./kg 130.00          n.a. 90.00             95.00             180.00          n.a. 120.00          125.00           320.00          300.00           
+Green Chilli Rs./kg 500.00          n.a. 400.00          325.00           550.00          n.a. 430.00          355.00           800.00          780.00           
+Lime Rs./kg 350.00          n.a. 310.00          340.00           400.00          n.a. 340.00          370.00           600.00          500.00           
+Red Onion (Local) Rs./kg 313.00          283.00           315.00          275.00           400.00          n.a. 335.00          295.00           560.00          560.00           
+Red Onion (lmp) Rs./kg 350.00          n.a. n.a. n.a. 400.00          n.a. n.a. n.a. n.a. n.a.
+Big Onion (Local) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Big Onion (Imp) Rs./kg 108.00          113.00           105.00          110.00           120.00          n.a. 125.00          130.00           130.00          130.00           
+Potato (Local) Rs./kg 314.00          342.00           318.00          315.00           330.00          n.a. 338.00          335.00           440.00          440.00           
+Potato (Imp) Rs./kg 190.00          188.00           183.00          185.00           200.00          n.a. 203.00          205.00           220.00          220.00           
+Dried Chilli (Imp) Rs./kg 1,100.00      1,100.00       1,055.00      1,065.00       1,220.00      n.a. 1,085.00      1,095.00       1,260.00      1,260.00       
+Coconut (Avg.) Rs./Nut 85.00             85.00             68.00             68.00             100.00          n.a. 73.00             73.00             110.00          110.00           
+Coconut oil Rs./Ltr 542.00          550.00           573.00          n.a. 583.00          583.00           
+Red Dhal Rs./kg 265.00          290.00           280.00          n.a. 280.00          280.00           
+Sugar (White) Rs./kg 230.00          235.00           240.00          n.a. 240.00          240.00           
+Egg (White) Rs./Each n.a. n.a. n.a. n.a. n.a. 50.00             
+Katta Rs./kg 1,850.00      n.a. 2,200.00      n.a. 2,800.00      2,800.00       
+Sprat (Imp) Rs./kg 1,000.00      n.a. 1,200.00      n.a. 1,800.00      1,800.00       
+Banana (Sour) Rs./kg 130.00          n.a. 95.00             90.00             180.00          n.a. 125.00          120.00           230.00          220.00           
+Papaw Rs./kg 100.00          n.a. 65.00             55.00             140.00          n.a. 95.00             85.00             220.00          200.00           
+Pineapple Rs./kg n.a. n.a. 425.00          465.00           400.00          n.a. 455.00          495.00           500.00          600.00           
+Apple (Imp) Rs./Each 140.00          n.a. 250.00          220.00           
+Orange (Imp) Rs./Each 155.00          n.a. 200.00          180.00           
+Samba Rs./kg 193.00          190.00           198.00          198.00           210.00          n.a. 240.00          240.00           230.00          230.00           
+Nadu Rs./kg 180.00          180.00           174.00          175.00           200.00          n.a. 180.00          180.00           208.00          208.00           
+Kekulu (White) Rs./kg 172.00          175.00           161.00          161.00           180.00          n.a. 170.00          170.00           190.00          190.00           
+Kekulu (Red) Rs./kg 138.00          140.00           143.00          145.00           150.00          n.a. 150.00          150.00           160.00          160.00           
+Ponni Samba (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. 240.00          240.00           
+Nadu (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. n.a. n.a.
+Kekulu (White) (Imp) Rs./kg n.a. n.a. n.a. n.a. n.a. n.a. 210.00          210.00           
+Kelawalla Rs./kg 1,400.00      1,300.00       1,300.00      1,250.00       1,890.00      1,890.00       2,380.00      2,880.00       
+Thalapath Rs./kg n.a. 1,800.00       n.a. 1,750.00       n.a. 2,390.00       2,400.00      2,680.00       
+Balaya Rs./kg n.a. 1,000.00       n.a. n.a. n.a. n.a. 1,200.00      980.00           
+Paraw Rs./kg n.a. 1,400.00       1,350.00      1,220.00       2,070.00      1,960.00       n.a. 1,800.00       
+Salaya Rs./kg 620.00          550.00           640.00          580.00           760.00          730.00           720.00          760.00           
+Hurulla Rs./kg 600.00          650.00           950.00          900.00           1,050.00      1,050.00       n.a. 1,100.00       
+Linna Rs./kg 800.00          750.00           860.00          770.00           1,030.00      930.00           900.00          990.00           
+ Price increased by more than 5% compared to yesterday's price.
+ Price decreased by more than 5% compared to yesterday's price.26 July 2023
+Peliyagoda Negombo NegomboV  E  G  E  T  A  B  L  E  S
+O  T  H  E  R
+R  I  C  E
+F  I  S  HF  R  U  I  T  S
+MarandagahamulaItem UnitWholesale Prices Retail Prices
+Pettah Dambulla 
+Note: Peliyagoda Manning market was not operated today.Pettah Dambulla Narahenpita
