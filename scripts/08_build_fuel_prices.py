@@ -21,11 +21,11 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 RAW, PROC = ROOT / "data" / "raw", ROOT / "data" / "processed"
 
-DCS_MAP = {  # DCS Table 05 item -> product
-    "Petrol (CPC & IOC)": "petrol_92",
-    "Diesel (CPC & IOC)": "auto_diesel",
-    "Kerosene Oil": "kerosene",
-    "Gas - Avg.": "lpg_12_5kg",
+DCS_MAP = {  # DCS Table 05 item (spaces removed, lower-case) -> product
+    "petrol(cpc&ioc)": "petrol_92",
+    "diesel(cpc&ioc)": "auto_diesel",
+    "keroseneoil": "kerosene",
+    "gas-avg.": "lpg_12_5kg",
 }
 WFP_MAP = {"Fuel (diesel)": "auto_diesel", "Fuel (petrol-gasoline)": "petrol_92"}
 
@@ -35,12 +35,18 @@ def from_dcs() -> pd.DataFrame:
     if not f.exists():
         return pd.DataFrame(columns=["date", "product", "price_lkr", "source"])
     d = pd.read_csv(f, parse_dates=["date"])
-    d = d[d["item"].isin(DCS_MAP)]
-    cur = d.assign(product=d["item"].map(DCS_MAP))[["date", "product", "price_lkr"]]
-    # 'same month last year' column back-fills the 12 months before the first release
-    ly = d.assign(product=d["item"].map(DCS_MAP), date=d["date"] - pd.DateOffset(years=1),
+    # PDF text extraction sometimes splits names ("Petrol (C PC & IOC)", "Gas- Avg."),
+    # so match on a whitespace-free key.
+    d["product"] = d["item"].str.replace(r"\s+", "", regex=True).str.lower().map(DCS_MAP)
+    d = d.dropna(subset=["product"])
+    cur = d[["date", "product", "price_lkr"]]
+    # Each release also reports the previous month and the same month last year;
+    # they fill months whose own release could not be parsed (current value wins).
+    pm = d.assign(date=d["date"] - pd.DateOffset(months=1),
+                  price_lkr=d["price_prev_month"])[["date", "product", "price_lkr"]]
+    ly = d.assign(date=d["date"] - pd.DateOffset(years=1),
                   price_lkr=d["price_same_month_last_year"])[["date", "product", "price_lkr"]]
-    out = pd.concat([cur, ly]).dropna().drop_duplicates(["date", "product"], keep="first")
+    out = pd.concat([cur, pm, ly]).dropna().drop_duplicates(["date", "product"], keep="first")
     return out.assign(source="dcs_ccpi")
 
 

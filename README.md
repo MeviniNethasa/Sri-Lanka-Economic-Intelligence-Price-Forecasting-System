@@ -32,12 +32,20 @@ The WFP files were downloaded directly from HDX:
 | Notebook | Contents | Notes |
 |---|---|---|
 | [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) | Inflation & FX, commodity trends, Maha/Yala seasonality, 2022 crisis, regional comparison across 38 markets, wholesale→retail margins | [PHASE2_NOTES.md](PHASE2_NOTES.md) |
+| [`notebooks/02_relationships.ipynb`](notebooks/02_relationships.ipynb) | Lead/lag correlations, stationarity, Granger causality, VARs with impulse responses, pass-through regressions (FX, world prices, fuel) | [PHASE3_NOTES.md](PHASE3_NOTES.md) |
 
-Figures are saved to `reports/figures/`. Early findings:
+Reusable analysis code is in `src/` (`relationships.py`). Figures are saved to `reports/figures/` and summary tables to `reports/tables/`.
+
+Early findings (Phase 2):
 - **Inflation** peaked at 72.5% (Sep-2022), bottomed at −4.2% (Feb-2025) and was 8.0% by Aug-2026. **LKR/USD** is 331, 9% off its Jan-2023 peak of 364.
 - **Rice** is stable and nationally integrated. **Vegetables** are highly seasonal (Dec–Jan peak, Sep–Oct trough) and volatile. **Coconut** is still +40% in real terms vs 2023.
 - **Western Province** is the most expensive region (Colombo City +7.7%); **Jaffna** (−9.7%) and up-country producing areas are the cheapest.
 - **Dambulla wholesale → Colombo retail** markups are ~70% for vegetables, and retail prices are sticky when wholesale prices fall.
+
+Relationship findings (Phase 3):
+- **Exchange-rate pass-through to CPI** roughly doubled after the 2022 float (0.27 → 0.58 within 6 months). FX leads inflation by 1–2 months.
+- **World food prices** pass through to CPI (≈0.29). **World oil** doesn't directly; it reaches consumers through retail fuel revisions, with diesel following Brent-in-LKR by about one month.
+- **Wheat flour** and **sugar** follow world prices, and **dhal / imported onion** follow the exchange rate. **Rice** and **coconut** are insulated from both.
 
 ## Processed datasets (`data/processed/`)
 
