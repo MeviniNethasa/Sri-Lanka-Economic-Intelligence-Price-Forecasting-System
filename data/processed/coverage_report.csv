@@ -6,8 +6,8 @@ commodity_prices_continuous_monthly.csv,1531,4,2006-07-01,2026-11-01
 commodity_prices_market_monthly.csv,34067,12,2004-01-01,2025-09-01
 commodity_prices_national_monthly.csv,2627,10,2004-01-01,2025-09-01
 cpi_reconciliation.csv,23,10,2023-12-01,2025-10-01
-fuel_prices_monthly.csv,173,5,2015-09-01,2026-11-01
-fuel_revision_check.csv,3,6,2026-04-01,2026-04-01
+fuel_prices_monthly.csv,195,5,2015-09-01,2026-11-01
+fuel_revision_check.csv,6,6,2026-03-01,2026-04-01
 macro_annual.csv,36,23,1990,2025
 macro_monthly.csv,322,40,2000-01-01,2026-10-01
 wfp_cbsl_agreement.csv,23,14,,

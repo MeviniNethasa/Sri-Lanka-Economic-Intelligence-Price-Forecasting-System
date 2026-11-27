@@ -45,13 +45,17 @@ def fetch_release(year: int, month: int) -> str | None:
     nxt = date(year + month // 12, month % 12 + 1, 1)
     candidates = [date(year, month, d) for d in range(last, last - 10, -1)]
     candidates += [date(nxt.year, nxt.month, d) for d in range(1, 6)]
+    definitive = True
     for d in candidates:
-        if d.weekday() >= 5:
+        if d.weekday() >= 5 or d > date.today():
             continue
         try:
             r = requests.get(URL.format(d=f"{d:%Y%m%d}"), headers=UA, timeout=60)
         except requests.RequestException:
+            definitive = False
             continue
+        if not r.ok and r.status_code != 404:
+            definitive = False
         time.sleep(0.3)
         # A release dated in the last days of month M (or the first days of M+1)
         # is the CCPI for month M. Some releases have image-only first pages, so
@@ -60,7 +64,10 @@ def fetch_release(year: int, month: int) -> str | None:
             txt = "\n".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(r.content)).pages)
             cache.write_text(f"#SOURCE {URL.format(d=f'{d:%Y%m%d}')}\n" + txt)
             return txt
-    cache.write_text("")
+    # Remember "no release" only once the whole search window is >= 10 days in the past
+    # and every request got a clean answer; otherwise retry on the next run.
+    if definitive and (date.today() - candidates[-1]).days >= 10:
+        cache.write_text("")
     return None
 
 

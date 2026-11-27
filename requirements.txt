@@ -1,5 +1,7 @@
-# LankaEcon – Python dependencies
-# Minimum versions are the ones the project has been run with.
+# LankaEcon – runtime dependencies
+# Used by the data pipeline, the weekly GitHub Action and the Streamlit app
+# (Streamlit Community Cloud installs this file). Notebook / research extras are
+# in requirements-dev.txt.
 
 # Data collection and processing
 pandas>=2.2
@@ -7,23 +9,14 @@ numpy>=1.26
 requests>=2.32
 PyPDF2>=3.0          # CBSL / DCS PDF report parsing
 
-# Exploratory analysis and visualisation
-matplotlib>=3.8
-seaborn>=0.13
-plotly>=5.24
-
 # Time series, econometrics and machine learning
 statsmodels>=0.14.5  # SARIMA/SARIMAX, STL, VAR, Granger causality (0.14.5+ needed with SciPy >= 1.16)
 scipy>=1.13
-scikit-learn>=1.5    # Isolation Forest, preprocessing, metrics
+scikit-learn>=1.5    # Isolation Forest
 lightgbm>=4.3        # gradient-boosted forecasting models
-ruptures>=1.1        # optional: change points (src/anomalies.py falls back to a built-in PELT)
+ruptures>=1.1        # change points (src/anomalies.py falls back to a built-in PELT if missing)
 
-# Dashboard
-streamlit>=1.37
-
-# Notebooks
-jupyterlab>=4.2
-ipykernel>=6.28
-nbformat>=5.10
-nbconvert>=7.16
+# Plotting and dashboard
+matplotlib>=3.8
+plotly>=5.24,<6      # the map uses scatter_mapbox with keyless OpenStreetMap tiles
+streamlit>=1.37,<2

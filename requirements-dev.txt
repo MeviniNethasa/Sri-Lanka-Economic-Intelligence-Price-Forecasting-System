@@ -1,0 +1,9 @@
+# LankaEcon – notebooks and research extras (on top of requirements.txt)
+-r requirements.txt
+
+seaborn>=0.13
+jupyterlab>=4.2
+ipykernel>=6.28
+nbformat>=5.10
+nbconvert>=7.16
+torch>=2.2           # optional: scripts/10_lstm_experiment.py only
