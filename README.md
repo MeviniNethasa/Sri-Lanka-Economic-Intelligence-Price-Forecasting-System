@@ -33,8 +33,9 @@ The WFP files were downloaded directly from HDX:
 |---|---|---|
 | [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) | Inflation & FX, commodity trends, Maha/Yala seasonality, 2022 crisis, regional comparison across 38 markets, wholesale→retail margins | [PHASE2_NOTES.md](PHASE2_NOTES.md) |
 | [`notebooks/02_relationships.ipynb`](notebooks/02_relationships.ipynb) | Lead/lag correlations, stationarity, Granger causality, VARs with impulse responses, pass-through regressions (FX, world prices, fuel) | [PHASE3_NOTES.md](PHASE3_NOTES.md) |
+| [`notebooks/03_forecasting.ipynb`](notebooks/03_forecasting.ipynb) | Rolling-origin backtests of naive, seasonal naive, SARIMA, SARIMAX and LightGBM for 13 series; 2022 crisis stress test; LSTM check; 6-month forecasts with empirical intervals | [PHASE4_NOTES.md](PHASE4_NOTES.md) |
 
-Reusable analysis code is in `src/` (`relationships.py`). Figures are saved to `reports/figures/` and summary tables to `reports/tables/`.
+Reusable analysis code is in `src/` (`relationships.py`, `forecasting.py`). The forecasting backtest is run by `scripts/09_forecast_backtest.py` (and the optional LSTM check by `scripts/10_lstm_experiment.py`). Figures are saved to `reports/figures/` and summary tables to `reports/tables/`.
 
 Early findings (Phase 2):
 - **Inflation** peaked at 72.5% (Sep-2022), bottomed at −4.2% (Feb-2025) and was 8.0% by Aug-2026. **LKR/USD** is 331, 9% off its Jan-2023 peak of 364.
@@ -46,6 +47,11 @@ Relationship findings (Phase 3):
 - **Exchange-rate pass-through to CPI** roughly doubled after the 2022 float (0.27 → 0.58 within 6 months). FX leads inflation by 1–2 months.
 - **World food prices** pass through to CPI (≈0.29). **World oil** doesn't directly; it reaches consumers through retail fuel revisions, with diesel following Brent-in-LKR by about one month.
 - **Wheat flour** and **sugar** follow world prices, and **dhal / imported onion** follow the exchange rate. **Rice** and **coconut** are insulated from both.
+
+Forecasting findings (Phase 4):
+- **"No change" is hard to beat:** naive forecasts are best for LKR/USD, rice, wheat flour, coconut and imported onion. Month-to-month, these behave close to random walks.
+- **Where models help:** sugar (SARIMAX with world sugar + FX, −20% error at 1 month), CPI (LightGBM, −12% at 1 month), and seasonal vegetables (pooled LightGBM, −9% to −25% at 3–6 months).
+- **2022 crisis stress test:** every model's errors rise roughly 3–12×. The LSTM was tested and did not beat the simpler models.
 
 ## Processed datasets (`data/processed/`)
 

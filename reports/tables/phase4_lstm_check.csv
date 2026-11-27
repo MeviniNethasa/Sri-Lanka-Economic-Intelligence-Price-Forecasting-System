@@ -1,0 +1,8 @@
+model,CPI (cleaned),Rice (white)
+lightgbm,1.982,5.595
+lstm,2.03,8.141
+naive,1.966,4.545
+sarima,2.464,5.698
+sarimax,1.973,
+seasonal_naive,4.527,7.388
+n_forecasts,1071.0,828.0

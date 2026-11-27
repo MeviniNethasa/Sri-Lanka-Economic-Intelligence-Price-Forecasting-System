@@ -1,0 +1,14 @@
+series,group,n_origins,first_origin,last_origin,note,sarima_order,sarima_seasonal,sarimax_order,sarimax_seasonal,sarimax_exog
+CPI (cleaned),long,199,2010-01,2026-07,"drivers: FX (0.27→0.58 pass-through), world food (0.29)","(1, 1, 0)","(0, 0, 0, 12)","(1, 1, 0)","(0, 0, 0, 12)","['lkr_per_usd', 'world_food_index']"
+LKR/USD,long,201,2010-01,2026-09,macro driver; no external drivers,"(1, 1, 0)","(0, 0, 0, 0)",nan,nan,nan
+Rice (white),long,174,2011-06,2026-10,"gap 2022-07..2023-05 kept missing; Phase 3: no FX/world pass-through, so no SARIMAX","(1, 1, 0)","(0, 0, 0, 12)",nan,nan,nan
+Wheat flour,long,138,2010-12,2022-05,ends 2022-06: backtest/stress test only,"(1, 1, 0)","(0, 0, 0, 12)","(0, 1, 0)","(0, 0, 0, 12)","['lkr_per_usd', 'world_wheat_usd']"
+Coconut,recent,29,2024-06,2026-10,domestic crop; no validated driver,"(0, 1, 1)","(0, 0, 0, 12)",nan,nan,nan
+Beans,recent,29,2024-06,2026-10,seasonal vegetable,"(0, 1, 1)","(1, 0, 0, 12)",nan,nan,nan
+Carrots,recent,29,2024-06,2026-10,seasonal vegetable,"(0, 1, 1)","(1, 0, 0, 12)",nan,nan,nan
+Tomatoes,recent,29,2024-06,2026-10,seasonal vegetable,"(1, 1, 0)","(1, 0, 0, 12)",nan,nan,nan
+Cabbage,recent,29,2024-06,2026-10,seasonal vegetable,"(0, 1, 1)","(1, 0, 0, 12)",nan,nan,nan
+Onions (imported),recent,29,2024-06,2026-10,"driver: FX (≈3.0, p=0.08)","(0, 1, 0)","(1, 0, 0, 12)","(0, 1, 1)","(1, 0, 0, 12)",['lkr_per_usd']
+Lentils,recent,29,2024-06,2026-10,"driver: FX (dhal ≈1.15, p=0.04)","(0, 1, 1)","(0, 0, 1, 12)","(1, 1, 1)","(0, 0, 0, 12)",['lkr_per_usd']
+Potatoes (local),recent,29,2024-06,2026-10,domestic crop,"(0, 1, 0)","(1, 0, 0, 12)",nan,nan,nan
+Sugar (CBSL),recent,23,2024-12,2026-10,"CBSL retail mean from 2023-01; drivers: world sugar (0.37), FX (0.57)","(0, 1, 0)","(0, 0, 0, 12)","(0, 1, 0)","(0, 0, 0, 12)","['lkr_per_usd', 'world_sugar_usd']"
