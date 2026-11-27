@@ -50,22 +50,32 @@ ROW = re.compile(r"^(?P<item>[A-Za-z][A-Za-z ().'/-]*?)\s+(?P<unit>Rs\./\s?\w+)\
 VAL = re.compile(r"n\.a\.|[\d,]+\.\d+")
 
 
+NEGATIVE_CACHE_AFTER_DAYS = 14  # only remember "no report" once a day is safely in the past
+
+
 def get_text(d: date) -> str | None:
     cache = CACHE / f"{d:%Y%m%d}.txt"
     if cache.exists():
         txt = cache.read_text()
         return txt or None
+    definitive = True  # every URL answered with a clean "not found"
     for tmpl in URLS:
         try:
             r = requests.get(tmpl.format(d=f"{d:%Y%m%d}"), headers=UA, timeout=60)
         except requests.RequestException:
+            definitive = False
             continue
         if r.ok and r.content[:4] == b"%PDF":
             reader = PdfReader(io.BytesIO(r.content))
             txt = "\n".join(p.extract_text() or "" for p in reader.pages[1:])
             cache.write_text(txt)
             return txt
-    cache.write_text("")  # remember "no report that day" (weekend/holiday)
+        if r.status_code != 404:
+            definitive = False  # blocked, rate-limited or server error: try again next run
+    # Remember "no report that day" (weekend/holiday) only when the server clearly said so
+    # and the day is old enough that a late upload is unlikely.
+    if definitive and (date.today() - d).days > NEGATIVE_CACHE_AFTER_DAYS:
+        cache.write_text("")
     return None
 
 

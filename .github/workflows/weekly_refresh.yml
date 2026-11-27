@@ -1,0 +1,136 @@
+name: Weekly data refresh
+
+# Re-downloads the public data, rebuilds the processed tables, re-scores the
+# forecasts (Phase 4) and anomalies (Phase 5), checks the result, and commits
+# only if something changed and the checks pass. The Streamlit app reads the
+# committed tables, so Streamlit Community Cloud redeploys automatically after
+# the push.
+
+on:
+  schedule:
+    - cron: "30 2 * * 1"   # every Monday 02:30 UTC (08:00 Sri Lanka time)
+  workflow_dispatch:
+    inputs:
+      run_forecasts:
+        description: "Re-run the Phase 4 forecast backtest (~5 min)"
+        type: boolean
+        default: true
+      dry_run:
+        description: "Run everything but do not commit"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONUNBUFFERED: "1"
+      MPLBACKEND: Agg
+      # Commit identity: set the repository variables GIT_AUTHOR_NAME / GIT_AUTHOR_EMAIL to change it.
+      COMMIT_NAME: ${{ vars.GIT_AUTHOR_NAME || 'MeviniNethasa' }}
+      COMMIT_EMAIL: ${{ vars.GIT_AUTHOR_EMAIL || 'mevinimunaweera@gmail.com' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ---- 1. Downloads: each source may be temporarily unavailable, so a failed
+      #         download keeps the last committed file instead of failing the run.
+      - name: Download World Bank indicators
+        id: wb
+        continue-on-error: true
+        run: python scripts/01_download_worldbank.py
+      - name: Download IMF series
+        id: imf
+        continue-on-error: true
+        run: python scripts/02_download_imf.py
+      - name: Download FRED exchange rates
+        id: fred
+        continue-on-error: true
+        run: python scripts/04_download_fred.py
+      - name: Scrape CBSL daily price reports (incremental, cached)
+        id: cbsl
+        continue-on-error: true
+        timeout-minutes: 20
+        run: python scripts/03_scrape_cbsl_daily_prices.py
+      - name: Download DCS CCPI releases (incremental, cached)
+        id: dcs
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python scripts/06_download_dcs_ccpi.py
+
+      - name: Restore any file a failed download left partial
+        run: |
+          # A download script that failed part-way may have rewritten its output;
+          # put back the committed version of anything under data/raw that is now empty.
+          git ls-files data/raw | while read -r f; do
+            if [ -f "$f" ] && [ ! -s "$f" ] && [ "$(git show HEAD:"$f" | wc -c)" -gt 0 ]; then
+              echo "restoring $f"; git checkout -- "$f"
+            fi
+          done
+
+      # ---- 2. Build: these must succeed, otherwise nothing is committed.
+      - name: Build processed datasets
+        run: |
+          python scripts/05_build_datasets.py
+          python scripts/07_compare_wfp_cbsl.py
+          python scripts/08_build_fuel_prices.py
+
+      - name: Re-run forecast backtest (Phase 4)
+        if: github.event_name == 'schedule' || inputs.run_forecasts
+        run: python scripts/09_forecast_backtest.py
+
+      - name: Re-score anomalies (Phase 5)
+        run: python scripts/11_detect_anomalies.py
+
+      # ---- 3. Check, then commit only data and tables.
+      - name: Sanity-check the refresh
+        run: python scripts/12_check_refresh.py
+
+      - name: Commit and push if anything changed
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name  "$COMMIT_NAME"
+          git config user.email "$COMMIT_EMAIL"
+          git add data/raw data/processed reports/tables
+          if git diff --cached --quiet; then
+            echo "No data changes this week."
+            exit 0
+          fi
+          git diff --cached --stat | tail -5
+          git commit -m "Weekly data refresh $(date -u +%Y-%m-%d)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Weekly refresh"
+            echo "| Source | Download |"
+            echo "|---|---|"
+            echo "| World Bank | ${{ steps.wb.outcome }} |"
+            echo "| IMF | ${{ steps.imf.outcome }} |"
+            echo "| FRED | ${{ steps.fred.outcome }} |"
+            echo "| CBSL daily reports | ${{ steps.cbsl.outcome }} |"
+            echo "| DCS CCPI | ${{ steps.dcs.outcome }} |"
+            echo ""
+            echo "WFP/HDX files are static (collection ended 2025-09) and are not re-downloaded."
+          } >> "$GITHUB_STEP_SUMMARY"

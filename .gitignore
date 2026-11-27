@@ -14,9 +14,13 @@ env/
 .env
 .env.*
 
-# Editors
+# Editors / local tooling
 .vscode/
 .idea/
+.claude/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
 
 # Logs and temp files
 *.log

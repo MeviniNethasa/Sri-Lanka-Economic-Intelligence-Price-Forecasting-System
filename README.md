@@ -1,10 +1,33 @@
 # LankaEcon – Sri Lanka Economic Intelligence & Price Forecasting System
 
+<!-- After deploying, replace YOUR-APP-URL below with the live *.streamlit.app address. -->
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-URL.streamlit.app)
+[![Weekly data refresh](https://github.com/MeviniNethasa/Sri-Lanka-Economic-Intelligence-Price-Forecasting-System/actions/workflows/weekly_refresh.yml/badge.svg)](https://github.com/MeviniNethasa/Sri-Lanka-Economic-Intelligence-Price-Forecasting-System/actions/workflows/weekly_refresh.yml)
+
+**Live dashboard:** _not deployed yet. See [Deploying the dashboard](#deploying-the-dashboard)._
+
 ## Setup
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt        # pipeline + dashboard
+pip install -r requirements-dev.txt    # + notebooks (and optional torch for the LSTM check)
 ```
+
+## Dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+The app ([`dashboard/app.py`](dashboard/app.py)) reads the processed data and the precomputed Phase 3–5 tables. Nothing is re-trained when you click. It has six tabs:
+- **Macro overview:** CPI by source, with the index-switch flag.
+- **Commodity explorer:** WFP/CBSL series with data-caveat badges, seasonality, and wholesale→retail margins.
+- **Regional map:** 43 WFP markets, with district and province spreads.
+- **Forecasts:** 6-month forecasts with 80%/95% bands, model switching, and the crisis stress test.
+- **Anomaly alerts:** latest flags, shock vs artifact labels, change points and the known-event catalogue.
+- **Relationships:** pass-through elasticities, IRFs and Granger tests.
+
+See [PHASE6_NOTES.md](PHASE6_NOTES.md).
 
 ## Data pipeline
 
@@ -19,7 +42,12 @@ python3 scripts/06_download_dcs_ccpi.py         # official DCS CCPI + Colombo re
 python3 scripts/05_build_datasets.py            # clean + merge -> data/processed/ (applies the CPI fix)
 python3 scripts/07_compare_wfp_cbsl.py          # WFP vs CBSL agreement + continuous price series
 python3 scripts/08_build_fuel_prices.py         # monthly fuel price history
+python3 scripts/09_forecast_backtest.py         # Phase 4 forecasts (~4 min)
+python3 scripts/11_detect_anomalies.py          # Phase 5 anomaly scores (~20 s)
+python3 scripts/12_check_refresh.py             # sanity checks vs the last commit
 ```
+
+**Weekly automation:** [`.github/workflows/weekly_refresh.yml`](.github/workflows/weekly_refresh.yml) runs this pipeline every Monday at 02:30 UTC, and can also be started by hand from the Actions tab. It commits `data/` and `reports/tables/` only when something changed and the checks pass.
 
 `06` must run before `05`, and `07`/`08` after it. Shared helpers are in `scripts/series_utils.py` (item mapping, `continuous_price()`) and `scripts/cpi_fix.py` (CPI reconciliation). See [PHASE1_NOTES.md](PHASE1_NOTES.md) for the Phase 1 data-integrity findings.
 
@@ -35,6 +63,7 @@ The WFP files were downloaded directly from HDX:
 | [`notebooks/02_relationships.ipynb`](notebooks/02_relationships.ipynb) | Lead/lag correlations, stationarity, Granger causality, VARs with impulse responses, pass-through regressions (FX, world prices, fuel) | [PHASE3_NOTES.md](PHASE3_NOTES.md) |
 | [`notebooks/03_forecasting.ipynb`](notebooks/03_forecasting.ipynb) | Rolling-origin backtests of naive, seasonal naive, SARIMA, SARIMAX and LightGBM for 13 series; 2022 crisis stress test; LSTM check; 6-month forecasts with empirical intervals | [PHASE4_NOTES.md](PHASE4_NOTES.md) |
 | [`notebooks/04_anomalies.ipynb`](notebooks/04_anomalies.ipynb) | Anomaly detection for 19 macro, commodity and fuel series: STL residual z-scores, causal Isolation Forest, PELT change points; validation against known events; economic shocks vs data artifacts | [PHASE5_NOTES.md](PHASE5_NOTES.md) |
+| [`dashboard/app.py`](dashboard/app.py) | Interactive Streamlit dashboard over all of the above | [PHASE6_NOTES.md](PHASE6_NOTES.md) |
 
 Reusable analysis code is in `src/` (`relationships.py`, `forecasting.py`, `anomalies.py`). The forecasting backtest is run by `scripts/09_forecast_backtest.py` (and the optional LSTM check by `scripts/10_lstm_experiment.py`); anomaly detection by `scripts/11_detect_anomalies.py`. Figures are saved to `reports/figures/` and summary tables to `reports/tables/`.
 
@@ -85,6 +114,21 @@ Anomaly findings (Phase 5):
 - World prices (USD): `world_rice_usd_mt`, `world_wheat_usd_mt`, `world_sugar_usd_lb`, `world_brent_usd_bbl`, `world_coconut_oil_usd_mt`, `world_palm_oil_usd_mt`, `world_tea_colombo_usd_kg`, `world_urea_usd_mt`, `world_food_price_index`
 - Local retail prices (LKR/kg unless noted, median across WFP markets): `price_rice_white`, `price_rice_red_nadu`, `price_wheat_flour`, `price_sugar`, `price_coconut_per_nut`, `price_lentils`, `price_red_onion_local`, `price_big_onion_imported`, `price_potato_local`, `price_tomato`, `price_carrot`, `price_beans`, `price_egg_each`, `price_chicken`, `price_dried_chilli`, …
 - Event dummies: `crisis_2022` (2022-01 → 2023-06), `covid_2020` (2020-03 → 2021-12), `post_float_2022` (from 2022-03)
+
+## Deploying the dashboard
+
+**Streamlit Community Cloud** (free, deploys from GitHub):
+1. Sign in at <https://share.streamlit.io> with the GitHub account that owns this repository.
+2. Click **Create app → Deploy a public app from GitHub** and fill in:
+   - **Repository:** `MeviniNethasa/Sri-Lanka-Economic-Intelligence-Price-Forecasting-System`
+   - **Branch:** `main`
+   - **Main file path:** `dashboard/app.py`
+   - **App URL:** pick a subdomain, e.g. `lankaecon`
+3. Under **Advanced settings**, choose **Python 3.12**. No secrets are needed.
+4. Click **Deploy**. Streamlit installs `requirements.txt` and starts the app.
+5. Replace `YOUR-APP-URL` in the badge at the top of this README with the live `*.streamlit.app` address, and update the "Live dashboard" line.
+
+Each push to `main` redeploys the app, including the weekly data-refresh commits, so the dashboard stays current without any manual step.
 
 ## Sources
 
