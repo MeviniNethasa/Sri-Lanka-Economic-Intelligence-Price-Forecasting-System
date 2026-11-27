@@ -1,0 +1,20 @@
+series,group,first,last,observed_months,missing_months,residual_method,scale_floor,if_model,if_months_scored,if_rows_incomplete,cpd_signal,cpd_min_size,in_if_training,note
+CPI (cleaned),macro,2000-01,2026-08,320,0,stl,0.3,CPI,272,6,monthly log change (normal cost),12,True,chain-linked NCPI→CCPI (Phase 1)
+"CPI (raw IMF, diagnostic)",macro,2000-01,2026-08,320,0,stl,0.3,CPI,272,6,monthly log change (normal cost),12,False,uncleaned IMF series; contains the Sep-2024 index switch; scored with the model trained on cleaned CPI
+LKR/USD,macro,2000-01,2026-10,322,0,rolling_median,0.5,LKR/USD,274,6,monthly log change (normal cost),12,True,
+Brent (USD/bbl),macro,2000-01,2026-10,322,0,rolling_median,1.0,Brent,274,6,monthly log change (normal cost),12,True,external driver of fuel revisions
+Rice (white),staple,2006-07,2026-11,234,11,stl,0.25,Rice (white),186,23,monthly log change (normal cost),12,True,
+Coconut,staple,2020-01,2026-11,63,20,stl,0.25,recent_commodity,35,32,monthly log change (normal cost),6,True,
+Lentils,staple,2020-01,2026-11,61,22,rolling_median,0.25,recent_commodity,35,36,monthly log change (normal cost),6,True,
+Onions (imported),staple,2020-01,2026-11,71,12,rolling_median,0.25,recent_commodity,35,26,monthly log change (normal cost),6,True,
+Wheat flour,staple,2004-01,2022-06,221,1,rolling_median,1.0,Wheat flour,174,10,monthly log change (normal cost),12,True,WFP series ends 2022-06; importer-set step prices
+Sugar (CBSL),staple,2023-01,2026-11,47,0,rolling_median,0.25,recent_commodity,35,6,monthly log change (normal cost),6,True,"CBSL retail mean, from 2023-01"
+Beans,vegetable,2020-01,2026-11,63,20,stl,0.25,recent_commodity,35,32,monthly log change (normal cost),6,True,"WFP national median to 2025-09, level-adjusted CBSL after"
+Cabbage,vegetable,2020-01,2026-11,63,20,stl,0.25,recent_commodity,35,32,monthly log change (normal cost),6,True,"WFP national median to 2025-09, level-adjusted CBSL after"
+Carrots,vegetable,2020-01,2026-11,63,20,stl,0.25,recent_commodity,35,32,monthly log change (normal cost),6,True,"WFP national median to 2025-09, level-adjusted CBSL after"
+Tomatoes,vegetable,2020-01,2026-11,63,20,stl,0.25,recent_commodity,35,32,monthly log change (normal cost),6,True,"WFP national median to 2025-09, level-adjusted CBSL after"
+Potatoes (local),vegetable,2020-01,2026-11,63,20,stl,0.25,recent_commodity,35,32,monthly log change (normal cost),6,True,"WFP national median to 2025-09, level-adjusted CBSL after"
+Diesel,fuel,2015-09,2026-11,58,77,jump,2.0,fuel,4,109,log level (l2 cost),6,True,administered price; possible_missing_revision months dropped
+Petrol 92,fuel,2015-09,2026-11,52,83,jump,2.0,fuel,0,113,log level (l2 cost),6,True,administered price; possible_missing_revision months dropped
+Kerosene,fuel,2023-01,2026-11,28,19,jump,2.0,fuel,0,38,log level (l2 cost),6,True,administered price; possible_missing_revision months dropped
+LPG 12.5 kg,fuel,2023-01,2026-04,27,13,jump,2.0,fuel,0,31,log level (l2 cost),6,True,administered price; possible_missing_revision months dropped

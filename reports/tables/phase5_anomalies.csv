@@ -1,0 +1,283 @@
+date,series,group,price,source,r1,next_r1,alt_r1,stl_z,stl_method,stl_flag,if_flag,if_pctile,cp_near,n_methods,edge,breadth,classification,reason
+2017-08-01,Diesel,fuel,117.0,,20.8297,-20.8297,,10.4149,jump,True,False,,True,2,False,0.0,data_artifact,wfp_fuel_swap_2017_08
+2017-09-01,Diesel,fuel,95.0,,-20.8297,0.0,,-10.4149,jump,True,False,,True,2,False,0.0,data_artifact,wfp_fuel_swap_2017_08
+2023-04-01,Diesel,fuel,333.57,,-19.4034,-6.1256,,-9.7017,jump,True,False,,False,1,False,0.3125,economic_shock,crisis_2022
+2023-09-01,Diesel,fuel,332.25,,8.0442,4.7751,,4.0221,jump,True,False,,False,1,False,0.0,unexplained,
+2026-04-01,Diesel,fuel,382.0,,26.4634,2.5025,,13.2317,jump,True,False,,True,2,False,0.3529,economic_shock,fuel_2026
+2026-04-01,Kerosene,fuel,255.0,,18.7559,,,4.6263,jump,True,False,,False,1,True,0.3529,economic_shock,fuel_2026
+2017-08-01,Petrol 92,fuel,95.0,,-20.8297,20.8297,,-10.4149,jump,True,False,,False,1,False,0.0,data_artifact,wfp_fuel_swap_2017_08
+2017-09-01,Petrol 92,fuel,117.0,,20.8297,0.0,,10.4149,jump,True,False,,False,1,False,0.0,data_artifact,wfp_fuel_swap_2017_08
+2023-04-01,Petrol 92,fuel,346.43,,-14.3784,-3.4297,,-7.1892,jump,True,False,,False,1,False,0.3125,economic_shock,crisis_2022
+2026-04-01,Petrol 92,fuel,398.0,,26.0191,,,13.0095,jump,True,False,,False,1,True,0.3529,economic_shock,fuel_2026
+2000-04-01,Brent (USD/bbl),macro,23.1535,,-17.1834,18.3078,,-4.8651,rolling_median,True,False,,False,1,False,0.0,unexplained,
+2002-11-01,Brent (USD/bbl),macro,24.2505,,-12.6572,15.5036,,-4.1199,rolling_median,True,False,,False,1,False,0.0,unexplained,
+2003-02-01,Brent (USD/bbl),macro,32.6625,,5.8431,-7.9443,,3.7936,rolling_median,True,False,,False,1,False,0.0,unexplained,
+2004-10-01,Brent (USD/bbl),macro,49.7362,,13.8213,-12.8272,,3.6728,rolling_median,True,True,0.9762,False,2,False,0.0,unexplained,
+2008-06-01,Brent (USD/bbl),macro,132.7605,,6.9376,0.6193,,4.095,rolling_median,True,False,0.8778,False,1,False,0.0,economic_shock,global_2008
+2008-07-01,Brent (USD/bbl),macro,133.5852,,0.6193,-16.0293,,4.2596,rolling_median,True,False,0.7111,False,1,False,0.0,economic_shock,global_2008
+2008-10-01,Brent (USD/bbl),macro,71.9635,,-31.6488,-31.1287,,0.0,rolling_median,False,True,1.0,False,1,False,0.0,economic_shock,global_2008
+2008-11-01,Brent (USD/bbl),macro,52.7135,,-31.1287,-26.328,,0.0,rolling_median,False,True,1.0,False,1,False,0.0,economic_shock,global_2008
+2008-12-01,Brent (USD/bbl),macro,40.5117,,-26.328,6.3659,,-3.7107,rolling_median,True,True,1.0,False,2,False,0.0,unexplained,
+2012-06-01,Brent (USD/bbl),macro,95.889,,-14.4735,7.1339,,-4.5137,rolling_median,True,False,0.913,False,1,False,0.0,unexplained,
+2014-12-01,Brent (USD/bbl),macro,62.9039,,-23.074,-25.1153,,0.0,rolling_median,False,True,0.9877,True,2,False,0.0,economic_shock,oil_2014_16
+2015-01-01,Brent (USD/bbl),macro,48.9332,,-25.1153,17.4357,,-5.3411,rolling_median,True,True,0.9828,False,2,False,0.0,economic_shock,oil_2014_16
+2015-02-01,Brent (USD/bbl),macro,58.254,,17.4357,-3.0138,,-0.7078,rolling_median,False,True,0.9828,False,1,False,0.0,economic_shock,oil_2014_16
+2016-01-01,Brent (USD/bbl),macro,32.0452,,-18.4164,5.2199,,-5.7538,rolling_median,True,False,0.9462,False,1,False,0.0,economic_shock,oil_2014_16
+2016-02-01,Brent (USD/bbl),macro,33.7624,,5.2199,16.4323,,-4.3667,rolling_median,True,False,0.9247,False,1,False,0.0,economic_shock,oil_2014_16
+2018-12-01,Brent (USD/bbl),macro,57.9481,,-13.3565,3.3876,,-3.5493,rolling_median,True,False,0.9143,False,1,False,0.0,unexplained,
+2020-03-01,Brent (USD/bbl),macro,33.9473,,-49.501,-23.4593,,-4.9256,rolling_median,True,True,1.0,False,2,False,0.3077,economic_shock,covid
+2020-04-01,Brent (USD/bbl),macro,26.8486,,-23.4593,18.8634,,-11.1596,rolling_median,True,True,0.9957,False,2,False,0.4545,economic_shock,covid
+2020-05-01,Brent (USD/bbl),macro,32.4224,,18.8634,23.1314,,-6.1469,rolling_median,True,True,0.9829,False,2,False,0.3636,economic_shock,covid
+2026-03-01,Brent (USD/bbl),macro,99.405,,35.9179,3.3716,,4.3208,rolling_median,True,True,0.9771,False,2,False,0.2353,economic_shock,fuel_2026
+2026-04-01,Brent (USD/bbl),macro,102.8136,,3.3716,0.9956,,5.2168,rolling_median,True,False,0.9706,False,1,False,0.3529,economic_shock,fuel_2026
+2026-05-01,Brent (USD/bbl),macro,103.8424,,0.9956,-20.6268,,4.3783,rolling_median,True,False,0.9346,False,1,False,0.0,economic_shock,fuel_2026
+2026-06-01,Brent (USD/bbl),macro,84.4877,,-20.6268,-0.896,,-4.3208,rolling_median,True,False,0.9052,False,1,False,0.0,economic_shock,fuel_2026
+2026-07-01,Brent (USD/bbl),macro,83.7341,,-0.896,5.047,,-5.2667,rolling_median,True,False,0.8824,False,1,False,0.2857,economic_shock,fuel_2026
+2026-09-01,Brent (USD/bbl),macro,102.0882,,14.7721,6.0109,,3.9255,rolling_median,True,False,0.7647,False,1,True,0.0,unexplained,
+2026-10-01,Brent (USD/bbl),macro,108.4127,,6.0109,,,3.5601,rolling_median,True,False,0.7647,False,1,True,0.3077,economic_shock,broad: 31% of series flagged
+2003-01-01,CPI (cleaned),macro,30.71,,4.1555,-1.1133,,5.2656,stl,True,False,,False,1,False,0.0,unexplained,
+2004-12-01,CPI (cleaned),macro,35.21,,3.6441,-0.684,,4.1386,stl,True,False,0.881,True,2,False,0.0,economic_shock,tsunami_2004
+2008-04-01,CPI (cleaned),macro,54.96,,1.8363,1.3374,,4.1644,stl,True,False,0.7444,False,1,False,0.0,economic_shock,global_2008
+2008-05-01,CPI (cleaned),macro,55.7,,1.3374,4.0635,,4.4324,stl,True,False,0.6889,True,2,False,0.0,economic_shock,global_2008
+2008-06-01,CPI (cleaned),macro,58.01,,4.0635,0.2238,,8.1009,stl,True,True,0.9778,True,3,False,0.0,economic_shock,global_2008
+2008-07-01,CPI (cleaned),macro,58.14,,0.2238,-0.1549,,7.858,stl,True,False,0.9333,True,2,False,0.0,economic_shock,global_2008
+2008-08-01,CPI (cleaned),macro,58.05,,-0.1549,0.1549,,7.562,stl,True,False,0.6889,True,2,False,0.0,economic_shock,global_2008
+2008-09-01,CPI (cleaned),macro,58.14,,0.1549,-0.2928,,6.9527,stl,True,False,0.5333,True,2,False,0.0,economic_shock,global_2008
+2008-10-01,CPI (cleaned),macro,57.97,,-0.2928,-0.6056,,5.3241,stl,True,False,0.4889,False,1,False,0.0,economic_shock,global_2008
+2015-01-01,CPI (cleaned),macro,83.62,,3.7901,-3.5172,,5.6498,stl,True,False,0.9425,False,1,False,0.0,economic_shock,price_cuts_2015
+2015-02-01,CPI (cleaned),macro,80.73,,-3.5172,-1.2088,,1.5177,stl,False,True,0.9828,False,1,False,0.0,economic_shock,price_cuts_2015
+2021-09-01,CPI (cleaned),macro,109.34,,0.2656,2.0817,,-6.2818,stl,True,False,0.0691,True,2,False,0.0,economic_shock,crisis_2022
+2021-10-01,CPI (cleaned),macro,111.64,,2.0817,3.0696,,-7.5746,stl,True,False,0.6789,True,2,False,0.0,economic_shock,crisis_2022
+2021-11-01,CPI (cleaned),macro,115.12,,3.0696,3.6085,,-7.8789,stl,True,False,0.8577,True,2,False,0.0,economic_shock,crisis_2022
+2021-12-01,CPI (cleaned),macro,119.35,,3.6085,3.0612,,-7.8613,stl,True,True,0.9878,True,3,False,0.0,economic_shock,crisis_2022
+2022-01-01,CPI (cleaned),macro,123.06,,3.0612,0.906,,-7.4261,stl,True,True,0.9806,False,2,False,0.0,economic_shock,crisis_2022
+2022-02-01,CPI (cleaned),macro,124.18,,0.906,3.2561,,-9.933,stl,True,False,0.9496,False,1,False,0.0,economic_shock,crisis_2022
+2022-03-01,CPI (cleaned),macro,128.29,,3.2561,9.9772,,-9.3849,stl,True,True,0.9806,False,2,False,0.0,economic_shock,crisis_2022
+2022-04-01,CPI (cleaned),macro,141.75,,9.9772,9.1873,,0.0236,stl,False,True,1.0,False,1,False,0.0,economic_shock,crisis_2022
+2022-05-01,CPI (cleaned),macro,155.39,,9.1873,9.8412,,7.2013,stl,True,True,1.0,False,2,False,0.0,economic_shock,crisis_2022
+2022-06-01,CPI (cleaned),macro,171.46,,9.8412,5.0993,,14.7412,stl,True,True,1.0,False,2,False,0.0,economic_shock,crisis_2022
+2022-07-01,CPI (cleaned),macro,180.43,,5.0993,2.3552,,18.0676,stl,True,True,0.9961,False,2,False,0.0,economic_shock,crisis_2022
+2022-08-01,CPI (cleaned),macro,184.73,,2.3552,2.0998,,18.5516,stl,True,True,0.9922,True,3,False,0.0,economic_shock,crisis_2022
+2022-09-01,CPI (cleaned),macro,188.65,,2.0998,-0.1485,,17.6673,stl,True,True,0.9845,True,3,False,0.0,economic_shock,crisis_2022
+2022-10-01,CPI (cleaned),macro,188.37,,-0.1485,-0.6444,,14.0971,stl,True,False,0.9612,True,2,False,0.0,economic_shock,crisis_2022
+2022-11-01,CPI (cleaned),macro,187.16,,-0.6444,0.0481,,9.0076,stl,True,False,0.9186,True,2,False,0.0,economic_shock,crisis_2022
+2024-01-01,CPI (cleaned),macro,200.7,,2.8299,-0.0498,,4.7781,stl,True,False,0.7801,False,1,False,0.2353,economic_shock,vat_2024
+2024-02-01,CPI (cleaned),macro,200.6,,-0.0498,-1.9633,,3.9331,stl,True,False,0.6986,False,1,False,0.0,economic_shock,vat_2024
+2026-02-01,CPI (cleaned),macro,195.3,,-0.8667,0.2557,,-3.9414,stl,True,False,0.5882,False,1,False,0.3077,economic_shock,fuel_2026
+2026-03-01,CPI (cleaned),macro,195.8,,0.2557,2.9192,,-5.451,stl,True,False,0.4542,False,1,False,0.2353,economic_shock,fuel_2026
+2003-01-01,"CPI (raw IMF, diagnostic)",macro,49.7182,,4.1376,-1.1155,,4.7176,stl,True,False,,False,1,False,0.0,unexplained,
+2004-12-01,"CPI (raw IMF, diagnostic)",macro,57.0119,,3.6718,-0.6954,,3.7734,stl,True,False,0.881,True,2,False,0.0,economic_shock,tsunami_2004
+2008-04-01,"CPI (raw IMF, diagnostic)",macro,88.9854,,1.8378,1.337,,3.9056,stl,True,False,0.7444,False,1,False,0.0,economic_shock,global_2008
+2008-05-01,"CPI (raw IMF, diagnostic)",macro,90.1832,,1.337,4.0572,,4.0885,stl,True,False,0.6889,True,2,False,0.0,economic_shock,global_2008
+2008-06-01,"CPI (raw IMF, diagnostic)",macro,93.9173,,4.0572,0.2248,,7.3782,stl,True,True,0.9778,True,3,False,0.0,economic_shock,global_2008
+2008-07-01,"CPI (raw IMF, diagnostic)",macro,94.1287,,0.2248,-0.1498,,7.1251,stl,True,False,0.9333,True,2,False,0.0,economic_shock,global_2008
+2008-08-01,"CPI (raw IMF, diagnostic)",macro,93.9878,,-0.1498,0.1498,,6.8424,stl,True,False,0.6889,True,2,False,0.0,economic_shock,global_2008
+2008-09-01,"CPI (raw IMF, diagnostic)",macro,94.1287,,0.1498,-0.2999,,6.2683,stl,True,False,0.5333,True,2,False,0.0,economic_shock,global_2008
+2008-10-01,"CPI (raw IMF, diagnostic)",macro,93.8469,,-0.2999,-0.6024,,4.7458,stl,True,False,0.5,False,1,False,0.0,economic_shock,global_2008
+2015-01-01,"CPI (raw IMF, diagnostic)",macro,135.3764,,3.7945,-3.5186,,5.1686,stl,True,False,0.9425,False,1,False,0.0,economic_shock,price_cuts_2015
+2015-02-01,"CPI (raw IMF, diagnostic)",macro,130.6959,,-3.5186,-1.2009,,1.3963,stl,False,True,0.9828,False,1,False,0.0,economic_shock,price_cuts_2015
+2021-09-01,"CPI (raw IMF, diagnostic)",macro,177.0215,,0.2716,2.0799,,-5.8953,stl,True,False,0.061,True,2,False,0.0,economic_shock,crisis_2022
+2021-10-01,"CPI (raw IMF, diagnostic)",macro,180.7419,,2.0799,3.0731,,-7.1452,stl,True,False,0.6707,True,2,False,0.0,economic_shock,crisis_2022
+2021-11-01,"CPI (raw IMF, diagnostic)",macro,186.3826,,3.0731,3.6046,,-7.467,stl,True,False,0.8577,True,2,False,0.0,economic_shock,crisis_2022
+2021-12-01,"CPI (raw IMF, diagnostic)",macro,193.2235,,3.6046,3.0608,,-7.779,stl,True,True,0.9878,True,3,False,0.0,economic_shock,crisis_2022
+2022-01-01,"CPI (raw IMF, diagnostic)",macro,199.2291,,3.0608,0.907,,-6.3798,stl,True,True,0.9806,False,2,False,0.0,economic_shock,crisis_2022
+2022-02-01,"CPI (raw IMF, diagnostic)",macro,201.0444,,0.907,3.2571,,-8.0749,stl,True,False,0.9496,False,1,False,0.0,economic_shock,crisis_2022
+2022-03-01,"CPI (raw IMF, diagnostic)",macro,207.7005,,3.2571,9.9737,,-7.1388,stl,True,True,0.9806,False,2,False,0.0,economic_shock,crisis_2022
+2022-04-01,"CPI (raw IMF, diagnostic)",macro,229.4841,,9.9737,9.1888,,0.0001,stl,False,True,1.0,False,1,False,0.0,economic_shock,crisis_2022
+2022-05-01,"CPI (raw IMF, diagnostic)",macro,251.5702,,9.1888,9.8421,,6.4641,stl,True,True,1.0,False,2,False,0.0,economic_shock,crisis_2022
+2022-06-01,"CPI (raw IMF, diagnostic)",macro,277.5895,,9.8421,5.0994,,13.0769,stl,True,True,1.0,False,2,False,0.0,economic_shock,crisis_2022
+2022-07-01,"CPI (raw IMF, diagnostic)",macro,292.1119,,5.0994,2.3543,,15.8052,stl,True,True,0.9961,False,2,False,0.0,economic_shock,crisis_2022
+2022-08-01,"CPI (raw IMF, diagnostic)",macro,299.0705,,2.3543,2.1022,,15.8016,stl,True,True,0.9922,True,3,False,0.0,economic_shock,crisis_2022
+2022-09-01,"CPI (raw IMF, diagnostic)",macro,305.4241,,2.1022,-0.1487,,15.0611,stl,True,True,0.9845,True,3,False,0.0,economic_shock,crisis_2022
+2022-10-01,"CPI (raw IMF, diagnostic)",macro,304.9702,,-0.1487,-0.6469,,11.678,stl,True,False,0.9612,True,2,False,0.0,economic_shock,crisis_2022
+2022-11-01,"CPI (raw IMF, diagnostic)",macro,303.0037,,-0.6469,0.0499,,7.0249,stl,True,False,0.9186,True,2,False,0.0,economic_shock,crisis_2022
+2024-01-01,"CPI (raw IMF, diagnostic)",macro,325.2411,,2.9261,-0.2328,,5.6392,stl,True,False,0.7943,False,1,False,0.2353,economic_shock,vat_2024
+2024-02-01,"CPI (raw IMF, diagnostic)",macro,324.4847,,-0.2328,-2.1202,,5.8116,stl,True,False,0.7447,False,1,False,0.0,economic_shock,vat_2024
+2024-03-01,"CPI (raw IMF, diagnostic)",macro,317.6773,,-2.1202,-0.8608,,3.6779,stl,True,False,0.9007,False,1,False,0.0,economic_shock,vat_2024
+2024-09-01,"CPI (raw IMF, diagnostic)",macro,288.7838,,-6.686,-0.5252,,-5.8032,stl,True,True,0.9823,False,2,False,0.0,data_artifact,cpi_switch_2024_09
+2024-10-01,"CPI (raw IMF, diagnostic)",macro,287.2711,,-0.5252,-0.2636,,-5.4184,stl,True,False,0.9716,False,1,False,0.0,data_artifact,cpi_switch_2024_09
+2024-11-01,"CPI (raw IMF, diagnostic)",macro,286.5147,,-0.2636,1.207,,-4.9271,stl,True,False,0.922,False,1,False,0.0,data_artifact,cpi_switch_2024_09
+2024-12-01,"CPI (raw IMF, diagnostic)",macro,289.994,,1.207,0.4684,,-4.773,stl,True,False,0.6986,False,1,False,0.0,data_artifact,cpi_switch_2024_09
+2003-10-01,LKR/USD,macro,94.5595,,-0.7636,1.5229,,-3.8828,rolling_median,True,False,,True,2,False,0.0,unexplained,
+2005-01-01,LKR/USD,macro,98.9288,,-5.716,0.3469,,-1.4949,rolling_median,False,True,0.9815,True,2,False,0.0,unexplained,
+2009-04-01,LKR/USD,macro,117.3068,,2.611,-0.5426,,4.3199,rolling_median,True,False,0.8529,False,1,False,0.0,unexplained,
+2012-03-01,LKR/USD,macro,125.6605,,6.9011,2.176,,0.0,rolling_median,False,True,0.9928,False,1,False,0.0,economic_shock,lkr_2012
+2012-04-01,LKR/USD,macro,128.4248,,2.176,0.4504,,0.0,rolling_median,False,True,0.9855,False,1,False,0.0,economic_shock,lkr_2012
+2018-11-01,LKR/USD,macro,176.7275,,3.0834,1.8789,,0.0,rolling_median,False,True,0.981,True,2,False,0.0,economic_shock,political_2018
+2019-01-01,LKR/USD,macro,181.6025,,0.8422,-1.7823,,3.9004,rolling_median,True,False,0.9054,False,1,False,0.0,economic_shock,political_2018
+2020-04-01,LKR/USD,macro,191.3536,,3.6964,-2.0118,,5.9575,rolling_median,True,False,0.9231,False,1,False,0.4545,economic_shock,covid
+2020-05-01,LKR/USD,macro,187.5425,,-2.0118,-0.8955,,1.934,rolling_median,False,True,0.9786,False,1,False,0.3636,economic_shock,covid
+2022-03-01,LKR/USD,macro,252.6383,,22.366,23.7383,,0.0,rolling_median,False,True,1.0,True,2,False,0.0,economic_shock,crisis_2022
+2022-04-01,LKR/USD,macro,320.3267,,23.7383,10.6417,,0.0,rolling_median,False,True,1.0,True,2,False,0.0,economic_shock,crisis_2022
+2022-05-01,LKR/USD,macro,356.2948,,10.6417,0.091,,0.0,rolling_median,False,True,1.0,True,2,False,0.0,economic_shock,crisis_2022
+2022-06-01,LKR/USD,macro,356.619,,0.091,0.1443,,0.0729,rolling_median,False,True,0.9884,False,1,False,0.0,economic_shock,crisis_2022
+2022-07-01,LKR/USD,macro,357.134,,0.1443,-0.1807,,0.2886,rolling_median,False,True,0.9729,False,1,False,0.0,economic_shock,crisis_2022
+2023-03-01,LKR/USD,macro,327.4417,,-10.2131,-2.5339,,0.0,rolling_median,False,True,0.9852,False,1,False,0.375,economic_shock,crisis_2022
+2023-04-01,LKR/USD,macro,319.249,,-2.5339,-3.1272,,0.0,rolling_median,False,True,0.9741,False,1,False,0.3125,economic_shock,crisis_2022
+2023-05-01,LKR/USD,macro,309.42,,-3.1272,-2.5505,,-6.2544,rolling_median,True,False,0.9667,False,1,False,0.375,economic_shock,crisis_2022
+2023-06-01,LKR/USD,macro,301.6281,,-2.5505,5.6114,,-11.3553,rolling_median,True,False,0.9667,True,2,False,0.0,economic_shock,crisis_2022
+2020-02-01,Coconut,staple,68.84,wfp,15.2216,-0.9927,,4.8491,stl,True,False,,False,1,True,0.5385,economic_shock,covid
+2020-03-01,Coconut,staple,68.16,wfp,-0.9927,-6.2975,,4.5702,stl,True,False,,False,1,True,0.3077,economic_shock,covid
+2022-10-01,Coconut,staple,105.2,wfp,8.7046,-0.5911,,3.8748,stl,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-11-01,Coconut,staple,104.58,wfp,-0.5911,4.5241,,4.2021,stl,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-12-01,Coconut,staple,109.42,wfp,4.5241,9.038,,7.3265,stl,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-01-01,Coconut,staple,119.77,wfp,9.038,-0.687,,13.6309,stl,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-02-01,Coconut,staple,118.95,wfp,-0.687,0.042,2.5809,15.3068,stl,True,False,,False,1,False,0.4167,economic_shock,crisis_2022
+2023-03-01,Coconut,staple,119.0,wfp,0.042,-2.4585,1.2177,15.4344,stl,True,False,,False,1,False,0.375,economic_shock,crisis_2022
+2023-04-01,Coconut,staple,116.11,wfp,-2.4585,-18.5721,0.5479,15.616,stl,True,False,,False,1,False,0.3125,economic_shock,crisis_2022
+2023-05-01,Coconut,staple,96.43,wfp,-18.5721,-24.2303,-0.1091,8.8391,stl,True,False,,False,1,False,0.375,possible_data_artifact,CBSL moved -0 vs -19 (100×log)
+2023-07-01,Coconut,staple,71.34,wfp,-5.9057,-3.698,-7.659,-3.5404,stl,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-08-01,Coconut,staple,68.75,wfp,-3.698,-2.0574,3.4349,-6.1731,stl,True,False,,False,1,False,0.0,unexplained,
+2023-09-01,Coconut,staple,67.35,wfp,-2.0574,6.2588,3.5624,-7.8191,stl,True,False,,False,1,False,0.0,unexplained,
+2023-10-01,Coconut,staple,71.7,wfp,6.2588,4.206,2.3439,-6.8402,stl,True,False,,False,1,False,0.0,unexplained,same-direction move in CBSL
+2023-11-01,Coconut,staple,74.78,wfp,4.206,6.7476,1.1675,-6.7626,stl,True,False,,False,1,False,0.0,unexplained,same-direction move in CBSL
+2023-12-01,Coconut,staple,80.0,wfp,6.7476,2.066,3.9393,-4.1287,stl,True,False,,False,1,False,0.0,unexplained,same-direction move in CBSL
+2024-12-01,Coconut,staple,128.25,wfp,10.6878,11.9852,5.73,3.617,stl,True,False,0.75,False,1,False,0.0,economic_shock,coconut_2024_25
+2025-01-01,Coconut,staple,144.58,wfp,11.9852,11.1724,2.0942,11.1886,stl,True,False,0.7008,False,1,False,0.0,economic_shock,coconut_2024_25
+2025-02-01,Coconut,staple,161.67,wfp,11.1724,-1.2511,17.3575,17.7772,stl,True,False,0.7008,False,1,False,0.0,economic_shock,coconut_2024_25
+2025-03-01,Coconut,staple,159.66,wfp,-1.2511,1.9169,5.2805,14.3091,stl,True,False,0.5615,False,1,False,0.0,economic_shock,coconut_2024_25
+2025-04-01,Coconut,staple,162.75,wfp,1.9169,0.6126,-4.8708,15.6344,stl,True,False,0.5041,False,1,False,0.0,economic_shock,coconut_2024_25
+2025-05-01,Coconut,staple,163.75,wfp,0.6126,-9.5469,2.1202,15.2192,stl,True,False,0.3934,False,1,False,0.3077,economic_shock,coconut_2024_25
+2025-06-01,Coconut,staple,148.84,wfp,-9.5469,-15.9945,-1.8709,9.667,stl,True,False,0.4549,False,1,False,0.0,economic_shock,coconut_2024_25
+2020-02-01,Lentils,staple,132.17,wfp,-2.2962,2.1186,,-9.1848,rolling_median,True,False,,False,1,True,0.5385,economic_shock,covid
+2020-03-01,Lentils,staple,135.0,wfp,2.1186,,,-7.3348,rolling_median,True,False,,False,1,True,0.3077,economic_shock,covid
+2020-06-01,Lentils,staple,149.9,wfp,,-0.1335,,13.2939,rolling_median,True,False,,False,1,False,0.0,economic_shock,covid
+2020-08-01,Lentils,staple,145.0,wfp,-3.19,2.5533,,-10.2133,rolling_median,True,False,,False,1,False,0.0,unexplained,
+2022-07-01,Lentils,staple,565.83,wfp,,-20.2599,,76.3444,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-05-01,Lentils,staple,284.3,wfp,-23.0922,6.3307,1.5602,-31.872,rolling_median,True,False,,False,1,False,0.375,possible_data_artifact,CBSL moved +2 vs -23 (100×log)
+2023-06-01,Lentils,staple,302.88,wfp,6.3307,-2.6226,-18.132,-6.5494,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-07-01,Lentils,staple,295.04,wfp,-2.6226,4.2599,-3.4836,-17.0397,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2024-09-01,Lentils,staple,298.76,wfp,-1.9982,0.8864,-0.5189,-4.9366,rolling_median,True,False,0.4191,False,1,False,0.0,unexplained,same-direction move in CBSL
+2026-02-01,Lentils,staple,265.05,cbsl_scaled,-0.9986,7.9494,,-3.9943,rolling_median,True,False,0.1222,True,2,False,0.3077,economic_shock,broad: 31% of series flagged
+2026-03-01,Lentils,staple,286.98,cbsl_scaled,7.9494,10.8096,,27.3702,rolling_median,True,False,0.8068,True,2,False,0.2353,unexplained,
+2026-04-01,Lentils,staple,319.74,cbsl_scaled,10.8096,-13.2933,,70.6085,rolling_median,True,False,0.696,True,2,False,0.3529,economic_shock,broad: 35% of series flagged
+2026-05-01,Lentils,staple,279.94,cbsl_scaled,-13.2933,-4.3588,,17.4353,rolling_median,True,False,0.625,True,2,False,0.0,unexplained,
+2026-07-01,Lentils,staple,256.71,cbsl_scaled,-4.304,0.1635,,-17.216,rolling_median,True,False,0.2273,False,1,False,0.2857,economic_shock,broad: 29% of series flagged
+2026-08-01,Lentils,staple,257.13,cbsl_scaled,0.1635,2.3788,,-16.5621,rolling_median,True,False,0.1051,False,1,False,0.0,unexplained,
+2026-09-01,Lentils,staple,263.32,cbsl_scaled,2.3788,2.3866,,-3.5234,rolling_median,True,False,0.0455,False,1,True,0.0,unexplained,
+2026-10-01,Lentils,staple,269.68,cbsl_scaled,2.3866,0.1815,,9.5464,rolling_median,True,False,0.071,False,1,True,0.3077,economic_shock,broad: 31% of series flagged
+2026-11-01,Lentils,staple,270.17,cbsl_scaled,0.1815,,,5.4993,rolling_median,True,False,0.0455,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2020-01-01,Onions (imported),staple,118.9,wfp,,20.1137,,-4.761,rolling_median,True,False,,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2020-02-01,Onions (imported),staple,145.39,wfp,20.1137,7.3253,,5.6171,rolling_median,True,False,,False,1,True,0.5385,economic_shock,covid
+2020-03-01,Onions (imported),staple,156.44,wfp,7.3253,,,9.3501,rolling_median,True,False,,False,1,True,0.3077,economic_shock,covid
+2020-06-01,Onions (imported),staple,80.25,wfp,,-3.5772,,-14.1891,rolling_median,True,False,,False,1,False,0.0,economic_shock,covid
+2020-07-01,Onions (imported),staple,77.43,wfp,-3.5772,41.28,,-15.5353,rolling_median,True,False,,False,1,False,0.0,economic_shock,covid
+2021-12-01,Onions (imported),staple,216.59,wfp,6.9194,-9.7853,,4.975,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-03-01,Onions (imported),staple,178.53,wfp,-6.1056,23.0188,,-5.7009,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-06-01,Onions (imported),staple,234.82,wfp,12.258,-9.1722,,4.6132,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-08-01,Onions (imported),staple,177.18,wfp,-18.9931,3.0515,,-7.1479,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-09-01,Onions (imported),staple,182.67,wfp,3.0515,34.4542,,-5.9995,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-10-01,Onions (imported),staple,257.81,wfp,34.4542,-11.2753,,12.9665,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2022-11-01,Onions (imported),staple,230.32,wfp,-11.2753,-36.7426,,9.8715,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-02-01,Onions (imported),staple,106.0,wfp,-47.7698,10.4785,-19.7706,-6.1537,rolling_median,True,False,,False,1,False,0.4167,economic_shock,crisis_2022
+2023-05-01,Onions (imported),staple,89.7,wfp,-33.0482,36.721,5.6517,-12.4374,rolling_median,True,False,,False,1,False,0.375,possible_data_artifact,CBSL moved +6 vs -33 (100×log)
+2024-03-01,Onions (imported),staple,535.62,wfp,27.2158,12.3455,23.8608,8.6919,rolling_median,True,False,0.8897,False,1,False,0.0,unexplained,same-direction move in CBSL
+2024-04-01,Onions (imported),staple,606.0,wfp,12.3455,-87.349,2.1197,14.8885,rolling_median,True,False,0.8603,False,1,False,0.0,unexplained,same-direction move in CBSL
+2024-11-01,Onions (imported),staple,343.08,wfp,17.7924,-15.3024,15.5682,8.4066,rolling_median,True,False,0.2868,True,2,False,0.0,unexplained,same-direction move in CBSL
+2025-12-01,Onions (imported),staple,232.05,cbsl_scaled,20.3039,-12.0145,,4.6351,rolling_median,True,False,0.7992,False,1,False,0.0,unexplained,
+2026-11-01,Onions (imported),staple,348.75,cbsl_scaled,10.9207,,,3.6327,rolling_median,True,False,0.4318,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2007-07-01,Rice (white),staple,36.36,wfp,1.6639,2.0148,,-8.7228,stl,True,False,,False,1,False,0.0,unexplained,
+2007-08-01,Rice (white),staple,37.1,wfp,2.0148,1.4185,,-7.6931,stl,True,False,,False,1,False,0.0,unexplained,
+2007-09-01,Rice (white),staple,37.63,wfp,1.4185,0.6622,,-7.754,stl,True,False,,False,1,False,0.0,economic_shock,global_2008
+2007-10-01,Rice (white),staple,37.88,wfp,0.6622,22.6306,,-8.2947,stl,True,False,,False,1,False,0.0,economic_shock,global_2008
+2008-01-01,Rice (white),staple,57.41,wfp,6.0494,8.8621,,4.4213,stl,True,False,,True,2,False,0.0,economic_shock,global_2008
+2008-02-01,Rice (white),staple,62.73,wfp,8.8621,0.0,,6.1967,stl,True,False,,True,2,False,0.0,economic_shock,global_2008
+2008-03-01,Rice (white),staple,62.73,wfp,0.0,4.7932,,9.0678,stl,True,False,,True,2,False,0.0,economic_shock,global_2008
+2008-04-01,Rice (white),staple,65.81,wfp,4.7932,-1.2385,,12.9844,stl,True,False,,True,2,False,0.0,economic_shock,global_2008
+2008-05-01,Rice (white),staple,65.0,wfp,-1.2385,1.6025,,11.3136,stl,True,False,,True,2,False,0.0,economic_shock,global_2008
+2008-06-01,Rice (white),staple,66.05,wfp,1.6025,-5.3647,,11.184,stl,True,False,,False,1,False,0.0,economic_shock,global_2008
+2009-06-01,Rice (white),staple,62.11,wfp,3.3563,-1.9345,,4.511,stl,True,False,,False,1,False,0.0,unexplained,
+2010-07-01,Rice (white),staple,49.45,wfp,-4.6621,-4.2762,,-6.7875,stl,True,False,0.6111,False,1,False,0.0,unexplained,
+2010-08-01,Rice (white),staple,47.38,wfp,-4.2762,2.2332,,-7.286,stl,True,False,0.8056,False,1,False,0.0,unexplained,
+2010-09-01,Rice (white),staple,48.45,wfp,2.2332,9.5404,,-5.1243,stl,True,False,0.5833,False,1,False,0.0,unexplained,
+2011-03-01,Rice (white),staple,59.23,wfp,0.0845,-1.9435,,4.2683,stl,True,False,0.2917,False,1,False,0.0,economic_shock,floods_2011
+2011-04-01,Rice (white),staple,58.09,wfp,-1.9435,0.2579,,5.357,stl,True,False,0.3125,False,1,False,0.0,economic_shock,floods_2011
+2011-05-01,Rice (white),staple,58.24,wfp,0.2579,-1.3831,,5.2639,stl,True,False,0.2083,False,1,False,0.0,economic_shock,floods_2011
+2011-06-01,Rice (white),staple,57.44,wfp,-1.3831,-1.7917,,4.7547,stl,True,False,0.2917,False,1,False,0.0,economic_shock,floods_2011
+2013-11-01,Rice (white),staple,59.49,wfp,0.1851,1.5843,,-3.9309,stl,True,False,0.1806,False,1,False,0.0,unexplained,
+2013-12-01,Rice (white),staple,60.44,wfp,1.5843,7.1042,,-4.4768,stl,True,False,0.1806,False,1,False,0.0,unexplained,
+2014-09-01,Rice (white),staple,78.56,wfp,7.4774,0.2796,,5.8619,stl,True,False,0.869,False,1,False,0.0,unexplained,
+2014-10-01,Rice (white),staple,78.78,wfp,0.2796,-0.1397,,4.4613,stl,True,False,0.75,False,1,False,0.0,unexplained,
+2016-12-01,Rice (white),staple,88.56,wfp,12.4539,5.2354,,4.9716,stl,True,False,0.9537,False,1,False,0.0,economic_shock,drought_2016_17
+2017-01-01,Rice (white),staple,93.32,wfp,5.2354,-5.8016,,6.5096,stl,True,False,0.9417,False,1,False,0.0,economic_shock,drought_2016_17
+2017-02-01,Rice (white),staple,88.06,wfp,-5.8016,-13.9291,,4.5655,stl,True,False,0.9083,False,1,False,0.0,economic_shock,drought_2016_17
+2019-12-01,Rice (white),staple,105.55,wfp,7.1975,1.5045,,3.8312,stl,True,False,0.9028,False,1,False,0.0,unexplained,
+2021-08-01,Rice (white),staple,107.0,wfp,-4.567,-3.81,,-5.7946,stl,True,False,0.5893,False,1,False,0.0,economic_shock,fertiliser_ban
+2021-09-01,Rice (white),staple,103.0,wfp,-3.81,10.1469,,-9.2641,stl,True,False,0.7262,False,1,False,0.0,economic_shock,fertiliser_ban
+2021-10-01,Rice (white),staple,114.0,wfp,10.1469,14.6603,,-6.8922,stl,True,False,0.8988,False,1,False,0.0,economic_shock,fertiliser_ban
+2021-12-01,Rice (white),staple,131.66,wfp,-0.2579,18.5406,,-5.3687,stl,True,False,0.9464,False,1,False,0.0,economic_shock,fertiliser_ban
+2022-01-01,Rice (white),staple,158.48,wfp,18.5406,1.8939,,0.3201,stl,False,True,0.9722,False,1,False,0.0,economic_shock,fertiliser_ban
+2022-04-01,Rice (white),staple,206.17,wfp,19.7383,4.778,,8.1903,stl,True,True,0.9833,False,2,False,0.0,economic_shock,crisis_2022
+2022-05-01,Rice (white),staple,216.26,wfp,4.778,5.0757,,8.1083,stl,True,True,0.9833,False,2,False,0.0,economic_shock,crisis_2022
+2022-06-01,Rice (white),staple,227.52,wfp,5.0757,,,9.0619,stl,True,False,0.9611,False,1,False,0.0,economic_shock,crisis_2022
+2023-02-01,Sugar (CBSL),staple,226.2857,,2.2667,-6.0506,,3.7998,rolling_median,True,False,,False,1,True,0.4167,economic_shock,crisis_2022
+2023-03-01,Sugar (CBSL),staple,213.0,,-6.0506,4.604,,-13.9928,rolling_median,True,False,,False,1,True,0.375,economic_shock,crisis_2022
+2023-04-01,Sugar (CBSL),staple,223.0357,,4.604,12.2402,,-3.7998,rolling_median,True,False,,False,1,False,0.3125,economic_shock,crisis_2022
+2023-05-01,Sugar (CBSL),staple,252.0769,,12.2402,-7.9191,,20.8005,rolling_median,True,False,,False,1,False,0.375,economic_shock,crisis_2022
+2023-07-01,Sugar (CBSL),staple,235.881,,1.2784,6.241,,-16.3928,rolling_median,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-11-01,Sugar (CBSL),staple,297.8462,,10.0336,2.3735,,11.3345,rolling_median,True,False,,True,2,False,0.0,unexplained,
+2023-12-01,Sugar (CBSL),staple,305.0,,2.3735,-3.5033,,17.5687,rolling_median,True,False,,True,2,False,0.0,unexplained,
+2024-01-01,Sugar (CBSL),staple,294.5,,-3.5033,-3.1855,,8.367,rolling_median,True,False,0.3824,True,2,False,0.2353,unexplained,
+2024-06-01,Sugar (CBSL),staple,273.4375,,1.847,-2.1064,,4.8515,rolling_median,True,False,0.1324,False,1,False,0.0,unexplained,
+2026-02-01,Sugar (CBSL),staple,215.9211,,-0.7286,1.1328,,-4.0614,rolling_median,True,False,0.071,True,2,False,0.3077,economic_shock,broad: 31% of series flagged
+2026-04-01,Sugar (CBSL),staple,227.9333,,4.2812,-1.7903,,6.2833,rolling_median,True,False,0.7926,True,2,False,0.3529,economic_shock,broad: 35% of series flagged
+2026-06-01,Sugar (CBSL),staple,231.119,,3.1783,-3.7802,,3.6457,rolling_median,True,False,0.392,False,1,False,0.0,unexplained,
+2026-07-01,Sugar (CBSL),staple,222.5455,,-3.7802,3.5234,,-9.2545,rolling_median,True,False,0.3011,False,1,False,0.2857,economic_shock,broad: 29% of series flagged
+2026-09-01,Sugar (CBSL),staple,241.3864,,4.6034,0.2821,,5.7084,rolling_median,True,False,0.3778,False,1,True,0.0,unexplained,
+2026-11-01,Sugar (CBSL),staple,254.3125,,4.9344,,,13.3313,rolling_median,True,False,0.3864,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2004-11-01,Wheat flour,staple,39.6,,34.1282,54.0679,,30.2266,rolling_median,True,False,,False,1,False,0.0,unexplained,
+2004-12-01,Wheat flour,staple,68.0,,54.0679,-66.0168,,72.9384,rolling_median,True,False,,False,1,False,0.0,possible_data_artifact,isolated spike +54 then -66 (100×log) in a normally smooth series
+2005-01-01,Wheat flour,staple,35.14,,-66.0168,-18.2777,,6.9216,rolling_median,True,False,,True,2,False,0.0,unexplained,
+2005-02-01,Wheat flour,staple,29.27,,-18.2777,11.356,,-11.356,rolling_median,True,False,,True,2,False,0.0,unexplained,
+2005-04-01,Wheat flour,staple,32.48,,-0.9499,-5.7014,,5.7014,rolling_median,True,False,,True,2,False,0.0,unexplained,
+2005-05-01,Wheat flour,staple,30.68,,-5.7014,-9.0692,,3.9899,rolling_median,True,False,,True,2,False,0.0,unexplained,
+2005-06-01,Wheat flour,staple,28.02,,-9.0692,-1.7279,,-5.6881,rolling_median,True,False,,False,1,False,0.0,unexplained,
+2005-07-01,Wheat flour,staple,27.54,,-1.7279,6.8073,,-7.416,rolling_median,True,False,,False,1,False,0.0,unexplained,
+2008-08-01,Wheat flour,staple,82.5,,4.335,-14.6183,,4.335,rolling_median,True,False,0.3947,True,2,False,0.0,economic_shock,global_2008
+2010-03-01,Wheat flour,staple,60.085,,-3.5398,-0.3251,,-3.5398,rolling_median,True,False,0.8065,False,1,False,0.0,unexplained,
+2010-04-01,Wheat flour,staple,59.89,,-0.3251,3.6639,,-3.8649,rolling_median,True,False,0.6452,False,1,False,0.0,unexplained,
+2016-01-01,Wheat flour,staple,93.67,,9.7127,-8.0559,,8.0559,rolling_median,True,False,0.8433,False,1,False,0.0,unexplained,
+2016-03-01,Wheat flour,staple,87.58,,1.3334,5.1733,,-5.1733,rolling_median,True,False,0.6567,False,1,False,0.0,unexplained,
+2016-08-01,Wheat flour,staple,87.0,,-5.0431,2.0816,,-5.0431,rolling_median,True,False,0.8433,False,1,False,0.0,unexplained,
+2016-11-01,Wheat flour,staple,93.33,,4.9417,-4.8292,,4.8292,rolling_median,True,False,0.6493,True,2,False,0.0,unexplained,
+2020-04-01,Wheat flour,staple,89.04,,-3.5308,3.5525,,-3.5525,rolling_median,True,False,0.7637,False,1,False,0.4545,economic_shock,covid
+2022-04-01,Wheat flour,staple,233.46,,28.0257,12.9884,,14.0128,rolling_median,True,True,0.9854,False,2,True,0.0,economic_shock,crisis_2022
+2022-05-01,Wheat flour,staple,265.84,,12.9884,6.7171,,12.9884,rolling_median,True,True,0.9806,False,2,True,0.0,economic_shock,crisis_2022
+2022-06-01,Wheat flour,staple,284.31,,6.7171,,,13.2113,rolling_median,True,True,0.9757,False,2,True,0.0,economic_shock,crisis_2022
+2020-01-01,Beans,vegetable,296.07,wfp,,-25.3952,,7.1246,stl,True,False,,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2020-02-01,Beans,vegetable,229.67,wfp,-25.3952,-50.7363,,4.1202,stl,True,False,,False,1,True,0.5385,economic_shock,covid
+2023-03-01,Beans,vegetable,242.22,wfp,-80.9636,44.1204,-42.9626,-3.5493,stl,True,False,,False,1,False,0.375,economic_shock,crisis_2022
+2024-01-01,Beans,vegetable,890.4,wfp,33.8834,-21.242,30.7516,3.9419,stl,True,False,0.8824,False,1,False,0.2353,unexplained,same-direction move in CBSL
+2024-04-01,Beans,vegetable,259.33,wfp,-36.9944,66.3979,-45.4997,-4.0464,stl,True,False,0.9412,False,1,False,0.0,unexplained,same-direction move in CBSL
+2026-07-01,Beans,vegetable,437.3,cbsl_scaled,-31.3289,26.5122,,-3.9398,stl,True,False,0.5625,False,1,False,0.2857,economic_shock,broad: 29% of series flagged
+2020-05-01,Cabbage,vegetable,55.92,wfp,-3.6521,61.8351,,-4.2173,stl,True,False,,False,1,False,0.3636,economic_shock,covid
+2022-12-01,Cabbage,vegetable,107.0,wfp,-109.7584,44.8155,,-7.3701,stl,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-01-01,Cabbage,vegetable,167.5,wfp,44.8155,-124.9782,,-4.8554,stl,True,False,,False,1,False,0.0,economic_shock,crisis_2022
+2023-02-01,Cabbage,vegetable,48.0,wfp,-124.9782,120.8587,-25.356,-11.812,stl,True,False,,False,1,False,0.4167,data_artifact,cabbage_wfp_2023_02
+2023-03-01,Cabbage,vegetable,160.74,wfp,120.8587,50.7985,14.7992,-4.7373,stl,True,False,,True,2,False,0.375,possible_data_artifact,CBSL moved +15 vs +121 (100×log)
+2025-05-01,Cabbage,vegetable,524.5,wfp,22.2191,-8.0898,31.7371,3.5223,stl,True,False,0.5738,False,1,False,0.3077,economic_shock,broad: 31% of series flagged
+2026-10-01,Cabbage,vegetable,529.13,cbsl_scaled,38.3243,46.6859,,6.7647,stl,True,False,0.8523,False,1,True,0.3077,seasonal_or_unverified,veg_nov_2026
+2026-11-01,Cabbage,vegetable,843.95,cbsl_scaled,46.6859,,,9.0117,stl,True,False,0.9659,False,1,True,0.3846,seasonal_or_unverified,veg_nov_2026
+2020-01-01,Carrots,vegetable,397.52,wfp,,-36.8074,,9.6901,stl,True,False,,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2020-02-01,Carrots,vegetable,275.11,wfp,-36.8074,-46.1685,,8.4935,stl,True,False,,False,1,True,0.5385,economic_shock,covid
+2023-02-01,Carrots,vegetable,97.0,wfp,-120.1392,74.0119,-23.306,-11.4628,stl,True,False,,False,1,False,0.4167,possible_data_artifact,CBSL moved -23 vs -120 (100×log)
+2023-03-01,Carrots,vegetable,203.33,wfp,74.0119,22.5688,-11.6541,-4.6634,stl,True,False,,False,1,False,0.375,possible_data_artifact,CBSL moved -12 vs +74 (100×log)
+2024-01-01,Carrots,vegetable,1299.2,wfp,85.9586,-50.7649,99.9711,7.5377,stl,True,True,0.9926,False,2,False,0.2353,unexplained,same-direction move in CBSL
+2025-03-01,Carrots,vegetable,811.5,wfp,2.2506,-34.6673,-4.3885,4.6892,stl,True,False,0.9139,False,1,False,0.0,unexplained,
+2025-05-01,Carrots,vegetable,942.5,wfp,49.6325,-37.4645,45.8338,6.681,stl,True,False,0.9221,False,1,False,0.3077,economic_shock,broad: 31% of series flagged
+2026-02-01,Carrots,vegetable,388.5,cbsl_scaled,-25.2275,6.9209,,-7.2395,stl,True,False,0.6761,False,1,False,0.3077,economic_shock,ditwah
+2026-10-01,Carrots,vegetable,386.67,cbsl_scaled,15.9085,66.102,,5.9657,stl,True,False,0.3494,False,1,True,0.3077,seasonal_or_unverified,veg_nov_2026
+2026-11-01,Carrots,vegetable,748.89,cbsl_scaled,66.102,,,9.0566,stl,True,False,0.9403,False,1,True,0.3846,seasonal_or_unverified,veg_nov_2026
+2020-01-01,Potatoes (local),vegetable,181.94,wfp,,-1.2722,,6.7275,stl,True,False,,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2020-02-01,Potatoes (local),vegetable,179.64,wfp,-1.2722,-20.1679,,5.7409,stl,True,False,,False,1,True,0.5385,economic_shock,covid
+2020-04-01,Potatoes (local),vegetable,115.5,wfp,-24.0005,-59.4301,,-4.5141,stl,True,False,,False,1,False,0.4545,economic_shock,covid
+2020-05-01,Potatoes (local),vegetable,63.75,wfp,-59.4301,105.2,,-16.9261,stl,True,False,,False,1,False,0.3636,economic_shock,covid
+2023-05-01,Potatoes (local),vegetable,260.0,wfp,-32.5422,36.0575,0.8052,-7.0222,stl,True,False,,False,1,False,0.375,possible_data_artifact,CBSL moved +1 vs -33 (100×log)
+2020-01-01,Tomatoes,vegetable,297.6,wfp,,-14.0971,,6.6757,stl,True,False,,False,1,True,0.3846,economic_shock,broad: 38% of series flagged
+2020-02-01,Tomatoes,vegetable,258.47,wfp,-14.0971,-72.9591,,4.4851,stl,True,False,,False,1,True,0.5385,economic_shock,covid
+2020-04-01,Tomatoes,vegetable,45.5,wfp,-100.7477,41.5234,,-4.7777,stl,True,False,,False,1,False,0.4545,economic_shock,covid
+2024-02-01,Tomatoes,vegetable,849.0,wfp,22.8458,-77.5352,27.7438,4.8967,stl,True,False,0.9044,False,1,False,0.0,unexplained,same-direction move in CBSL
+2025-04-01,Tomatoes,vegetable,594.5,wfp,62.6928,40.0451,66.344,5.6172,stl,True,False,0.873,False,1,False,0.0,unexplained,same-direction move in CBSL
+2025-05-01,Tomatoes,vegetable,887.29,wfp,40.0451,-56.3198,32.2612,5.1994,stl,True,False,0.9303,False,1,False,0.3077,economic_shock,broad: 31% of series flagged
+2026-03-01,Tomatoes,vegetable,185.82,cbsl_scaled,-29.6882,16.7166,,-3.685,stl,True,False,0.9375,False,1,False,0.2353,unexplained,
+2026-06-01,Tomatoes,vegetable,770.8,cbsl_scaled,49.8341,-43.9423,,-0.2841,stl,False,True,0.9886,False,1,False,0.0,unexplained,

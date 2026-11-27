@@ -34,8 +34,9 @@ The WFP files were downloaded directly from HDX:
 | [`notebooks/01_eda.ipynb`](notebooks/01_eda.ipynb) | Inflation & FX, commodity trends, Maha/Yala seasonality, 2022 crisis, regional comparison across 38 markets, wholesale→retail margins | [PHASE2_NOTES.md](PHASE2_NOTES.md) |
 | [`notebooks/02_relationships.ipynb`](notebooks/02_relationships.ipynb) | Lead/lag correlations, stationarity, Granger causality, VARs with impulse responses, pass-through regressions (FX, world prices, fuel) | [PHASE3_NOTES.md](PHASE3_NOTES.md) |
 | [`notebooks/03_forecasting.ipynb`](notebooks/03_forecasting.ipynb) | Rolling-origin backtests of naive, seasonal naive, SARIMA, SARIMAX and LightGBM for 13 series; 2022 crisis stress test; LSTM check; 6-month forecasts with empirical intervals | [PHASE4_NOTES.md](PHASE4_NOTES.md) |
+| [`notebooks/04_anomalies.ipynb`](notebooks/04_anomalies.ipynb) | Anomaly detection for 19 macro, commodity and fuel series: STL residual z-scores, causal Isolation Forest, PELT change points; validation against known events; economic shocks vs data artifacts | [PHASE5_NOTES.md](PHASE5_NOTES.md) |
 
-Reusable analysis code is in `src/` (`relationships.py`, `forecasting.py`). The forecasting backtest is run by `scripts/09_forecast_backtest.py` (and the optional LSTM check by `scripts/10_lstm_experiment.py`). Figures are saved to `reports/figures/` and summary tables to `reports/tables/`.
+Reusable analysis code is in `src/` (`relationships.py`, `forecasting.py`, `anomalies.py`). The forecasting backtest is run by `scripts/09_forecast_backtest.py` (and the optional LSTM check by `scripts/10_lstm_experiment.py`); anomaly detection by `scripts/11_detect_anomalies.py`. Figures are saved to `reports/figures/` and summary tables to `reports/tables/`.
 
 Early findings (Phase 2):
 - **Inflation** peaked at 72.5% (Sep-2022), bottomed at −4.2% (Feb-2025) and was 8.0% by Aug-2026. **LKR/USD** is 331, 9% off its Jan-2023 peak of 364.
@@ -52,6 +53,15 @@ Forecasting findings (Phase 4):
 - **"No change" is hard to beat:** naive forecasts are best for LKR/USD, rice, wheat flour, coconut and imported onion. Month-to-month, these behave close to random walks.
 - **Where models help:** sugar (SARIMAX with world sugar + FX, −20% error at 1 month), CPI (LightGBM, −12% at 1 month), and seasonal vegetables (pooled LightGBM, −9% to −25% at 3–6 months).
 - **2022 crisis stress test:** every model's errors rise roughly 3–12×. The LSTM was tested and did not beat the simpler models.
+
+Anomaly findings (Phase 5):
+- **2022 crisis:** detected in 15 of 19 series. CPI is flagged in real time from **Dec-2021**. Change points date the inflation regime to **2021-10 → 2022-09** (+4.5% a month) and the FX float to **2022-03**.
+- **Data artifacts are separated from real shocks:**
+  - The Sep-2024 index switch is flagged in the raw IMF CPI but **not** in the cleaned CPI.
+  - The Feb-2023 WFP cabbage price (48 LKR/kg) is a single-market artifact: CBSL fell only 23%.
+  - A new finding: **WFP diesel and petrol prices are swapped in Aug-2017**.
+- **2026 oil shock:** flagged in diesel, petrol and kerosene (April), and CPI rose 3.0% in Apr-2026.
+- **Cyclone Ditwah's Dec-2025 vegetable spike** coincides with the seasonal December peak and is under-detected. The Oct–Nov 2026 cabbage and carrot spike is flagged but its cause is unverified.
 
 ## Processed datasets (`data/processed/`)
 

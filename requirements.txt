@@ -17,6 +17,7 @@ statsmodels>=0.14.5  # SARIMA/SARIMAX, STL, VAR, Granger causality (0.14.5+ need
 scipy>=1.13
 scikit-learn>=1.5    # Isolation Forest, preprocessing, metrics
 lightgbm>=4.3        # gradient-boosted forecasting models
+ruptures>=1.1        # optional: change points (src/anomalies.py falls back to a built-in PELT)
 
 # Dashboard
 streamlit>=1.37
