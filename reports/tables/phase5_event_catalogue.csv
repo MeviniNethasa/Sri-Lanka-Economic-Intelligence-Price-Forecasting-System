@@ -1,0 +1,23 @@
+id,name,start,end,kind,series,expect,source,note
+tsunami_2004,Indian Ocean tsunami,2004-12,2005-02,economic_shock,"CPI (cleaned), CPI (raw IMF, diagnostic)",detect,background,26 Dec 2004
+global_2008,Global food and oil price spike,2007-10,2008-10,economic_shock,"macro, Rice (white), Wheat flour",detect,background,world grain and oil peak mid-2008
+floods_2011,Floods hit the Maha paddy harvest,2011-01,2011-06,weather_shock,Rice (white),detect,background,Jan–Feb 2011 floods in the east
+lkr_2012,LKR allowed to depreciate,2012-02,2012-04,policy,LKR/USD,detect,background,CBSL stopped defending the rate in Feb 2012
+price_cuts_2015,Post-election price cuts,2015-01,2015-02,policy,"CPI (cleaned), CPI (raw IMF, diagnostic), fuel",detect,background,Jan-2015 fuel price cuts and interim-budget cuts to essential goods
+drought_2016_17,2016–17 drought,2016-10,2017-06,weather_shock,"Rice (white), CPI (cleaned)",detect,background,failed Yala/Maha seasons; rice imports in 2017
+oil_2014_16,Oil price collapse,2014-11,2016-02,economic_shock,Brent (USD/bbl),detect,background,OPEC decision Nov 2014; Brent bottomed Jan 2016
+political_2018,Oct–Dec 2018 constitutional crisis,2018-10,2018-12,policy,LKR/USD,detect,background,rupee sell-off
+covid,COVID-19 lockdowns,2020-03,2020-06,economic_shock,*,detect,project,supply disruption; Phase 1 covid dummy 2020-03..2021-12
+fertiliser_ban,Chemical fertiliser import ban,2021-05,2021-12,policy,"Rice (white), vegetable",detect,background,"ban from Apr/May 2021, eased Nov 2021"
+crisis_2022,2022 economic crisis,2021-09,2023-06,economic_shock,*,detect,project,"FX, fuel and food shortages; Phase 1 window 2022-01..2023-06, here from 2021-09 when inflation and staple prices started to accelerate"
+lkr_float,LKR float and collapse,2022-03,2022-05,policy,"LKR/USD, CPI (cleaned)",detect,project,peg abandoned Mar 2022
+cabbage_wfp_2023_02,WFP cabbage 48 LKR/kg,2023-02,2023-02,data_artifact,Cabbage,detect,project,single WFP market (Peliyagoda); CBSL retail fell only ~23% (132→102)
+wfp_fuel_swap_2017_08,WFP diesel/petrol labels swapped,2017-08,2017-09,data_artifact,"Diesel, Petrol 92",detect,project,"Aug-2017 diesel 117 / petrol 95 – exactly the reverse of Jul and Sep (95 / 117) in every WFP market; found by the detectors, confirmed by inspection"
+vat_2024,VAT raised to 18%,2024-01,2024-02,policy,"CPI (cleaned), CPI (raw IMF, diagnostic)",detect,background,from 1 Jan 2024
+coconut_2024_25,Coconut shortage,2024-10,2025-06,economic_shock,Coconut,detect,background,low yields after dry weather; record nut prices in early 2025
+cpi_switch_2024_09,NCPI→CCPI index switch in IMF CPI,2024-09,2024-12,data_artifact,"CPI (raw IMF, diagnostic)",detect,project,raw IMF index drops 6.5% in Sep-2024 (Phase 1); the level shift also inflates the STL residuals of the next months
+cpi_switch_clean,Index switch removed by the Phase 1 fix,2024-09,2024-12,data_artifact,CPI (cleaned),not_detect,project,cleaned CPI changes −0.1% in Sep-2024
+splice_2025_10,WFP→CBSL splice,2025-10,2025-10,data_artifact,"vegetable, Coconut, Rice (white), Lentils, Onions (imported)",check,project,continuous series switch to level-adjusted CBSL; a flag here may be a splice effect
+ditwah,Cyclone Ditwah floods,2025-12,2026-01,weather_shock,vegetable,detect,cited,landfall 27–28 Nov 2025; vegetable supply disruption
+fuel_2026,2026 global oil shock and fuel hikes,2026-03,2026-06,economic_shock,"fuel, CPI (cleaned), LKR/USD, Brent (USD/bbl)",detect,cited,Middle East conflict; fuel up ~8% (9 Mar) and ~25% (21–22 Mar 2026)
+veg_nov_2026,Oct–Nov 2026 vegetable spike,2026-10,2026-11,seasonal,vegetable,check,project,cause not verified; coincides with the usual Nov–Jan monsoon/lean-season peak; Nov-2026 covers CBSL reports to 25 Nov only
